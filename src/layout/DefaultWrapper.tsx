@@ -36,12 +36,13 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
 
   const renderHeader = () => {
     switch (pathName) {
+      case "/":
+      case "/home-4":
+        return <HeaderFour />;
       case "/home-2":
         return <HeaderTwo />;
       case "/home-3":
         return <HeaderThree />;
-      case "/home-4":
-        return <HeaderFour />;
       case "/home-5":
         return <HeaderFive />;
       default:
@@ -51,12 +52,13 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
 
   const renderFooter = () => {
     switch (pathName) {
+      case "/":
+      case "/home-4":
+        return <FooterFour />;
       case "/home-2":
         return <FooterTwo />;
       case "/home-3":
         return <FooterThree />;
-      case "/home-4":
-        return <FooterFour />;
       case "/home-5":
         return <FooterFive />;
       default:
