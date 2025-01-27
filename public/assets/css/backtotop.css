@@ -1,0 +1,44 @@
+.progress-wrap {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px rgba(95, 58, 252, 0.2);
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-260px);
+  transition: all 500ms ease-out;
+}
+
+.progress-wrap.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #2a7d2e; /* Change color of the arrow */
+}
+
+.progress-wrap .CircularProgressbar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.progress-wrap .CircularProgressbar .CircularProgressbar-path {
+  stroke: #2a7d2e !important; /* Progress bar color */
+}
+
+.progress-wrap .CircularProgressbar .CircularProgressbar-trail {
+  stroke: rgba(95, 58, 252, 0.2);
+}

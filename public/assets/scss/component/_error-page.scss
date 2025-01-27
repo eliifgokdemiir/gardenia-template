@@ -1,0 +1,50 @@
+
+@use "../abstract" as *;
+
+/*----------------------------------------*/
+/*  18. Error css start
+/*----------------------------------------*/
+
+// Error style css
+.bd-error {
+    &__area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; 
+        text-align: center; 
+    }
+
+    &__number {
+        h2 {
+            font-size: 240px;
+            line-height: 1;
+            @media #{$xs, $sm} {
+                font-size: 160px;
+            }
+        }
+    }
+
+    &__text {
+        h3 {
+            font-size: 36px; 
+            font-weight: var(--bd-fw-sbold);
+            margin-bottom: 20px;
+            @media #{$xs, $sm} {
+                font-size: 28px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 45px;
+        }
+    }
+
+    .fill-btn {
+        font-size: 18px;
+        padding: 10px 30px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+}
