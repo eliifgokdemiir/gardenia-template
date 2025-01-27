@@ -11,7 +11,7 @@ const ServiceMain = () => {
     <>
     <MetaData pageTitle="Services">
       <Wrapper>
-        <main>
+        <main className="home-four-main">
         <Breadcrumb breadTitle={'what we do'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'services'} />
         <ServicesSection />
             <ServiceChooseSection />

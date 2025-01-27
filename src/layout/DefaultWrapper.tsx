@@ -34,35 +34,19 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
     return () => clearTimeout(animationTimeout);
   }, []);
 
-  const renderHeader = () => {
-    switch (pathName) {
-      case "/":
-      case "/home-4":
-        return <HeaderFour />;
-      case "/home-2":
-        return <HeaderTwo />;
-      case "/home-3":
-        return <HeaderThree />;
-      case "/home-5":
-        return <HeaderFive />;
-      default:
-        return <HeaderOne />;
-    }
-  };
+  const renderHeader = () => <HeaderFour />;
 
   const renderFooter = () => {
     switch (pathName) {
       case "/":
       case "/home-4":
+      case "/service":
+      case "/shop":
+      case "/about":
+      case "/contact":
         return <FooterFour />;
-      case "/home-2":
-        return <FooterTwo />;
-      case "/home-3":
-        return <FooterThree />;
-      case "/home-5":
-        return <FooterFive />;
       default:
-        return <FooterOne />;
+        return <FooterFour />;
     }
   };
 

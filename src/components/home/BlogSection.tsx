@@ -20,7 +20,7 @@ const BlogSection = () => {
                <div className="row">
                 {blogItemsList.slice(0, 3).map((item, num) => (
                   <div className="col-lg-4 col-md-6" key={num}>
-                     <div className="blog-single blog-general mb-45">
+                     <div className="blog-single home-four-blog mb-45">
                         <div className="blog-thumb">
                            <Link href={`/blog-details/${item.id}`}>
                            <Image src={item.img} style={{ width: "100%", height: "auto" }} alt="blog-details"/>

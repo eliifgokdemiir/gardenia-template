@@ -26,7 +26,7 @@ const FooterFour = () => {
                                             New York, USA – 1060 Firs Avenue, Muswell Hill</p>
                                     </div>
                                     <div className="footer-btn">
-                                        <Link href="/contact" className="border-btn"><i className="fal fa-farm"></i><span>Get a Quote</span></Link>
+                                        <Link href="/contact" className="border-btn"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
                                     </div>
                                     <div className="footer-social">
                                         <span>get connect:</span>

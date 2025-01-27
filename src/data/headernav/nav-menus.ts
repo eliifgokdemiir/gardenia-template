@@ -2,21 +2,21 @@ const nav_menus_list = [
   {
     id:1,
     link: '/',
-    title: 'Home',
-    hasDropdown: true,
+    title: 'Anasayfa',
+    hasDropdown: false,
     megamenu: false,
-    dropdownItems: [
+    /*dropdownItems: [
       { link: '/', title: 'Home Style 01' },
       { link: '/home-2', title: 'Home Style 02' },
       { link: '/home-3', title: 'Home Style 03' },
       { link: '/home-4', title: 'Home Style 04' },
       { link: '/home-5', title: 'Home Style 05' },
-    ]
+    ]*/
   },
   {
     id:2,
     link: '/service',
-    title: 'Services',
+    title: 'Hizmetler',
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
@@ -27,7 +27,7 @@ const nav_menus_list = [
   {
     id:3,
     link: '/shop',
-    title: 'Shop',
+    title: 'Ürünler',
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
@@ -40,8 +40,8 @@ const nav_menus_list = [
   },
   {
     id:4,
-    link: '/blog',
-    title: 'Blog',
+    link: '/about',
+    title: 'Hakkımızda',
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
@@ -49,7 +49,7 @@ const nav_menus_list = [
       { link: '/blog-details', title: 'Blog Details' },
     ]
   },
-  {
+  /*{
     id:5,
     link: '/about',
     title: 'Pages',
@@ -66,11 +66,11 @@ const nav_menus_list = [
       { link: '/register', title: 'Register' },
       { link: '/error-page', title: '404 Page' },
     ]
-  },
+  },*/
   {
     id:6,
     link: '/contact',
-    title: 'Contact',
+    title: 'İletişim',
   },
 ]
 

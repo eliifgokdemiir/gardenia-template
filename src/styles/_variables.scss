@@ -1,0 +1,37 @@
+// Tüm sayfalarda home-4 renk paleti
+$theme-color-1: #1a1a1a; // Header arkaplan
+$theme-color-2: #4CAF50; // Aksan yeşili
+$theme-color-3: #2a2a2a; // İkincil arkaplan
+$text-color: #ffffff; // Ana metin
+$text-color-light: #cccccc; // Açık metin
+$border-color: #4a4a4a; // Kenarlık
+
+// Yeşil renk paletini aktif edelim
+$theme-color-primary: #4CAF50; // Ana yeşil
+$theme-color-secondary: #388E3C; // Koyu yeşil
+
+// Tüm elementler için temel renkleri zorla
+body {
+  background-color: $theme-color-1 !important;
+  color: $text-color !important;
+}
+
+// Buton stillerini güncelle
+.btn {
+  background-color: $theme-color-3 !important;
+  border-color: $theme-color-3 !important;
+  color: $text-color !important;
+  
+  &:hover {
+    background-color: darken($theme-color-3, 10%) !important;
+  }
+}
+
+// Link renkleri
+a {
+  color: $text-color !important;
+  
+  &:hover {
+    color: $theme-color-3 !important;
+  }
+}

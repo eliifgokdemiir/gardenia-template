@@ -1,0 +1,16 @@
+// Tüm sayfalarda geçerli tema stilleri
+.home-four-theme {
+  background-color: #1a1a1a;
+  color: #ffffff;
+
+  // Bootstrap component override
+  .card {
+    background-color: #2a2a2a;
+    border-color: #3a3a3a;
+  }
+  
+  .btn-primary {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+  }
+} 

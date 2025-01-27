@@ -34,7 +34,14 @@ const HeaderFour = () => {
 
     return (
         <>
-            <header className="header4">
+            <header 
+                className="header-main-area header-style-4" 
+                style={{ 
+                    backgroundColor: '#1a1a1a', 
+                    color: '#ffffff',
+                    borderBottom: '1px solid #2a2a2a'
+                }}
+            >
                 <HeaderTopFour />
                 <div id="header-sticky" className="header-main header-main4">
                     <div className="container">
@@ -60,7 +67,7 @@ const HeaderFour = () => {
                                                 <NavMenu />
                                             </nav>
                                         </div>
-                                        <Link href="/contact" className="border-btn d-none d-xl-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></Link>
+                                        <Link href="/contact" className="border-btn d-none d-xl-inline-flex"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
                                         <div className="menu-bar d-lg-none">
                                             <span className="side-toggle" onClick={() => setSideMenuOpen(true)}>
                                                 <div className="bar-icon">

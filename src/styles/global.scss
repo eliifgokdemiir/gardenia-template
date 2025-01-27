@@ -1,0 +1,55 @@
+// Tüm elementler için temel renkleri zorla
+body {
+  background-color: $theme-color-1 !important;
+  color: $text-color !important;
+}
+
+// Buton stillerini güncelle
+.btn {
+  background-color: $theme-color-3 !important;
+  border-color: $theme-color-3 !important;
+  color: $text-color !important;
+  
+  &:hover {
+    background-color: darken($theme-color-3, 10%) !important;
+  }
+}
+
+// Link renkleri
+a {
+  color: $text-color !important;
+  
+  &:hover {
+    color: $theme-color-3 !important;
+  }
+}
+
+// Tüm header'lar için zorunlu renk tanımı
+.header-main-area {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  
+  // Logo rengi
+  .header-logo img {
+    filter: brightness(0) invert(1) !important;
+  }
+  
+  // Menü linkleri
+  .nav-menu > li > a {
+    color: #ffffff !important;
+    
+    &:hover {
+      color: #4CAF50 !important;
+    }
+  }
+  
+  // Mobil menü butonu
+  .mobile-menu-toggle {
+    color: #ffffff !important;
+  }
+  
+  // İletişim ikonu
+  .fa-phone {
+    color: #4CAF50 !important;
+  }
+} 
