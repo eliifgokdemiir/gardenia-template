@@ -33,13 +33,13 @@ const FooterFour = () => {
                                     <div className="footer-text">
                                         <p>Döner: 0 533 010 70 90 <br />
                                            Pastane: 0 533 010 70 80 <br />
-                                            New York, USA – 1060 Firs Avenue, Muswell Hill</p>
+                                            Batıkent Yenimahalle/Ankara</p>
                                     </div>
                                     <div className="footer-btn">
                                         <Link href="/contact" className="border-btn"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
                                     </div>
                                     <div className="footer-social">
-                                        <span>get connect:</span>
+                                        <span>Takip Edin:</span>
                                         <div className="social-links">
                                             <ul>
                                                 <li><Link href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></Link></li>

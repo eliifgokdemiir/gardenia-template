@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import titleBgImg from '../../../public/assets/img/bg/page-title-bg.jpg';
 import serviceImg1 from '../../../public/assets/img/service/service-img1.jpg';
 import Image from 'next/image';
 //service work icon
@@ -18,13 +17,14 @@ const ServiceDetailsArea = ({ id }: idType) => {
     const service = ServicesList?.find(item => item?.id == id);
     return (
         <>
-            <section className="page-title-area" style={{ backgroundImage: `url(${titleBgImg.src})` }}>
+            <section className="breadcrumb-area theme-bg">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="page-title-wrapper">
-                                <p>Provides hassle-free backyard transformation</p>
-                                <h1 className="page-title mb-10"> {service?.serviceTitle ? service.serviceTitle : "landscaping"}</h1>
+                                <h1 className="page-title">
+                                    {service?.serviceTitle ? service.serviceTitle : "pastane"}
+                                </h1>
                             </div>
                         </div>
                     </div>
@@ -34,8 +34,9 @@ const ServiceDetailsArea = ({ id }: idType) => {
                         <div className="breadcrumb-menu">
                             <nav aria-label="Breadcrumbs" className="breadcrumb-trail breadcrumbs">
                                 <ul className="trail-items">
-                                    <li className="trail-item trail-begin"><Link href="/"><span>Home</span></Link></li>
-                                    <li className="trail-item trail-end"><span>Service Details</span></li>
+                                    <li className="trail-item trail-begin"><Link href="/"><span>Anasayfa</span></Link></li>
+                                    <li className="trail-item"><Link href="/service"><span>HİZMETLER</span></Link></li>
+                                    <li className="trail-item trail-end"><span>PASTANE</span></li>
                                 </ul>
                             </nav>
                         </div>
@@ -51,8 +52,8 @@ const ServiceDetailsArea = ({ id }: idType) => {
                                 <div className="service-image">
                                     <Image style={{ width: "100%", height: "auto" }} src={serviceImg1} alt="service-img"/>
                                 </div>
-                                <h3 className="mb-15"> {service?.serviceTitle ? service.serviceTitle : "landscaping"}</h3>
-                                <p className="mb-15">Still not convinced that gaming is good for you? That’s understandable,
+                                <h3 className="mb-15"> {service?.serviceTitle ? service.serviceTitle : "pastane"}</h3>
+                                <p className="mb-15">Still not convinced that gaming is good for you? That's understandable,
                                     considering concerns
                                     long raised by parents that
                                     include
@@ -109,7 +110,7 @@ const ServiceDetailsArea = ({ id }: idType) => {
                                         </div>
                                     </div>
                                 </div>
-                                <p className="mb-55">Still not convinced that gaming is good for you? That’s understandable,
+                                <p className="mb-55">Still not convinced that gaming is good for you? That's understandable,
                                     considering concerns
                                     long raised by parents that
                                     include

@@ -12,7 +12,7 @@ const ServiceMain = () => {
     <MetaData pageTitle="Services">
       <Wrapper>
         <main className="home-four-main">
-        <Breadcrumb breadTitle={'what we do'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'services'} />
+        <Breadcrumb breadTitle={'DÖNER ÇEŞİTLERİ'} breadSubtitle={'HİZMETLERİMİZ'} breadHome={'HİZMETLER'} breadMenu={'DÖNER'} />
         <ServicesSection />
             <ServiceChooseSection />
             <BlogSection />

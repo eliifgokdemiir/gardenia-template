@@ -16,7 +16,7 @@ const nav_menus_list = [
   {
     id:2,
     link: '/service',
-    title: 'Hizmetler',
+    title: 'HİZMETLER',
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
@@ -70,7 +70,7 @@ const nav_menus_list = [
   {
     id:6,
     link: '/contact',
-    title: 'İletişim',
+    title: 'İLETİŞİM',
   },
 ]
 

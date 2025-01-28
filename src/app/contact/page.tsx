@@ -11,7 +11,7 @@ const ContactMain = () => {
     <MetaData pageTitle="Checkout">
        <Wrapper>
         <main>
-        <Breadcrumb breadTitle={'contact us'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'contact'} />
+        <Breadcrumb breadTitle={'İLETİŞİM'} breadSubtitle={''} breadHome={'Anasayfa'} breadMenu={'İLETİŞİM'} />
             <ContactFormSection />
             <ContactMapSection />
         </main>

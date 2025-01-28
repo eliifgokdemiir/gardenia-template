@@ -143,3 +143,82 @@ header.header-style-2 {
         height: 50px; // Sticky durumunda daha küçük logo
     }
 }
+
+// Contact info styles
+.single-contact {
+    .phone-numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .d-flex {
+            align-items: center;
+            
+            .contact-icon {
+                margin-right: 10px;
+            }
+            
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
+// Contact info shape styles
+.contact-info-shape {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    .contact-img-1 {
+        @media (max-width: 768px) {
+            width: 150px !important;
+            height: 150px !important;
+            right: 20px !important;
+            bottom: 20px !important;
+        }
+    }
+}
+
+.breadcrumb-area {
+    position: relative;
+    background-color: #0B3D2C;  // Daha koyu, modern yeşil
+    padding: 150px 0;  // Daha da uzun alan
+    
+    &.theme-bg {
+        background: linear-gradient(45deg, #0B3D2C, #1a581d);  // Gradient efekti
+        box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.1);  // İç gölge efekti
+        
+        h1 {
+            color: #fff;
+            font-size: 52px;
+            margin-bottom: 0;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding-top: 20px;  // Başlığı biraz aşağı it
+        }
+        
+        .breadcrumb-wrapper {
+            margin-top: 40px;  // Alt menüyü biraz daha aşağı it
+            
+            .breadcrumb-menu {
+                .trail-items {
+                    li {
+                        color: rgba(255, 255, 255, 0.85);
+                        
+                        a {
+                            color: #fff;
+                            transition: all 0.3s ease;
+                            
+                            &:hover {
+                                color: #84a99c;  // Açık yeşil hover efekti
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

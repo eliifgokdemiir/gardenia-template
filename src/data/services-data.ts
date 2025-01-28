@@ -38,7 +38,7 @@ const ServicesList:TServiceData[] = [
         id:1,
         serviceImg:serviceImg1,
         serviceIcon:'flaticon-gardening-1',
-        serviceTitle:'landscaping',
+        serviceTitle:'pastane',
         serviceBadge:'',
         serviceDesc:'Get expert advice on how to design a garden.',
 

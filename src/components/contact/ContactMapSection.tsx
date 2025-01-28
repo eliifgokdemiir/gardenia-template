@@ -1,20 +1,18 @@
 import Image from 'next/image';
 import React from 'react';
-import sholveImg from "../../../public/assets/img/about/shovle-img.png"
+import sholveImg from "../../../public/assets/img/about/mazali-logo.jpeg"
 import Link from 'next/link';
 
 const ContactMapSection = () => {
     return (
         <section className="contact-info-area">
-         <div className="contact-info-shape">
-            <Image style={{width:"auto", height:"auto"}} className="contact-img-1" src={sholveImg} alt="image not found"/>
-         </div>
+   
          <div className="container">
             <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-8">
                   <div className="section-title text-center">
-                     <span className="section-subtitle">contact</span>
-                     <h2 className="section-main-title mb-45">get in touch</h2>
+                   
+                     <h2 className="section-main-title mb-45">bize ulaşın</h2>
                   </div>
                </div>
             </div>
@@ -26,15 +24,25 @@ const ContactMapSection = () => {
                </div>
                <div className="col-lg-4">
                   <div className="info-item-wrapper info-wrapper-media">
-                     <h4 className="contact-info-title">head quarter</h4>
+                     <h4 className="contact-info-title">şube</h4>
                      <div className="info-contact">
                         <ul>
                            <li>
                               <div className="single-contact">
-                                 <div className="contact-icon">
-                                    <i className="fas fa-phone"></i>
+                                 <div className="phone-numbers">
+                                     <div className="d-flex align-items-center mb-2">
+                                         <div className="contact-icon">
+                                             <i className="fas fa-phone"></i>
+                                         </div>
+                                         <p className="mb-0"><Link href="tel:0-533-010-70-90">Döner: 0 533 010 70 90</Link></p>
+                                     </div>
+                                     <div className="d-flex align-items-center">
+                                          <div className="contact-icon">
+                                              <i className="fas fa-phone"></i>
+                                          </div>
+                                          <p className="mb-0"><Link href="tel:0-533-010-70-80">Pastane: 0 533 010 70 80</Link></p>
+                                     </div>
                                  </div>
-                                 <p><Link href="tel:1-800-700-600">1-800-700-600</Link></p>
                               </div>
                            </li>
                            <li>
@@ -42,7 +50,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-envelope-open"></i>
                                  </div>
-                                 <p><Link href="mailto:info@bdevs-email.com">info@bdevs-email.com</Link></p>
+                                 <p><Link href="mailto:info@mazali.com">info@mazali.com</Link></p>
                               </div>
                            </li>
                            <li>
@@ -50,8 +58,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-map-marked-alt"></i>
                                  </div>
-                                 <p><Link href="#">60 East 65th Street, New York
-                                       City, NY 10065</Link></p>
+                                 <p><Link href="#">Batıkent Yenimahalle/Ankara</Link></p>
                               </div>
                            </li>
                         </ul>
@@ -60,27 +67,16 @@ const ContactMapSection = () => {
                </div>
                <div className="col-lg-4">
                   <div className="info-item-wrapper info-wrapper-time">
-                     <h4 className="contact-info-title">opening hours</h4>
+                     <h4 className="contact-info-title">Çalışma Saatleri</h4>
                      <div className="info-contact-time">
                         <ul>
                            <li>
                               <div className="info-date">
-                                 <span>Sat - mon</span>
-                                 <span>10:00 am - 8:00 pm</span>
+                                 <span>Pazartesi - Pazar</span>
+                                 <span>9:00 - 21:00 </span>
                               </div>
                            </li>
-                           <li>
-                              <div className="info-date">
-                                 <span>mon - thu</span>
-                                 <span>11:00 am - 6:00 pm</span>
-                              </div>
-                           </li>
-                           <li>
-                              <div className="info-date">
-                                 <span>friday</span>
-                                 <span>off-day</span>
-                              </div>
-                           </li>
+                     
                         </ul>
                      </div>
                   </div>

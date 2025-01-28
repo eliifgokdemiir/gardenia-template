@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ContactImage from "../../../public/assets/img/about/contact-img.jpg";
+import ContactImage from "../../../public/assets/img/about/iletisim.png";
 import ContactForm from '@/forms/ContactForm';
 
 const ContactFormSection = () => {
@@ -12,9 +12,8 @@ const ContactFormSection = () => {
                         <div className="contact-wrapper">
                             <div className="contact-wrapper-content">
                                 <div className="section-title">
-                                    <span className="section-subtitle">call to action</span>
-                                    <h2 className="section-main-title mb-35">Send Us A Message
-                                        For Next Project</h2>
+                                    <span className="section-subtitle">İLETİŞİME GEÇİN</span>
+                                    <h2 className="section-main-title mb-35">GÖRÜŞLERİNİZİ İLETİN</h2>
                                 </div>
                                 <div className="contact-form">
                                     <ContactForm/>

@@ -35,7 +35,7 @@ const ContactForm = () => {
                       onChange={handleChange}
                       onBlur={handleBlur}
                       required  
-                      placeholder="Enter full name" />
+                      placeholder="Ad - Soyad" />
                       {touched.name && <ErrorMsg error={errors.name} />}
                   </div>
               </div>
@@ -49,7 +49,7 @@ const ContactForm = () => {
                        onBlur={handleBlur}
                        id="email"
                        required
-                       placeholder="email address" 
+                       placeholder="e-posta" 
                        />
                          {touched.email && <ErrorMsg error={errors.email} />}
                   </div>
@@ -62,7 +62,7 @@ const ContactForm = () => {
                        value={values.massage}
                        onChange={handleChange}
                        onBlur={handleBlur}
-                       placeholder="massage"
+                       placeholder="Mesajınızı Yazın"
                        >
                        </textarea>
                        {touched.massage && <ErrorMsg error={errors.massage} />}
@@ -70,7 +70,7 @@ const ContactForm = () => {
               </div>
           </div>
           <div className="contact-btn">
-              <button type="submit" className="fill-btn"><i className="fal fa-farm"></i><span>Get a Quote</span></button>
+              <button type="submit" className="fill-btn"><i className="fal fa-farm"></i><span>Gönder</span></button>
           </div>
       </form>
     </>
