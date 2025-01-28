@@ -8,6 +8,7 @@ import useGlobalContext from '@/hooks/use-context';
 import Image from 'next/image';
 import LogoImage from '../../../public/assets/img/logo/logo-w.png';
 import Sidebar from './components/Sidebar';
+import logoWhite from "../../../public/assets/img/logo/logo-w.png";
 
 
 const HeaderFour = () => {
@@ -53,7 +54,12 @@ const HeaderFour = () => {
                                             <Link href="/" className="logo-w">
                                                 <>
                                                     <Image
-                                                       style={{width:"auto", height:"auto"}}
+                                                       style={{
+                                                           width: "280px",
+                                                           height: "200px",
+                                                           objectFit: "contain",
+                                                           margin: "10px 0"
+                                                       }}
                                                         src={LogoImage}
                                                         alt="logo-img"
                                                     />

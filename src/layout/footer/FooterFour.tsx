@@ -18,11 +18,21 @@ const FooterFour = () => {
                                 <div className="footer-widget footer4-widget footer4-widget1 mb-0">
                                     <div className="footer-logo">
                                         <Link href="/">
-                                            <Image style={{width:"auto", height:"auto"}} src={footerLogo} alt="footer-logo" />
+                                            <Image 
+                                                style={{
+                                                    width: "280px",
+                                                    height: "200px",
+                                                    objectFit: "contain",
+                                                    margin: "10px 0"
+                                                }} 
+                                                src={footerLogo} 
+                                                alt="footer-logo" 
+                                            />
                                         </Link>
                                     </div>
                                     <div className="footer-text">
-                                        <p>Call Us: 800-454-9272, 890-090-0000 <br />
+                                        <p>Döner: 0 533 010 70 90 <br />
+                                           Pastane: 0 533 010 70 80 <br />
                                             New York, USA – 1060 Firs Avenue, Muswell Hill</p>
                                     </div>
                                     <div className="footer-btn">
@@ -32,10 +42,7 @@ const FooterFour = () => {
                                         <span>get connect:</span>
                                         <div className="social-links">
                                             <ul>
-                                                <li><Link href="https://x.com/"  target="_blank"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="https://www.behance.net/" target="_blank"><i className="fab fa-behance"></i></Link></li>
-                                                <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></Link></li>
-                                                <li><Link href="https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin"></i></Link></li>
+                                                <li><Link href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></Link></li>
                                             </ul>
                                         </div>
                                     </div>

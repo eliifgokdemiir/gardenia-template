@@ -1,25 +1,36 @@
 // Home-4 özel header stilleri
 header.header-style-2 {
     background-color: #1a581d !important;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: none !important; // Renk değişimini engelle
     
-    // Menü metin rengi
-    .main-menu ul li a {
-        color: #fff !important;
-    }
-    
-    // Yan menü ikon renkleri
-    .header-right-items .icon-btn {
-        color: #fff !important;
-    }
-    
-    // Yapışkan header arkaplan
-    .header-sticky {
+    // Yapışkan header özelliklerini kaldır
+    &.header-sticky {
         background-color: #1a581d !important;
+        box-shadow: none;
+    }
+    
+    // Menü öğeleri
+    .main-menu {
+        ul {
+            li {
+                a {
+                    color: #fff !important;
+                    &::after {
+                        background: #fff; // Alt çizgi rengi
+                    }
+                }
+            }
+        }
     }
     
     // Mobil menü tetikleyici
-    .mobile-menu-trigger span {
-        background-color: #fff;
+    .mobile-menu-trigger {
+        span {
+            background-color: #fff;
+        }
     }
 }
 
@@ -38,6 +49,11 @@ header.header-style-2 {
     background-color: #1a581d;
     border-color: #4a4a4a;
   }
+
+  // Tüm sayfalarda tema rengini sabitle
+  header.header-style-2 {
+    background-color: #1a581d !important;
+  }
 } 
 
 .service-icon {
@@ -52,5 +68,78 @@ header.header-style-2 {
     &:hover i {
         transform: scale(1.1);
         color: #388E3C; /* Hover durumunda renk değişimi */
+    }
+}
+
+// Hero Slider
+.banner-content5 {
+    .banner-meta-text span {
+        color: #2a7d2e; // Slider alt başlık rengi
+    }
+    .banner-title {
+        color: #fff; // Ana başlık rengi
+    }
+}
+
+// About Section
+.about-thumb-meta {
+    background: rgba(26,88,29,0.9); // Yeşil overlay
+    p {
+        color: rgba(255,255,255,0.9); // Beyaz metin
+    }
+}
+
+// Contact Form
+.contact-form {
+    input, textarea {
+        border-color: #1a581d; // Form çerçeve rengi
+        &::placeholder {
+            color: #84a99c; // Açık yeşil placeholder
+        }
+    }
+}
+
+// Product Cards
+.product-item {
+    background: #f8f5f0; // Açık bej arkaplan
+    .product-title a {
+        color: #1a581d; // Yeşil başlık
+    }
+}
+
+// Service Cards
+.service-card {
+    background: #fff;
+    box-shadow: 0px 16px 32px rgba(26,88,29,0.1); // Yeşil tonlu gölge
+    .service-icon {
+        background: #1a581d; // İkon arkaplan
+    }
+}
+
+// Logo stilleri
+.header4-logo {
+    display: flex;
+    align-items: center;
+    height: 80px; // Header yüksekliği
+
+    .logo-w {
+        display: flex;
+        align-items: center;
+        
+        img {
+            max-width: 180px;
+            height: 60px;
+            object-fit: contain;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+// Sticky header'da logo boyutu
+.header-sticky .header4-logo {
+    height: 70px; // Sticky header yüksekliği
+
+    .logo-w img {
+        height: 50px; // Sticky durumunda daha küçük logo
     }
 }

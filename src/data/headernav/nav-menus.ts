@@ -20,8 +20,8 @@ const nav_menus_list = [
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
-      { link: '/service', title: 'Services' },
-      { link: '/service-details', title: 'Service Details' },
+      { link: '/service', title: 'Döner' },
+      { link: '/service-details', title: 'Pastane' },
     ]
   },
   {
