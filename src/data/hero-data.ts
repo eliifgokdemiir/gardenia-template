@@ -1,4 +1,3 @@
-
 //home one hero img
 import heroImg1 from "../../public/assets/img/banner/banner-1-1.jpg";
 import heroImg2 from "../../public/assets/img/banner/banner-2-1.jpg";
@@ -12,9 +11,10 @@ import { StaticImageData } from "next/image";
 // home three hero img
 import banner4 from "../../public/assets/img/banner/banner-3-1.jpg";
 import banner5 from "../../public/assets/img/banner/banner-4-1-dark.jpg";
-import banner6 from "../../public/assets/img/banner/banner-1-1-dark.jpg";
+import banner6 from "../../public/assets/img/banner/banner-1.jpg";
+import banner7 from "../../public/assets/img/banner/banner-2.jpg";
 //home five hero img
-import banner7 from "../../public/assets/img/banner/banner-5-1.png";
+
 import banner8 from "../../public/assets/img/banner/banner-5-2.png";
 
 //home one hero data
@@ -149,7 +149,7 @@ interface THeroFourSliderItem{
 export const HeroFourSliderItem:THeroFourSliderItem[] = [
     {
         id: 1,
-        sliderBg: banner2,
+        sliderBg: banner6,
         sliderSubtitle: 'Şehrin en iyisi!',
         sliderTitle: 'Hoşgeldiniz',
         sliderTitleBig: 'MAZÂLİ',
@@ -158,7 +158,7 @@ export const HeroFourSliderItem:THeroFourSliderItem[] = [
     },
     {
         id: 2,
-        sliderBg: banner1,
+        sliderBg: banner7,
         sliderSubtitle: 'Şehrin en iyisi!',
         sliderTitle: 'EN İYİ HİZMET',
         sliderTitleBig: 'MAZÂLİ',

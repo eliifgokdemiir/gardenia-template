@@ -42,7 +42,7 @@ const nav_menus_list = [
     id:4,
     link: '/about',
     title: 'Hakkımızda',
-    hasDropdown: true,
+    hasDropdown: false,
     megamenu: false,
     dropdownItems: [
       { link: '/blog', title: 'Blog' },

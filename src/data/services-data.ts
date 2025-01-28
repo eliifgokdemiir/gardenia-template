@@ -129,26 +129,26 @@ const ServicesList:TServiceData[] = [
     {
         id:11,
         serviceIconImg:iconImg,
-        serviceTitle:'Garden landscaping',
+        serviceTitle:'Restoran',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
-        serviceBtn:'read more',
+        serviceBtn:'daha fazla',
     },
     {
         id:12,
         serviceIconImg:iconImg2,
-        serviceTitle:'soil making & carbo',
+        serviceTitle:'Kafe',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
-        serviceBtn:'read more',
+        serviceBtn:'daha fazla',
     },
     {
         id:13,
         serviceIconImg:iconImg3,
-        serviceTitle:'planting plants',
+        serviceTitle:'Pastane',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
-        serviceBtn:'read more',
+        serviceBtn:'daha fazla',
     },
     //home four service end
     {
@@ -187,7 +187,7 @@ const ServicesList:TServiceData[] = [
     {
         id:18,
         serviceIconImg:iconImg,
-        serviceTitle:'Garden landscaping',
+        serviceTitle:'Restoran',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
         serviceBtn:'read more',

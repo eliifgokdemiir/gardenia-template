@@ -21,7 +21,7 @@ const HeaderTopFour = () => {
                                     <i className="fas fa-envelope-open"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p><Link href="mailto:info@gardomia.com">info@gardomia.com</Link></p>
+                                    <p><Link href="mailto:info@mazali.com">info@mazali.com</Link></p>
                                 </div>
                             </div>
                         </div>
@@ -33,8 +33,8 @@ const HeaderTopFour = () => {
                                     <i className="fas fa-clock"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p>Mon - Fri: 9:00 - 19:00<span className="d-none d-xl-inline-block">/ Closed on 
-                                        <strong> Weekends</strong></span>
+                                    <p>Pazartesi - Pazar: 9:00 - 21:00<span className="d-none d-xl-inline-block">
+                                        </span>
                                     </p>
                                 </div>
                             </div>
