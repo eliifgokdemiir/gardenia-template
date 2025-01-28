@@ -117,21 +117,21 @@ export const SliderItem:TSliderItem[] = [
         sliderBg: banner4,
         sliderSubtitle: 'since from 2000',
         sliderTitle: 'Jik Flower Scaping',
-        sliderbtn: 'Get estimate',
+        sliderbtn: 'Keşfet',
     },
     {
         id: 2,
         sliderBg: banner5,
         sliderSubtitle: 'since from 2000',
         sliderTitle: 'k.i Flower plants',
-        sliderbtn: 'Get estimate',
+        sliderbtn: 'Keşfet',
     },
     {
         id: 3,
         sliderBg: banner6,
         sliderSubtitle: 'since from 2000',
         sliderTitle: 'make dream gardening',
-        sliderbtn: 'Get estimate',
+        sliderbtn: 'Keşfet',
     }
 ];
 //home three hero data end
@@ -150,20 +150,20 @@ export const HeroFourSliderItem:THeroFourSliderItem[] = [
     {
         id: 1,
         sliderBg: banner2,
-        sliderSubtitle: 'Best service in new york',
-        sliderTitle: 'Welcome To',
-        sliderTitleBig: 'Gardomia',
-        sliderbtn: 'Get estimate',
-        sliderbtn1: 'learn more',
+        sliderSubtitle: 'Şehrin en iyisi!',
+        sliderTitle: 'Hoşgeldiniz',
+        sliderTitleBig: 'MAZÂLİ',
+        sliderbtn: 'Keşfet',
+        sliderbtn1: 'daha fazlası',
     },
     {
         id: 2,
         sliderBg: banner1,
-        sliderSubtitle: 'Best service in new york',
-        sliderTitle: 'Best Garden',
-        sliderTitleBig: 'Services',
-        sliderbtn: 'Get estimate',
-        sliderbtn1: 'learn more',
+        sliderSubtitle: 'Şehrin en iyisi!',
+        sliderTitle: 'EN İYİ HİZMET',
+        sliderTitleBig: 'MAZÂLİ',
+        sliderbtn: 'Keşfet',
+        sliderbtn1: 'daha fazlası',
     }
 ];
 
