@@ -13,9 +13,8 @@ const FeatureSectionFour = () => {
                <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                   <div className="col-lg-8">
                      <div className="section-title style-4 features-section-title text-center">
-                        <span className="section-subtitle">core features</span>
-                        <h2 className="section-main-title mb-45">our ability to make your
-                           lawn look its best.</h2>
+                      
+                        <h2 className="section-main-title mb-45">fix menüler</h2>
                      </div>
                   </div>
                </div>
@@ -78,7 +77,7 @@ const FeatureSectionFour = () => {
                                  </div>
                               </div>
                               <div className="feature-btn">
-                                 <Link href="/service" className="fill-btn">Read more<i className="fal fa-long-arrow-right"></i></Link>
+                                 <Link href="/service" className="fill-btn">Daha fazla<i className="fal fa-long-arrow-right"></i></Link>
                               </div>
                            </div>
                         </div>

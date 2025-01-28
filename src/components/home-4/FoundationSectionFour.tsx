@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import foundationImg from "../../../public/assets/img/about/foundation-2-img1.jpg";
+import foundationImg from "../../../public/assets/img/about/foundation-2-img1.png";
 import foundationImgTwo from "../../../public/assets/img/about/foundation-2-img2.jpg";
 import foundationImgThree from "../../../public/assets/img/about/foundation-2-img3.jpg";
 import founderImg from "../../../public/assets/img/team/founder.jpg";
@@ -33,8 +33,8 @@ const FoundationSectionFour = () => {
                <div className="col-lg-6">
                   <div className="foundation-content style-2 mb-60">
                      <div className="section-title">
-                        <span className="section-subtitle">since from 2000</span>
-                        <h2 className="section-main-title mb-20">Gardeny offers a full-service</h2>
+                        <span className="section-subtitle">Her gün daha iyi hizmet sunmayı amaçlıyoruz.</span>
+                        <h2 className="section-main-title mb-20">Restoran, Kafe ve Pastane Hizmetlerimizle karşınızdayız!</h2>
                      </div>
                      <p>Most gardens consist of a mix of natural and constructed elements, although
                         even very natural gardens are always an inherently artificial creation. Natural
@@ -45,11 +45,11 @@ const FoundationSectionFour = () => {
                            <Image style={{width:"100%", height:"auto"}} src={founderImg} alt="image not found"/>
                            </div>
                            <div className="founder-desciption">
-                              <span className="designation">founder</span>
+                              <span className="designation">kurucu</span>
                               <h4 className="founder-name">humble d. dowson</h4>
                            </div>
                         </div>
-                        <Link href="/contact" className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></Link>
+                        <Link href="/contact" className="fill-btn-rounded">rezervasyon<i className="fal fa-angle-right"></i></Link>
                      </div>
                   </div>
                </div>

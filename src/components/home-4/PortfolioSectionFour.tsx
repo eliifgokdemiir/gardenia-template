@@ -14,8 +14,8 @@ const PortfolioSectionFour = () => {
                     <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                         <div className="col-lg-8">
                             <div className="section-title style-4 text-center">
-                                <span className="section-subtitle">photo gallary</span>
-                                <h2 className="section-main-title mb-45">Our Latest Projects</h2>
+                                <span className="section-subtitle">galeri</span>
+                                <h2 className="section-main-title mb-45">menü</h2>
                             </div>
                         </div>
                     </div>

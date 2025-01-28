@@ -17,8 +17,8 @@ const TestimonialSliderFour = () => {
                 <div className="row align-items-center wow fadeInUp" data-wow-delay=".3s">
                     <div className="col-lg-8">
                         <div className="section-title style-4">
-                            <span className="section-subtitle">testimonials</span>
-                            <h2 className="section-main-title mb-45">happy user feedback</h2>
+                            <span className="section-subtitle">Geri Dönüşler</span>
+                            <h2 className="section-main-title mb-45">Müşteri Memnuniyeti</h2>
                         </div>
                     </div>
                     <div className="col-lg-4">
