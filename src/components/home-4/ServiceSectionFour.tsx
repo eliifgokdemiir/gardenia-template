@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 import ServicesList from '../../data/services-data';
-import Image from 'next/image';
 
 const ServiceSectionFour = () => {
     return (
@@ -14,7 +13,10 @@ const ServiceSectionFour = () => {
                                 <div className="col-lg-4 col-md-6" key={num}>
                                     <div className="single-service single-service-style-4 mb-30">
                                         <div className="service-icon">
-                                            {item.serviceIconImg && <Image width={101} height={80} src={item.serviceIconImg} alt="service icon" />}
+                                            {/* Resim yerine Font Awesome ikonları */}
+                                            {num === 0 && <i className="fas fa-utensils fa-3x"></i>} {/* Restoran ikonu */}
+                                            {num === 1 && <i className="fas fa-coffee fa-3x"></i>} {/* Kafe ikonu */}
+                                            {num === 2 && <i className="fas fa-birthday-cake fa-3x"></i>} {/* Pastane ikonu */}
                                         </div>
                                         <div className="single-service-content">
                                             <span className="service-number"></span>
