@@ -33,22 +33,14 @@ const FoundationSectionFour = () => {
                <div className="col-lg-6">
                   <div className="foundation-content style-2 mb-60">
                      <div className="section-title">
-                        <span className="section-subtitle">Her gün daha iyi hizmet sunmayı amaçlıyoruz.</span>
-                        <h2 className="section-main-title mb-20">Restoran, Kafe ve Pastane Hizmetlerimizle karşınızdayız!</h2>
+                        <span className="section-subtitle">HER GÜN DAHA İYİ HİZMETİ SUNMAYI AMAÇLIYORUZ.</span>
+                        <h2 className="section-main-title mb-20">Pastane, Kafe, Döner HİZMETLERİMİZLE karşınızdayız!</h2>
                      </div>
                      <p>Most gardens consist of a mix of natural and constructed elements, although
                         even very natural gardens are always an inherently artificial creation. Natural
                         elements present in a garden principally. </p>
                      <div className="founder-meta mt-45">
-                        <div className="founder-info-meta">
-                           <div className="founder-img">
-                           <Image style={{width:"100%", height:"auto"}} src={founderImg} alt="image not found"/>
-                           </div>
-                           <div className="founder-desciption">
-                              <span className="designation">kurucu</span>
-                              <h4 className="founder-name">humble d. dowson</h4>
-                           </div>
-                        </div>
+                       
                         <Link href="/contact" className="fill-btn-rounded">rezervasyon<i className="fal fa-angle-right"></i></Link>
                      </div>
                   </div>

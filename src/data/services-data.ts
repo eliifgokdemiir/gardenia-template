@@ -128,8 +128,8 @@ const ServicesList:TServiceData[] = [
     //home three service end
     {
         id:11,
-        serviceIconImg:iconImg,
-        serviceTitle:'Restoran',
+        serviceIconImg:iconImg3,
+        serviceTitle:'Pastane',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
         serviceBtn:'daha fazla',
@@ -144,8 +144,8 @@ const ServicesList:TServiceData[] = [
     },
     {
         id:13,
-        serviceIconImg:iconImg3,
-        serviceTitle:'Pastane',
+        serviceIconImg:iconImg,
+        serviceTitle:'Döner',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
         serviceBtn:'daha fazla',

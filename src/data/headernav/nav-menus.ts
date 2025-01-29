@@ -21,24 +21,25 @@ const nav_menus_list = [
     megamenu: false,
     dropdownItems: [
       { link: '/service-details', title: 'Pastane' },
+      { link: '/shop', title: 'Kafe' },
       { link: '/service', title: 'Döner' },
       
     ]
   },
-  {
+  /*{
     id:3,
     link: '/shop',
     title: 'Ürünler',
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
-      { link: '/shop', title: 'Shop' },
+      
       { link: '/shop-details', title: 'Shop Details' },
       { link: '/wishlist', title: 'Wishlist' },
       { link: '/cart', title: 'Cart' },
       { link: '/checkout', title: 'Checkout' },
     ]
-  },
+  },*/
   {
     id:4,
     link: '/about',

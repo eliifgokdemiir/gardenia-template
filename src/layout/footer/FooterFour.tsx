@@ -9,10 +9,9 @@ const FooterFour = () => {
         <footer className="footer4-bg">
             <div className="footer-area footer-area4 footer-area4-bg pt-120 pb-120">
                 <div className="footer-4-bg-img">
-                    <Image style={{width:"100%", height:"auto"}} src={footerBg} alt="footer-bg" />
+                    <Image style={{width:"100%", height:"100%"}} src={footerBg} alt="footer-bg" />
                 </div>
                 <div className="container">
-                    <div className="footer4-inner footer-4-plant-shape">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-12 col-sm-12">
                                 <div className="footer-widget footer4-widget footer4-widget1 mb-0">
@@ -49,7 +48,7 @@ const FooterFour = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
