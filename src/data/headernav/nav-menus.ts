@@ -15,15 +15,14 @@ const nav_menus_list = [
   },
   {
     id:2,
-    link: '/service',
+    link: '/hizmetler/pastane',
     title: 'HİZMETLER',
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
-      { link: '/service-details', title: 'Pastane' },
-      { link: '/shop', title: 'Kafe' },
-      { link: '/service', title: 'Döner' },
-      
+      { link: '/hizmetler/pastane', title: 'Pastane' },
+      { link: '/hizmetler/kafe', title: 'Kafe' },
+      { link: '/hizmetler/doner', title: 'Döner' },
     ]
   },
   /*{
@@ -42,7 +41,7 @@ const nav_menus_list = [
   },*/
   {
     id:4,
-    link: '/about',
+    link: '/hakkimizda',
     title: 'Hakkımızda',
     hasDropdown: false,
     megamenu: false,
@@ -71,7 +70,7 @@ const nav_menus_list = [
   },*/
   {
     id:6,
-    link: '/contact',
+    link: '/iletisim',
     title: 'İLETİŞİM',
   },
 ]

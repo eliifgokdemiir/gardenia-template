@@ -31,6 +31,7 @@ interface TServiceData{
     serviceBadge:string
     serviceDesc:string,
     serviceBtn?:string
+    slug?: string;
 }
 
 const ServicesList:TServiceData[] = [
@@ -128,6 +129,7 @@ const ServicesList:TServiceData[] = [
     //home three service end
     {
         id:11,
+        slug: "pastane",
         serviceIconImg:iconImg3,
         serviceTitle:'Pastane',
         serviceBadge:'',
@@ -136,6 +138,7 @@ const ServicesList:TServiceData[] = [
     },
     {
         id:12,
+        slug: "kafe",
         serviceIconImg:iconImg2,
         serviceTitle:'Kafe',
         serviceBadge:'',
@@ -144,6 +147,7 @@ const ServicesList:TServiceData[] = [
     },
     {
         id:13,
+        slug: "doner",
         serviceIconImg:iconImg,
         serviceTitle:'Döner',
         serviceBadge:'',

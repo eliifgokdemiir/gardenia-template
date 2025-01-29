@@ -12,26 +12,26 @@ const TeamList = [
     {
         id:1,
         teamImg:teamImg1,
-        teamSubtitle:'founder',
-        teamTitle:'humble d. dow',
+        teamSubtitle:'ET DÖNER',
+        teamTitle:'',
     },
     {
         id:2,
         teamImg:teamImg2,
-        teamSubtitle:'ceo',
-        teamTitle:'rosalina d. william',
+        teamSubtitle:'TAVUK DÖNER',
+        teamTitle:'',
     },
     {
         id:3,
         teamImg:teamImg3,
-        teamSubtitle:'designer',
-        teamTitle:'jikson n. nelson',
+        teamSubtitle:'SOSLU DÖNER',
+        teamTitle:'',
     },
     {
         id:4,
         teamImg:teamImg4,
-        teamSubtitle:'developer',
-        teamTitle:'yokolili y. yanke',
+        teamSubtitle:'SSK DÖNER',
+        teamTitle:'',
     },
     //home four end
     {
