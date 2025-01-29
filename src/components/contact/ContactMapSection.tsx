@@ -12,7 +12,7 @@ const ContactMapSection = () => {
                <div className="col-lg-8">
                   <div className="section-title text-center">
                    
-                     <h2 className="section-main-title mb-45">bize ulaşın</h2>
+                     <h2 className="section-main-title mb-45">BİZE ULAŞIN</h2>
                   </div>
                </div>
             </div>
@@ -34,13 +34,13 @@ const ContactMapSection = () => {
                                          <div className="contact-icon">
                                              <i className="fas fa-phone"></i>
                                          </div>
-                                         <p className="mb-0"><Link href="tel:0-533-010-70-90">Döner: 0 533 010 70 90</Link></p>
+                                         <p className="mb-0"><Link href="tel:0-533-010-70-90">Pastane: 0 533 010 70 80</Link></p>
                                      </div>
                                      <div className="d-flex align-items-center">
                                           <div className="contact-icon">
                                               <i className="fas fa-phone"></i>
                                           </div>
-                                          <p className="mb-0"><Link href="tel:0-533-010-70-80">Pastane: 0 533 010 70 80</Link></p>
+                                          <p className="mb-0"><Link href="tel:0-533-010-70-80">Döner: 0 533 010 70 90</Link></p>
                                      </div>
                                  </div>
                               </div>
@@ -50,7 +50,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-envelope-open"></i>
                                  </div>
-                                 <p><Link href="mailto:info@mazali.com">info@mazali.com</Link></p>
+                                 <p><Link href="mailto:info@mazali.com">info@MAZALİ.COM</Link></p>
                               </div>
                            </li>
                            <li>
@@ -58,7 +58,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-map-marked-alt"></i>
                                  </div>
-                                 <p><Link href="#">Batıkent Yenimahalle/Ankara</Link></p>
+                                 <p><Link href="#">KARDELEN MAHALLESİ 2075 Cadde No:2/A</Link></p>
                               </div>
                            </li>
                         </ul>
@@ -67,12 +67,12 @@ const ContactMapSection = () => {
                </div>
                <div className="col-lg-4">
                   <div className="info-item-wrapper info-wrapper-time">
-                     <h4 className="contact-info-title">Çalışma Saatleri</h4>
+                     <h4 className="contact-info-title">ÇALIŞMA SAATLERİ</h4>
                      <div className="info-contact-time">
                         <ul>
                            <li>
                               <div className="info-date">
-                                 <span>Pazartesi - Pazar</span>
+                                 <span>PAZARTESİ - PAZAR</span>
                                  <span>9:00 - 21:00 </span>
                               </div>
                            </li>

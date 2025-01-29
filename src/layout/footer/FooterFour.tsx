@@ -20,10 +20,10 @@ const FooterFour = () => {
                                         <Link href="/">
                                             <Image 
                                                 style={{
-                                                    width: "280px",
-                                                    height: "200px",
+                                                    width: "350px",
+                                                    height: "280px",
                                                     objectFit: "contain",
-                                                    margin: "10px 0"
+                                                    margin: "5px 0"
                                                 }} 
                                                 src={footerLogo} 
                                                 alt="footer-logo" 
@@ -31,15 +31,16 @@ const FooterFour = () => {
                                         </Link>
                                     </div>
                                     <div className="footer-text">
-                                        <p>Döner: 0 533 010 70 90 <br />
-                                           Pastane: 0 533 010 70 80 <br />
-                                            Batıkent Yenimahalle/Ankara</p>
+                                        <p> Pastane: 0 533 010 70 80<br />
+                                            Döner: 0 533 010 70 90<br />
+                                        </p>
+                                        <p>Adres: Kardelen Mahallesi 2075 Cadde No:2/A</p>
                                     </div>
                                     <div className="footer-btn">
                                         <Link href="/contact" className="border-btn"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
                                     </div>
                                     <div className="footer-social">
-                                        <span>Takip Edin:</span>
+                                        <span>TAKİP EDİN:</span>
                                         <div className="social-links">
                                             <ul>
                                                 <li><Link href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></Link></li>
