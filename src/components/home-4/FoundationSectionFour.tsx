@@ -36,9 +36,11 @@ const FoundationSectionFour = () => {
                         <span className="section-subtitle">HER GÜN DAHA İYİ HİZMETİ SUNMAYI AMAÇLIYORUZ.</span>
                         <h2 className="section-main-title mb-20">Pastane, Kafe, Döner HİZMETLERİMİZLE karşınızdayız!</h2>
                      </div>
-                     <p>Most gardens consist of a mix of natural and constructed elements, although
-                        even very natural gardens are always an inherently artificial creation. Natural
-                        elements present in a garden principally. </p>
+                     <p> Lezzet dolu anlar için buradayız!
+                         En taze ve en kaliteli malzemelerle hazırlanan pastalar, 
+                         sıcacık kahve eşliğinde keyifli sohbetler ve enfes döner lezzetlerimizle sizleri bekliyoruz. 
+                         Güler yüzlü hizmetimiz ve benzersiz tatlarımızla her gün daha iyi bir deneyim sunmayı hedefliyoruz.
+                          Sizi de bu eşsiz lezzet yolculuğuna davet ediyoruz! </p>
                      <div className="founder-meta mt-45">
                        
                         <Link href="/contact" className="fill-btn-rounded">rezervasyon<i className="fal fa-angle-right"></i></Link>

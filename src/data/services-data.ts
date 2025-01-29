@@ -133,7 +133,7 @@ const ServicesList:TServiceData[] = [
         serviceIconImg:iconImg3,
         serviceTitle:'Pastane',
         serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
+        serviceDesc:'Pasta, tatlı, börek, kurabiye ve daha fazlası...',
         serviceBtn:'daha fazla',
     },
     {
@@ -142,7 +142,7 @@ const ServicesList:TServiceData[] = [
         serviceIconImg:iconImg2,
         serviceTitle:'Kafe',
         serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
+        serviceDesc:'Kahve, çay, kremalı tatlılar, çikolata ve daha fazlası...',
         serviceBtn:'daha fazla',
     },
     {
@@ -151,7 +151,7 @@ const ServicesList:TServiceData[] = [
         serviceIconImg:iconImg,
         serviceTitle:'Döner',
         serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
+        serviceDesc:'Döner, köfte, kebap, kızartma ve daha fazlası...',
         serviceBtn:'daha fazla',
     },
     //home four service end
