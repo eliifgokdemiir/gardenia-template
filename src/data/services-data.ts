@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import serviceImg1 from "../../public/assets/img/service/service-img-st2-1.jpg";
+import serviceImg1 from "../../public/assets/img/service/pasta.jpg";
 import serviceImg2 from "../../public/assets/img/service/service-img-st2-2.jpg";
 import serviceImg3 from "../../public/assets/img/service/service-img-st2-3.jpg";
 import serviceImg4 from "../../public/assets/img/service/service-img-st2-4.jpg";
@@ -12,7 +12,7 @@ import serviceImg7 from "../../public/assets/img/service/service-3-img3.jpg";
 //service icon
 import iconImg from "../../public/assets/img/icon/s-icon1.png"; 
 import iconImg2 from "../../public/assets/img/icon/s-icon2.png";
-import iconImg3 from "../../public/assets/img/icon/s-icon3.png";
+import iconImg3 from "../../public/assets/img/service/pasta.jpg";
 import iconImg4 from "../../public/assets/img/icon/feature-product-icon-1.png";
 import iconImg5 from "../../public/assets/img/icon/feature-product-icon-2.png";
 import iconImg6 from "../../public/assets/img/icon/feature-product-icon-3.png";

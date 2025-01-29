@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import foundationImg from "../../../public/assets/img/about/foundation-2-img1.png";
-import foundationImgTwo from "../../../public/assets/img/about/foundation-2-img2.jpg";
-import foundationImgThree from "../../../public/assets/img/about/foundation-2-img3.jpg";
+import foundationImg from "../../../public/assets/img/about/kahve.jpg";
+import foundationImgTwo from "../../../public/assets/img/about/pasta1.jpg";
+import foundationImgThree from "../../../public/assets/img/about/doner.jpg";
 import founderImg from "../../../public/assets/img/team/founder.jpg";
 
 const FoundationSectionFour = () => {
@@ -13,17 +13,50 @@ const FoundationSectionFour = () => {
             <div className="row align-items-center wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-6">
                   <div className="foundation-img style-2 mb-60">
-                     <div className="row align-items-center">
+                     <div className="row align-items-center gx-3">
                         <div className="col-6">
-                           <Image style={{width:"100%", height:"auto"}} className="foundation-2-img1" src={foundationImg} alt="img"/>
+                           <div className="image-card animate-float">
+                              <Image 
+                                 className="img-fluid" 
+                                 src={foundationImg} 
+                                 alt="img"
+                                 style={{ 
+                                    width: "100%", 
+                                    height: "auto",
+                                    borderRadius: "15px"
+                                 }}
+                              />
+                           </div>
                         </div>
                         <div className="col-6">
-                           <div className="row">
+                           <div className="row gy-3">
                               <div className="col-12">
-                                 <Image style={{width:"100%", height:"auto"}} className="foundation-2-img2" src={foundationImgTwo} alt="img"/>
+                                 <div className="image-card animate-float delay-1">
+                                    <Image 
+                                       className="img-fluid" 
+                                       src={foundationImgTwo} 
+                                       alt="img"
+                                       style={{ 
+                                          width: "100%", 
+                                          height: "auto",
+                                          borderRadius: "15px"
+                                       }}
+                                    />
+                                 </div>
                               </div>
                               <div className="col-12">
-                                 <Image style={{width:"100%", height:"auto"}} className="foundation-2-img3" src={foundationImgThree} alt="img"/>
+                                 <div className="image-card animate-float delay-2">
+                                    <Image 
+                                       className="img-fluid" 
+                                       src={foundationImgThree} 
+                                       alt="img"
+                                       style={{ 
+                                          width: "100%", 
+                                          height: "auto",
+                                          borderRadius: "15px"
+                                       }}
+                                    />
+                                 </div>
                               </div>
                            </div>
                         </div>
