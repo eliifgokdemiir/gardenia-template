@@ -9,12 +9,12 @@ import img7 from "../../public/assets/img/portfolio/portfolio-16.jpg";
 import img8 from "../../public/assets/img/portfolio/portfolio-17.jpg";
 import img9 from "../../public/assets/img/portfolio/portfolio-18.jpg";
 //home four portfolio image 
-import img10 from "../../public/assets/img/portfolio/portfolio-24.jpg";
-import img11 from "../../public/assets/img/portfolio/portfolio-25.jpg";
-import img12 from "../../public/assets/img/portfolio/portfolio-26.jpg";
-import img13 from "../../public/assets/img/portfolio/portfolio-27.jpg";
-import img14 from "../../public/assets/img/portfolio/portfolio-28.jpg";
-import img15 from "../../public/assets/img/portfolio/portfolio-29.jpg";
+import img10 from "../../public/assets/img/portfolio/pasta.jpg";
+import img11 from "../../public/assets/img/portfolio/pasta1.jpg";
+import img12 from "../../public/assets/img/portfolio/pastane.jpg";
+import img13 from "../../public/assets/img/portfolio/suboregi.webp";
+import img14 from "../../public/assets/img/portfolio/doner1.jpg";
+import img15 from "../../public/assets/img/portfolio/doner.jpg";
 //home five portfolio image
 import img16 from "../../public/assets/img/portfolio/portfolio-1.jpg";
 import img17 from "../../public/assets/img/portfolio/portfolio-2.jpg";
@@ -116,44 +116,44 @@ const portfolioList:TPortfolio[] = [
     {
         id:11,
         portfolioImg:img10,
-        portfolioTag:'gardening',
+        portfolioTag:'MAZALİ',
         portfolioIcon:'fas fa-eye',
-        portfolioTitle:'watering plants',
+        portfolioTitle:'ÇİKOLATALI PASTA',
     },
     {
         id:12,
         portfolioImg:img11,
-        portfolioTag:'gardening',
+        portfolioTag:'MAZALİ',
         portfolioIcon:'fas fa-eye',
-        portfolioTitle:'Mowing the grass',
+        portfolioTitle:'ÇİLEKLİ PASTA',
     },
     {
         id:13,
         portfolioImg:img12,
-        portfolioTag:'gardening',
+        portfolioTag:'MAZALİ',
         portfolioIcon:'fas fa-eye',
-        portfolioTitle:'lawn and garden maintenance',
+        portfolioTitle:'EKLER',
     },
     {
         id:13,
         portfolioImg:img13,
-        portfolioTag:'gardening',
+        portfolioTag:'MAZALİ',
         portfolioIcon:'fas fa-eye',
-        portfolioTitle:'Tree-Trimming & Removal',
+        portfolioTitle:'SU BÖREĞİ',
     },
     {
         id:14,
         portfolioImg:img14,
-        portfolioTag:'gardening',
+        portfolioTag:'MAZALİ',
         portfolioIcon:'fas fa-eye',
-        portfolioTitle:'Junk Removal',
+        portfolioTitle:'ET DÖNER',
     },
     {
         id:15,
         portfolioImg:img15,
-        portfolioTag:'gardening',
+        portfolioTag:'MAZALİ',
         portfolioIcon:'fas fa-eye',
-        portfolioTitle:'Mowing the grass',
+        portfolioTitle:'TAVUK DÖNER',
     },
     //home four portfolio end
     {
@@ -231,7 +231,7 @@ const portfolioList:TPortfolio[] = [
         portfolioImg:img26,
         portfolioTag:'gardening',
         portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'watering plants',
+        portfolioTitle:'ÇİKOLATALI PASTA',
     },
     {
         id:27,
