@@ -20,7 +20,7 @@ const TestimonialSection = () => {
                      <div className="video-btn mb-45">
                         <code className="play-btn popup-video play-border-effect" onClick={() => { openVideoModal(); }}><span>play</span></code>
                      </div>
-                     <Image style={{ width: "100%", height: "auto" }} src={testimonialVideoImg} alt="video-img"/>
+                   
                   </div>
                </div>
                <div className="col-lg-6">

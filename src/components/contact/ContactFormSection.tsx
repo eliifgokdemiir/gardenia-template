@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ContactImage from "../../../public/assets/img/about/iletisim.png";
+import ContactImage from "../../../public/assets/img/about/banner-1.jpg";
 import ContactForm from '@/forms/ContactForm';
 
 const ContactFormSection = () => {

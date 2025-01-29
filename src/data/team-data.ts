@@ -1,5 +1,5 @@
-import teamImg1 from "../../public/assets/img/team/team-1.jpg";
-import teamImg2 from "../../public/assets/img/team/team-2.jpg";
+import teamImg1 from "../../public/assets/img/team/meyvelipasta.jpg";
+import teamImg2 from "../../public/assets/img/team/doner2.webp";
 import teamImg3 from "../../public/assets/img/team/team-3.jpg";
 import teamImg4 from "../../public/assets/img/team/team-4.jpg";
 import teamImg5 from "../../public/assets/img/team/team-5.jpg";
@@ -12,16 +12,16 @@ const TeamList = [
     {
         id:1,
         teamImg:teamImg1,
-        teamSubtitle:'ET DÖNER',
+        teamSubtitle:'MAZALİ PATİSSERİE',
         teamTitle:'',
     },
     {
         id:2,
         teamImg:teamImg2,
-        teamSubtitle:'TAVUK DÖNER',
+        teamSubtitle:'MAZALİ DÖNER',
         teamTitle:'',
     },
-    {
+    /*{
         id:3,
         teamImg:teamImg3,
         teamSubtitle:'SOSLU DÖNER',
@@ -57,7 +57,7 @@ const TeamList = [
         teamImg:teamImg8,
         teamSubtitle:'Farm laborer',
         teamTitle:'aoc m. monitor',
-    }
+    }*/
   ]
   
   export default TeamList;
