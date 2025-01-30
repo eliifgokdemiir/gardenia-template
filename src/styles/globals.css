@@ -57,6 +57,14 @@
     100% { transform: translateY(0); }
 }
 
+.member-img, .member-img * {
+    transition: none !important;
+    transform: none !important;
+}
+.member-img:hover, .member-img:hover * {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1) !important;
+}
+
 .animate-float {
     animation: subtle-float 6s ease-in-out infinite;
 }
@@ -79,4 +87,12 @@
 .member-img:hover img {
     transform: scale(1.05);
 }
-*/ 
+*/
+
+.member-img:hover {
+    border-color: #ffd700 !important;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3) !important;
+}
+.member-img:hover img {
+    transform: scale(1.05) !important;
+} 

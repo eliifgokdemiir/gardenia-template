@@ -27,6 +27,11 @@ const nav_menus_list = [
       { link: '/service-details/13', title: 'Döner' },
     ]
   },
+  {
+    id:3,
+    link: '/portfolio',
+    title: 'Ürünler',
+  },
   /*{
     id:3,
     link: '/shop',

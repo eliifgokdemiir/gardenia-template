@@ -14,7 +14,7 @@ const TeamSection = () => {
                   </div>
                </div>
             </div>
-            <div className="team-wrapper hover-img-border wow fadeInUp" data-wow-delay=".3s">
+            <div className="team-wrapper wow fadeInUp" data-wow-delay=".3s">
             {TeamList &&
                <div className="row justify-content-center">
                 {TeamList.slice(0, 4).map((item, num) => (
@@ -25,8 +25,10 @@ const TeamSection = () => {
                                 style={{
                                     width: '200px',
                                     height: '200px',
-                                    border: '3px solid #fff',
-                                    boxShadow: '0 0 10px rgba(0,0,0,0.1)'
+                                    border: '3px solid transparent',
+                                    boxShadow: '0 0 10px rgba(0,0,0,0.1)',
+                                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                                    cursor: 'pointer'
                                 }}>
                               <Link href={`/team-details/${item.id}`}>
                                <Image 
@@ -36,7 +38,7 @@ const TeamSection = () => {
                                        width: '100%', 
                                        height: '100%', 
                                        objectFit: 'cover',
-                                       transform: 'scale(1)'
+                                       transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)' 
                                    }}
                                    width={300}
                                    height={300}
