@@ -50,6 +50,7 @@ const ServicesList: TServiceData[] = [
         serviceTitle: 'Pastane',
         serviceBadge: '',
         serviceDesc: 'Taze ve lezzetli unlu mamullerle dolu pastanelerimizi keşfedin.',
+        
     },
     {
         id: 2,
@@ -58,6 +59,7 @@ const ServicesList: TServiceData[] = [
         serviceTitle: 'Pasta',
         serviceBadge: '',
         serviceDesc: 'Özel günleriniz için özenle hazırlanmış enfes pastalar.',
+       
     },
     {
         id: 3,
@@ -145,6 +147,7 @@ const ServicesList: TServiceData[] = [
         serviceBadge: '',
         serviceDesc: 'Taze ekmekler, kekler, poğaçalar ve daha fazlasıyla pastanemizde lezzet şöleni yaşayın.',
         serviceBtn: '',
+        slug: 'pastane',
     },
     {
         id: 15,
@@ -153,6 +156,7 @@ const ServicesList: TServiceData[] = [
         serviceBadge: '',
         serviceDesc: 'Kahvenizi yudumlayıp tatlılarınızı keyifle yiyebileceğiniz sıcak ve samimi bir ortam.',
         serviceBtn: '',
+        slug: 'kafe',
     },
     {
         id: 16,
@@ -161,6 +165,7 @@ const ServicesList: TServiceData[] = [
         serviceBadge: '',
         serviceDesc: 'Lezzetli et ve tavuk döner çeşitlerimizle doyurucu ve enfes bir yemek deneyimi yaşayın.',
         serviceBtn: '',
+        slug: 'doner',
     },
     
     {
