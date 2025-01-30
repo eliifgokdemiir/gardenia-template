@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
-import serviceImg1 from "../../public/assets/img/service/pasta.jpg";
-import serviceImg2 from "../../public/assets/img/service/service-img-st2-2.jpg";
-import serviceImg3 from "../../public/assets/img/service/service-img-st2-3.jpg";
-import serviceImg4 from "../../public/assets/img/service/service-img-st2-4.jpg";
+import serviceImg1 from "../../public/assets/img/icon/pasta-ikon.png";
+import serviceImg2 from "../../public/assets/img/icon/pasta-ikon.png";
+import serviceImg3 from "../../public/assets/img/icon/pasta-ikon.png";
+import serviceImg4 from "../../public/assets/img/icon/pasta-ikon.png";
 
 //home theree service image 
 import serviceImg5 from "../../public/assets/img/service/service-3-img1.jpg";
@@ -10,94 +10,103 @@ import serviceImg6 from "../../public/assets/img/service/service-3-img2.jpg";
 import serviceImg7 from "../../public/assets/img/service/service-3-img3.jpg";
 
 //service icon
-import iconImg from "../../public/assets/img/icon/s-icon1.png"; 
-import iconImg2 from "../../public/assets/img/icon/s-icon2.png";
-import iconImg3 from "../../public/assets/img/service/pasta.jpg";
-import iconImg4 from "../../public/assets/img/icon/feature-product-icon-1.png";
-import iconImg5 from "../../public/assets/img/icon/feature-product-icon-2.png";
-import iconImg6 from "../../public/assets/img/icon/feature-product-icon-3.png";
-import iconImg7 from "../../public/assets/img/icon/feature-product-icon-4.png";
-import iconImg8 from "../../public/assets/img/icon/s-icon4.png"; 
-import iconImg9 from "../../public/assets/img/icon/s-icon5.png";
-import iconImg10 from "../../public/assets/img/icon/s-icon6.png";
+import iconImg from "../../public/assets/img/icon/pasta-ikon.png"; 
+import iconImg2 from "../../public/assets/img/icon/pasta-ikon.png";
+import iconImg3 from "../../public/assets/img/icon/pasta-ikon.png";
+import iconImg4 from "../../public/assets/img/icon/pasta-ikon.png";
+import iconImg5 from "../../public/assets/img/icon/pasta-ikon.png";
+import iconImg6 from "../../public/assets/img/icon/pasta-ikon.png";
+import iconImg7 from "../../public/assets/img/icon/pasta-ikon.png";
+import iconImg8 from "../../public/assets/img/icon/pasta-ikon.png"; 
+import iconImg9 from "../../public/assets/img/icon/pasta-ikon.png";
+import iconImg10 from "../../public/assets/img/icon/pasta-ikon.png";
 
-
-interface TServiceData{
-    id:number;
-    serviceImg?:StaticImageData;
-    serviceIcon?:string;
-    serviceIconImg?:StaticImageData;
-    serviceTitle:string,
-    serviceBadge:string
-    serviceDesc:string,
-    serviceBtn?:string
+export interface TServiceData {
+    id: number;
+    serviceImg?: StaticImageData;
+    serviceIcon?: string;
+    serviceIconImg?: StaticImageData;
+    serviceTitle: string;
+    serviceBadge: string;
+    serviceDesc: string;
+    serviceBtn?: string;
     slug?: string;
+    urunler?: { ad: string; fiyat: number }[];
+    menu?: { ad: string; fiyat: number }[];
+    cesitler?: { ad: string; fiyat: number }[];
 }
 
-const ServicesList:TServiceData[] = [
-    {
-        id:1,
-        serviceImg:serviceImg1,
-        serviceIcon:'flaticon-gardening-1',
-        serviceTitle:'pastane',
-        serviceBadge:'',
-        serviceDesc:'Get expert advice on how to design a garden.',
+// Pastane verileri
 
-    },
-    {
-        id:2,
-        serviceImg:serviceImg2,
-        serviceIcon:'flaticon-house',
-        serviceTitle:'Urban',
-        serviceBadge:'',
-        serviceDesc:'Plants are expensive and need to be looked after.',
 
-    },
-    {
-        id:3,
-        serviceImg:serviceImg3,
-        serviceIcon:'flaticon-farming-and-gardening',
-        serviceTitle:'Maintenance',
-        serviceBadge:'',
-        serviceDesc:'Keep your green garden low maintenance.',
 
+
+// Tüm hizmetleri birleştirelim
+const ServicesList: TServiceData[] = [
+    {
+        id: 1,
+        serviceImg: serviceImg1,
+        serviceIconImg: iconImg,
+        serviceTitle: 'Pastane',
+        serviceBadge: '',
+        serviceDesc: 'Taze ve lezzetli unlu mamullerle dolu pastanelerimizi keşfedin.',
     },
     {
-        id:4,
-        serviceImg:serviceImg4,
-        serviceIcon:'flaticon-flower-with-rounded-petals',
-        serviceTitle:'Events',
-        serviceBadge:'',
-        serviceDesc:'We at The Gardeny are proud to offer',
-    },
-    //home one service end
-    {
-        id:5,
-        serviceImg:serviceImg1,
-        serviceIconImg:iconImg,
-        serviceTitle:'Garden landscaping',
-        serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
-        serviceBtn:'read more',
+        id: 2,
+        serviceImg: serviceImg2,
+        serviceIconImg: iconImg,
+        serviceTitle: 'Pasta',
+        serviceBadge: '',
+        serviceDesc: 'Özel günleriniz için özenle hazırlanmış enfes pastalar.',
     },
     {
-        id:6,
-        serviceImg:serviceImg2,
-        serviceIconImg:iconImg2,
-        serviceTitle:'soil making & carbo',
-        serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
-        serviceBtn:'read more',
+        id: 3,
+        serviceImg: serviceImg3,
+        serviceIconImg: iconImg,
+        serviceTitle: 'Tatlı',
+        serviceBadge: '',
+        serviceDesc: 'Şerbetli ve sütlü tatlılarla tatlı krizlerinize çözüm sunuyoruz.',
     },
     {
-        id:7,
-        serviceImg:serviceImg3,
-        serviceIconImg:iconImg3,
-        serviceTitle:'planting plants',
-        serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
-        serviceBtn:'read more',
+        id: 4,
+        serviceImg: serviceImg4,
+        serviceIconImg: iconImg,
+        serviceTitle: 'Börek Çeşitleri',
+        serviceBadge: '',
+        serviceDesc: 'El açması, çıtır ve bol malzemeli börek çeşitlerimizi deneyin.',
     },
+    {
+        id: 5,
+        serviceImg: serviceImg1,
+        serviceIconImg: iconImg,
+        serviceTitle: 'Ekler Çeşitleri',
+        serviceBadge: '',
+        serviceIcon: 'flaticon-eclair', // Ekler ile ilgili simge
+        serviceDesc: 'Farklı dolgularla hazırlanan taptaze ve lezzetli eklerlerimizle tanışın.',
+        serviceBtn: 'Daha Fazla Oku',
+    },
+    {
+        id: 6,
+        serviceImg: serviceImg2,
+        serviceIconImg: iconImg2,
+        serviceTitle: 'Kurabiye Çeşitleri',
+        serviceBadge: '',
+        serviceIcon: 'flaticon-cookie', // Kurabiye ile ilgili simge
+        serviceDesc: 'Çay saatlerinizin vazgeçilmezi olan ev yapımı kurabiye çeşitlerimiz.',
+        serviceBtn: 'Daha Fazla Oku',
+    },
+    {
+        id: 7,
+        serviceImg: serviceImg3,
+        serviceIconImg: iconImg3,
+        serviceTitle: 'Unlu Mamüller',
+        serviceBadge: '',
+        serviceIcon: 'flaticon-bread', // Unlu mamüller ile ilgili simge
+        serviceDesc: 'Günlük taze olarak üretilen birbirinden lezzetli unlu mamüller.',
+        serviceBtn: 'Daha Fazla Oku',
+    },
+    
+    
     //home two service end
     {
         id:8,
@@ -126,34 +135,8 @@ const ServicesList:TServiceData[] = [
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
         serviceBtn:'read more',
     },
-    //home three service end
-    {
-        id:11,
-        slug: "pastane",
-        serviceIconImg:iconImg3,
-        serviceTitle:'Pastane',
-        serviceBadge:'',
-        serviceDesc:'Pasta, tatlı, börek, kurabiye ve daha fazlası...',
-        serviceBtn:'daha fazla',
-    },
-    {
-        id:12,
-        slug: "kafe",
-        serviceIconImg:iconImg2,
-        serviceTitle:'Kafe',
-        serviceBadge:'',
-        serviceDesc:'Kahve, çay, kremalı tatlılar, çikolata ve daha fazlası...',
-        serviceBtn:'daha fazla',
-    },
-    {
-        id:13,
-        slug: "doner",
-        serviceIconImg:iconImg,
-        serviceTitle:'Döner',
-        serviceBadge:'',
-        serviceDesc:'Döner, köfte, kebap, kızartma ve daha fazlası...',
-        serviceBtn:'daha fazla',
-    },
+    
+
     //home four service end
     {
         id:14,
@@ -237,6 +220,6 @@ const ServicesList:TServiceData[] = [
         serviceBtn:'read more',
     }
     //service page end
-  ]
-  
-  export default ServicesList;
+]
+
+export default ServicesList;

@@ -12,9 +12,13 @@ import subImg2 from "../../../public/assets/img/service/service-sub2.jpg";
 import serviceSidebarImg from "../../../public/assets/img/service/service-sidebar-adv.jpg";
 import { idType } from '@/interFace/interFace';
 import ServicesList from '@/data/services-data';
+import { TServiceData } from '@/data/services-data';
 
-const ServiceDetailsArea = ({ id }: idType) => {
-    const service = ServicesList?.find(item => item?.id == id);
+interface Props {
+    service?: TServiceData;
+}
+
+const ServiceDetailsArea = ({ service }: Props) => {
     return (
         <>
             <section className="breadcrumb-area theme-bg pt-120 pb-90">
@@ -22,9 +26,8 @@ const ServiceDetailsArea = ({ id }: idType) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="page-title-wrapper">
-                                <h1 className="page-title">
-                                    {service?.serviceTitle ? service.serviceTitle : "pastane"}
-                                </h1>
+                            <h1>{service?.serviceTitle}</h1>
+                            <p>{service?.serviceDesc}</p>
                             </div>
                         </div>
                     </div>
@@ -36,7 +39,7 @@ const ServiceDetailsArea = ({ id }: idType) => {
                                 <ul className="trail-items">
                                     <li className="trail-item trail-begin"><Link href="/"><span>Anasayfa</span></Link></li>
                                     <li className="trail-item"><Link href="/service"><span>HİZMETLER</span></Link></li>
-                                    <li className="trail-item trail-end"><span>PASTANE</span></li>
+                                    <li className="trail-item trail-end"><span>{service?.serviceTitle || "Yükleniyor..."}</span></li>
                                 </ul>
                             </nav>
                         </div>

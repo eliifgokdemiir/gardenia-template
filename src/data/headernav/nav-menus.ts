@@ -17,14 +17,14 @@ const nav_menus_list = [
   },
   {
     id:2,
-    link: '/service-details/11',
+    link: '/hizmetler/pastane',
     title: 'HİZMETLER',
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
-      { link: '/service-details/11', title: 'Pastane' },
-      { link: '/service-details/12', title: 'Kafe' },
-      { link: '/service-details/13', title: 'Döner' },
+      { link: '/hizmetler/pastane', title: 'Pastane' },
+  { link: '/hizmetler/kafe', title: 'Kafe' },
+  { link: '/hizmetler/doner', title: 'Döner' },
     ]
   },
   {

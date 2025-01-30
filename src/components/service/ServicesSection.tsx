@@ -18,7 +18,7 @@ const ServicesSection = () => {
                                     </div>
                                     <div className="single-service-content">
                                         <span className="service-number"></span>
-                                        <h4 className="service-title"><Link href={`/service-details/${item.id}`}>{item.serviceTitle}</Link></h4>
+                                        <h4 className="service-title"><Link href={`/hizmetler/${item.slug}`}>{item.serviceTitle}</Link></h4>
                                         <p>{item.serviceDesc}</p>
                                         <Link href={`/service-details/${item.id}`} className='text-btn'><i className="fal fa-long-arrow-right"></i>{item.serviceBtn}<i className="fal fa-long-arrow-right"></i></Link>
                                     </div>
