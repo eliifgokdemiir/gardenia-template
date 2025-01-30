@@ -10,7 +10,7 @@ const PortfolioMain = () => {
     <MetaData pageTitle="Portfolio">
       <Wrapper>
         <main>
-        <Breadcrumb breadTitle={'case study'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'portfolio'} />
+        <Breadcrumb breadTitle={'ÜRÜNLER'} breadSubtitle={''} breadHome={'ANASAYFA'} breadMenu={'ÜRÜNLER'} />
         <PortfolioTabSection />
         </main>
       </Wrapper>

@@ -7,6 +7,14 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const PortfolioSectionFour = () => {
 
+    // Kategorilere göre filtreleme fonksiyonları
+    const filterPortfolio = (tag: string) => {
+        if(tag === 'hepsi') {
+            return portfolioList;
+        }
+        return portfolioList.filter(item => item.portfolioTag === tag);
+    };
+
     return (
         <>
             <section className="portfolio-area pt-120 pb-90 portfolio-bg fix">
@@ -30,7 +38,7 @@ const PortfolioSectionFour = () => {
                                     : "cubic-bezier(0.34, 1.56, 0.64, 1)"
                             }
                         >
-                            {portfolioList.slice(10, 16).map((item, index) => (
+                            {filterPortfolio('hepsi').slice(10, 16).map((item, index) => (
                                 <div className="portfolio-single portfolio-hover-style style-4" key={index}>
                                     <div className="portfolio-thumb">
                                         <Link href={`/shop-details/${item.id}`}>

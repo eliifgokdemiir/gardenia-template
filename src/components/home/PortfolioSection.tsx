@@ -11,6 +11,15 @@ import Image from 'next/image';
 import { imageLoader } from '@/hooks/image-loader';
 
 const PortfolioSection = () => {
+
+    // Kategorilere göre filtreleme fonksiyonları
+    const filterPortfolio = (tag: string) => {
+        if(tag === 'hepsi') {
+            return portfolioList;
+        }
+        return portfolioList.filter(item => item.portfolioTag === tag);
+    };
+
     return (
         <section className="portfolio-area portfolio-area2 pt-120 pb-90">
          <div className="container">
@@ -80,7 +89,7 @@ const PortfolioSection = () => {
                                         }}
                                         
                                     >
-                                        {portfolioList.slice(0,3).map((item, num) => (
+                                        {filterPortfolio('hepsi').slice(0,3).map((item, num) => (
                                             <SwiperSlide key={num}>
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
@@ -163,7 +172,7 @@ const PortfolioSection = () => {
                                         }}
                                         
                                     >
-                                        {portfolioList.slice(1,4).map((item, num) => (
+                                        {filterPortfolio('Events').slice(1,4).map((item, num) => (
                                             <SwiperSlide key={num}>
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
@@ -246,7 +255,7 @@ const PortfolioSection = () => {
                                         }}
                                         
                                     >
-                                        {portfolioList.slice(0,3).map((item, num) => (
+                                        {filterPortfolio('Gardens').slice(0,3).map((item, num) => (
                                             <SwiperSlide key={num}>
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
@@ -329,7 +338,7 @@ const PortfolioSection = () => {
                                         }}
                                         
                                     >
-                                        {portfolioList.slice(1,4).map((item, num) => (
+                                        {filterPortfolio('Interiors').slice(1,4).map((item, num) => (
                                             <SwiperSlide key={num}>
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
@@ -412,7 +421,7 @@ const PortfolioSection = () => {
                                         }}
                                         
                                     >
-                                        {portfolioList.slice(0,3).map((item, num) => (
+                                        {filterPortfolio('Maintance').slice(0,3).map((item, num) => (
                                             <SwiperSlide key={num}>
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
@@ -495,7 +504,7 @@ const PortfolioSection = () => {
                                         }}
                                         
                                     >
-                                        {portfolioList.slice(0,3).map((item, num) => (
+                                        {filterPortfolio('Urban').slice(0,3).map((item, num) => (
                                             <SwiperSlide key={num}>
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">

@@ -4,6 +4,14 @@ import portfolioList from '../../data/portfolio-data';
 import Image from 'next/image';
 
 const PortfolioTabSection = () => {
+    // Kategorilere göre filtreleme fonksiyonları
+    const filterPortfolio = (tag: string) => {
+        if(tag === 'hepsi') {
+            return portfolioList;
+        }
+        return portfolioList.filter(item => item.portfolioTag === tag);
+    };
+
     return (
         <div className="portfolio-area pt-120 pb-120">
          <div className="container">
@@ -12,17 +20,17 @@ const PortfolioTabSection = () => {
                   <nav>
                      <div className="nav nav-tabs" id="nav-tab" role="tablist">
                         <button className="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1"
-                           type="button" role="tab" aria-controls="nav-1" aria-selected="true">all</button>
+                           type="button" role="tab" aria-controls="nav-1" aria-selected="true">hepsi</button>
                         <button className="nav-link" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2"
-                           type="button" role="tab" aria-controls="nav-2" aria-selected="false">Events</button>
+                           type="button" role="tab" aria-controls="nav-2" aria-selected="false">pasta</button>
                         <button className="nav-link" id="nav-3-tab" data-bs-toggle="tab" data-bs-target="#nav-3"
-                           type="button" role="tab" aria-controls="nav-3" aria-selected="false">Gardens</button>
+                           type="button" role="tab" aria-controls="nav-3" aria-selected="false">tatlı</button>
                         <button className="nav-link" id="nav-4-tab" data-bs-toggle="tab" data-bs-target="#nav-4"
-                           type="button" role="tab" aria-controls="nav-4" aria-selected="false">Interiors</button>
+                           type="button" role="tab" aria-controls="nav-4" aria-selected="false">börek</button>
                         <button className="nav-link" id="nav-5-tab" data-bs-toggle="tab" data-bs-target="#nav-5"
-                           type="button" role="tab" aria-controls="nav-5" aria-selected="false">Maintance</button>
+                           type="button" role="tab" aria-controls="nav-5" aria-selected="false">döner</button>
                         <button className="nav-link" id="nav-6-tab" data-bs-toggle="tab" data-bs-target="#nav-6"
-                           type="button" role="tab" aria-controls="nav-6" aria-selected="false">Urban</button>
+                           type="button" role="tab" aria-controls="nav-6" aria-selected="false">kebap</button>
                      </div>
                   </nav>
                </div>
@@ -31,7 +39,7 @@ const PortfolioTabSection = () => {
                   <div className="tab-content" id="nav-tabContent">
                      <div className="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                        {portfolioList.slice(15, 27).map((item, num) => (
+                        {filterPortfolio('hepsi').map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
                                  <Link href={`/portfolio-details/${item.id}`}>
@@ -52,7 +60,7 @@ const PortfolioTabSection = () => {
                      </div>
                      <div className="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                        {portfolioList.slice(18, 27).map((item, num) => (
+                        {filterPortfolio('pasta').map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
                                  <Link href={`/portfolio-details/${item.id}`}>
@@ -73,7 +81,7 @@ const PortfolioTabSection = () => {
                      </div>
                      <div className="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                            {portfolioList.slice(15, 21).map((item, num) => (
+                            {filterPortfolio('tatlı').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
                                     <Link href={`/portfolio-details/${item.id}`}>
@@ -94,7 +102,7 @@ const PortfolioTabSection = () => {
                      </div>
                      <div className="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                            {portfolioList.slice(23, 27).map((item, num) => (
+                            {filterPortfolio('börek').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
                                     <Link href={`/portfolio-details/${item.id}`}>
@@ -115,7 +123,7 @@ const PortfolioTabSection = () => {
                      </div>
                      <div className="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                            {portfolioList.slice(15, 19).map((item, num) => (
+                            {filterPortfolio('döner').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
                                     <Link href={`/portfolio-details/${item.id}`}>
@@ -136,7 +144,7 @@ const PortfolioTabSection = () => {
                      </div>
                      <div className="tab-pane fade" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                            {portfolioList.slice(23, 27).map((item, num) => (
+                            {filterPortfolio('kebap').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
                                     <Link href={`/portfolio-details/${item.id}`}>
