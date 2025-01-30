@@ -20,11 +20,8 @@ const HomeFourMain = () => {
                     <FeatureSectionFour />
                     <PortfolioSectionFour />
                     <TestimonialSliderFour />
-                    <TeamSection />
-                    <BlogSectionTwo 
-                        blog_area_class="blog-area-4 pt-120 pb-75" 
-                        blog_single_class="style-4 mb-45" 
-                    />
+                    <TeamSection /> 
+                 
                 </main>
             </MetaData>
         </>
@@ -32,3 +29,8 @@ const HomeFourMain = () => {
 };
 
 export default HomeFourMain;
+
+/*   <BlogSectionTwo 
+                        blog_area_class="blog-area-4 pt-120 pb-75" 
+                        blog_single_class="style-4 mb-45" 
+                    /> */

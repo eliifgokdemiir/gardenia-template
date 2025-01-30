@@ -42,9 +42,23 @@ const FooterFour = () => {
                                         <span>TAKİP EDİN:</span>
                                         <div className="social-links">
                                             <ul>
-                                                <li><Link href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></Link></li>
+                                                <li>
+                                                    <Link href="https://www.instagram.com/mazalipatisserie" target="_blank" 
+                                                          title="mazalipatisserie">
+                                                        <i className="fab fa-instagram"></i>
+                                                    </Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="https://www.instagram.com/mazalidoner" target="_blank" 
+                                                          title="mazalidoner">
+                                                        <i className="fab fa-instagram"></i>
+                                                    </Link>
+                                                </li>
                                             </ul>
                                         </div>
+                                    </div>
+                                    <div className="footer-credit text-center mt-30">
+                                        <p className="text-xs font-light text-white/20">Prepared by Yüksel Grup Teknolojİlerİ FlexyTR</p>
                                     </div>
                                 </div>
                             </div>
