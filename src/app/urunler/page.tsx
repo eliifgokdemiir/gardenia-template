@@ -1,5 +1,5 @@
 import Breadcrumb from '@/common/Breadcrumb/breadcrumb';
-import PortfolioTabSection from '@/components/urunler/PortfolioTabSection';
+import PortfolioTabSection from '@/components/portfolio/PortfolioTabSection';
 import MetaData from '@/hooks/useMetaData';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
@@ -10,7 +10,7 @@ const PortfolioMain = () => {
     <MetaData pageTitle="Portfolio">
       <Wrapper>
         <main>
-        <Breadcrumb breadTitle={'case study'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'portfolio'} />
+        <Breadcrumb breadTitle={'ÜRÜNLER'} breadSubtitle={''} breadHome={'ANASAYFA'} breadMenu={'ÜRÜNLER'} />
         <PortfolioTabSection />
         </main>
       </Wrapper>

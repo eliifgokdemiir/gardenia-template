@@ -29,7 +29,7 @@ const nav_menus_list = [
   },
   {
     id:3,
-    link: '/portfolio',
+    link: '/urunler',
     title: 'Ürünler',
   },
   /*{
