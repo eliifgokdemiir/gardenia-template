@@ -76,7 +76,7 @@ const PortfolioSectionFour = () => {
                         </div>
                     }
                     <div className="portfolio-btn style-4 mt-40 mb-30 text-center wow fadeInUp" data-wow-delay=".3s">
-                        <Link href="/portfolio" className="fill-btn">DAHA FAZLA<i className="fal fa-plus"></i></Link>
+                        <Link href="/urunler" className="fill-btn">DAHA FAZLA<i className="fal fa-plus"></i></Link>
                     </div>
                 </div>
             </section>
