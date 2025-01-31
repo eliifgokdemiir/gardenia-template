@@ -76,7 +76,7 @@ const FoundationSectionFour = () => {
                           Sizi de bu eşsiz lezzet yolculuğuna davet ediyoruz! </p>
                      <div className="founder-meta mt-45">
                        
-                        <Link href="/contact" className="fill-btn-rounded">rezervasyon<i className="fal fa-angle-right"></i></Link>
+                        <Link href="/iletisim" className="fill-btn-rounded">rezervasyon<i className="fal fa-angle-right"></i></Link>
                      </div>
                   </div>
                </div>

@@ -20,7 +20,7 @@ const AboutUsSection = () => {
                         <div className="about-content mb-30">
                             <div className="section-title">
                                 <span className="section-subtitle">HAKKIMIZDA</span>
-                                <h2 className="section-main-title mb-20">Mazali Ailesi Olarak Lezzetin Adresiyiz</h2>
+                                <h2 className="section-main-title mb-20">Mazalİ Aİlesİ Olarak Lezzetİn Adresİyİz</h2>
                             </div>
                             <p className="mb-30">
                                 Mazali Pastane olarak 20 yılı aşkın tecrübemizle geleneksel tatlı kültürünü modern dokunuşlarla buluşturuyoruz. 
@@ -32,7 +32,7 @@ const AboutUsSection = () => {
                 özel demleme kahvelerimiz ve ev yapımı içeceklerimizle sıcak bir mola sunuyoruz.
                             </p>
                             <div className="about-btn">
-                                <Link href="/contact" className="fill-btn">İletişime Geçin<i className="fal fa-angle-right"></i></Link>
+                                <Link href="/iletisim" className="fill-btn">İLETİŞİME GEÇİN<i className="fal fa-angle-right"></i></Link>
                             </div>
                         </div>
                     </div>

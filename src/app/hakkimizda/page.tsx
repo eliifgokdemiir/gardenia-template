@@ -17,9 +17,7 @@ const AboutPage = () => {
             <Breadcrumb breadTitle={'HAKKIMIZDA'} breadSubtitle={''} breadHome={'Home'} breadMenu={'HAKKIMIZDA'} />
             <AboutUsSection />
                 <AboutFeatureSection />
-                <AboutVideoSection />
-                <BrandSliderTwo />
-                <AboutTimeline />
+               
             </main>
           </Wrapper>
         </MetaData>
