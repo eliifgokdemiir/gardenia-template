@@ -18,10 +18,7 @@ const AboutFeatureSection = () => {
                                         <p>Lezzetli ve kaliteli ürünler sunarak, müşterilerimizin her anını özel kılmak için çalışıyoruz.</p>
                                     </div>
                                     <div className="st-h-btn">
-                                        <Link href="/contact" className="fill-btn">
-                                            İlLETİŞİME GEÇ
-                                            <i className="fal fa-angle-right"></i>
-                                        </Link>
+                                       
                                     </div>
                                 </div>
                                 <div className="strategy-icon">
@@ -34,9 +31,7 @@ const AboutFeatureSection = () => {
                                     />
                                 </div>
                                 <h4>MİSYON</h4>
-                                <Link href="/contact" className="strategy-arrow">
-                                    <i className="fal fa-long-arrow-right"></i>
-                                </Link>
+                            
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -46,10 +41,7 @@ const AboutFeatureSection = () => {
                                         <p>Hizmet verdiğimiz alanlarda lider konuma yükselerek, müşteri memnuniyetini en üst seviyede tutmayı hedefliyoruz.</p>
                                     </div>
                                     <div className="st-h-btn">
-                                        <Link href="/iletisim" className="fill-btn">
-                                            İLETİŞİME GEÇ
-                                            <i className="fal fa-angle-right"></i>
-                                        </Link>
+                                    
                                     </div>
                                 </div>
                                 <div className="strategy-icon">
@@ -62,9 +54,7 @@ const AboutFeatureSection = () => {
                                     />
                                 </div>
                                 <h4>VİZYON</h4>
-                                <Link href="/iletisim" className="strategy-arrow">
-                                    <i className="fal fa-long-arrow-right"></i>
-                                </Link>
+                              
                             </div>
                         </div> 
                         {/* Üçüncü kart (Yaklaşım) buraya eklenebilir */}

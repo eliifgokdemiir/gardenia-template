@@ -28,11 +28,7 @@ const ServiceDetailsArea: React.FC<ServiceDetailsProps> = ({ service }) => {
                             <div className="service-details-content">
                                 <h2>{service.serviceTitle}</h2>
                                 <p>{service.serviceDesc}</p>
-                                {service.serviceBtn && (
-                                    <Link href={`/iletisim`} className="fill-btn">
-                                        {service.serviceBtn} <i className="fal fa-long-arrow-right"></i>
-                                    </Link>
-                                )}
+                               
                             </div>
                         </div>
                     </div>

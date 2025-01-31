@@ -5,6 +5,8 @@ import ServiceDetailsArea from '@/components/service-details/ServiceDetailsArea'
 import MetaData from '@/hooks/useMetaData';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
+import DonerProducts from '@/components/doner/DonerProducts';
+import { donerProducts } from '@/data/doner-products-data';
 
 const DonerPage = () => {
     const service = {
@@ -26,8 +28,7 @@ const DonerPage = () => {
                         breadMenu={service.serviceTitle} 
                     />
                     <ServiceDetailsArea service={service} />
-                    <ServiceChooseSection />
-                    <BlogSection />
+                    <DonerProducts products={donerProducts} />
                 </main>
             </Wrapper>
         </MetaData>

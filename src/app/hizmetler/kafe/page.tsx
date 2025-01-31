@@ -5,6 +5,8 @@ import ServiceDetailsArea from '@/components/service-details/ServiceDetailsArea'
 import MetaData from '@/hooks/useMetaData';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
+import KafeProducts from '@/components/kafe/KafeProducts';
+import { kafeProducts } from '@/data/kafe-products-data';
 
 const KafePage = () => {
     const service = {
@@ -26,8 +28,7 @@ const KafePage = () => {
                         breadMenu={service.serviceTitle} 
                     />
                     <ServiceDetailsArea service={service} />
-                    <ServiceChooseSection />
-                    <BlogSection />
+                    <KafeProducts products={kafeProducts} />
                 </main>
             </Wrapper>
         </MetaData>
