@@ -69,15 +69,36 @@ const ContactMapSection = () => {
                   <div className="info-item-wrapper info-wrapper-time">
                      <h4 className="contact-info-title">ÇALIŞMA SAATLERİ</h4>
                      <div className="info-contact-time">
-                        <ul>
-                           <li>
-                              <div className="info-date">
-                                 <span>PAZARTESİ - PAZAR</span>
-                                 <span>9:00 - 21:00 </span>
-                              </div>
-                           </li>
-                     
-                        </ul>
+                        <div className="info-date flex-column">
+                           <div className="d-flex gap-3 justify-content-between mb-2">
+                              <span>PAZARTESİ</span>
+                              <span>9:00 - 21:00</span>
+                           </div>
+                           <div className="d-flex gap-3 justify-content-between mb-2">
+                              <span>SALI</span>
+                              <span>9:00 - 21:00</span>
+                           </div>
+                           <div className="d-flex gap-3 justify-content-between mb-2">
+                              <span>ÇARŞAMBA</span>
+                              <span>9:00 - 21:00</span>
+                           </div>
+                           <div className="d-flex gap-3 justify-content-between mb-2">
+                              <span>PERŞEMBE</span>
+                              <span>9:00 - 21:00</span>
+                           </div>
+                           <div className="d-flex gap-3 justify-content-between mb-2">
+                              <span>CUMA</span>
+                              <span>9:00 - 21:00</span>
+                           </div>
+                           <div className="d-flex gap-3 justify-content-between mb-2">
+                              <span>CUMARTESİ</span>
+                              <span>9:00 - 21:00</span>
+                           </div>
+                           <div className="d-flex gap-3 justify-content-between ">
+                              <span>PAZAR</span>
+                              <span>9:00 - 21:00</span>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
