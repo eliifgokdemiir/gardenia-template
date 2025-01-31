@@ -42,15 +42,32 @@ const PortfolioTabSection = () => {
                         {filterPortfolio('hepsi').map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
-                                 <Link href={`/portfolio-details/${item.id}`}>
-                                 <Image style={{width:"100%", height:"auto"}} src={item.portfolioImg} alt="portfolio-img"/>
-                                 </Link>
+                               
+                                    <div style={{ 
+                                       position: 'relative', 
+                                       width: '100%', 
+                                       paddingTop: '75%', // 4:3 aspect ratio
+                                       overflow: 'hidden' 
+                                    }}>
+                                       <Image
+                                          src={item.portfolioImg}
+                                          alt="portfolio-img"
+                                          layout="fill"
+                                          objectFit="cover"
+                                          style={{
+                                             position: 'absolute',
+                                             top: 0,
+                                             left: 0,
+                                          }}
+                                       />
+                                    </div>
+                           
                                  <div className="portfolio-content">
-                                    <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
+                                    <div className="portfolio-hover-bg"></div>
                                     <div className="portfolio-inner">
                                        <span className="portfolio-tag">{item.portfolioTag}</span>
-                                       <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
-                                       <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
+                                       <h4 className="portfolio-title">{item.portfolioTitle}</h4>
+                                      
                                     </div>
                                  </div>
                               </div>
@@ -63,15 +80,32 @@ const PortfolioTabSection = () => {
                         {filterPortfolio('pasta').map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
-                                 <Link href={`/portfolio-details/${item.id}`}>
-                                 <Image style={{width:"100%", height:"auto"}} src={item.portfolioImg} alt="portfolio-img"/>
-                                 </Link>
+                                 
+                                    <div style={{ 
+                                       position: 'relative', 
+                                       width: '100%', 
+                                       paddingTop: '75%', // 4:3 aspect ratio
+                                       overflow: 'hidden' 
+                                    }}>
+                                       <Image
+                                          src={item.portfolioImg}
+                                          alt="portfolio-img"
+                                          layout="fill"
+                                          objectFit="cover"
+                                          style={{
+                                             position: 'absolute',
+                                             top: 0,
+                                             left: 0,
+                                          }}
+                                       />
+                                    </div>
+                            
                                  <div className="portfolio-content">
-                                    <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
+                                    <div className="portfolio-hover-bg"></div>
                                     <div className="portfolio-inner">
                                        <span className="portfolio-tag">{item.portfolioTag}</span>
-                                       <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
-                                       <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
+                                       <h4 className="portfolio-title">{item.portfolioTitle}</h4>
+                                   
                                     </div>
                                  </div>
                               </div>
@@ -84,15 +118,32 @@ const PortfolioTabSection = () => {
                             {filterPortfolio('tatlı').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
-                                    <Link href={`/portfolio-details/${item.id}`}>
-                                    <Image style={{width:"100%", height:"auto"}} src={item.portfolioImg} alt="portfolio-img"/>
-                                    </Link>
+                                    
+                                    <div style={{ 
+                                       position: 'relative', 
+                                       width: '100%', 
+                                       paddingTop: '75%', // 4:3 aspect ratio
+                                       overflow: 'hidden' 
+                                    }}>
+                                       <Image
+                                          src={item.portfolioImg}
+                                          alt="portfolio-img"
+                                          layout="fill"
+                                          objectFit="cover"
+                                          style={{
+                                             position: 'absolute',
+                                             top: 0,
+                                             left: 0,
+                                          }}
+                                       />
+                                    </div>
+                            
                                     <div className="portfolio-content">
-                                        <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
+                                        <div className="portfolio-hover-bg"></div>
                                         <div className="portfolio-inner">
                                         <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
-                                        <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
+                                        <h4 className="portfolio-title">{item.portfolioTitle}</h4>
+                                    
                                         </div>
                                     </div>
                                 </div>
@@ -105,15 +156,32 @@ const PortfolioTabSection = () => {
                             {filterPortfolio('börek').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
-                                    <Link href={`/portfolio-details/${item.id}`}>
-                                    <Image style={{width:"100%", height:"auto"}} src={item.portfolioImg} alt="portfolio-img"/>
-                                    </Link>
+                                  
+                                    <div style={{ 
+                                       position: 'relative', 
+                                       width: '100%', 
+                                       paddingTop: '75%', // 4:3 aspect ratio
+                                       overflow: 'hidden' 
+                                    }}>
+                                       <Image
+                                          src={item.portfolioImg}
+                                          alt="portfolio-img"
+                                          layout="fill"
+                                          objectFit="cover"
+                                          style={{
+                                             position: 'absolute',
+                                             top: 0,
+                                             left: 0,
+                                          }}
+                                       />
+                                    </div>
+                                 
                                     <div className="portfolio-content">
-                                        <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
+                                        <div className="portfolio-hover-bg"></div>
                                         <div className="portfolio-inner">
                                         <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
-                                        <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
+                                        <h4 className="portfolio-title">{item.portfolioTitle}</h4>
+                                    
                                         </div>
                                     </div>
                                 </div>
@@ -126,15 +194,32 @@ const PortfolioTabSection = () => {
                             {filterPortfolio('döner').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
-                                    <Link href={`/portfolio-details/${item.id}`}>
-                                    <Image style={{width:"100%", height:"auto"}} src={item.portfolioImg} alt="portfolio-img"/>
-                                    </Link>
+                                   
+                                    <div style={{ 
+                                       position: 'relative', 
+                                       width: '100%', 
+                                       paddingTop: '75%', // 4:3 aspect ratio
+                                       overflow: 'hidden' 
+                                    }}>
+                                       <Image
+                                          src={item.portfolioImg}
+                                          alt="portfolio-img"
+                                          layout="fill"
+                                          objectFit="cover"
+                                          style={{
+                                             position: 'absolute',
+                                             top: 0,
+                                             left: 0,
+                                          }}
+                                       />
+                                    </div>
+                                   
                                     <div className="portfolio-content">
-                                        <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
+                                        <div className="portfolio-hover-bg"></div>
                                         <div className="portfolio-inner">
                                         <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
-                                        <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
+                                        <h4 className="portfolio-title">{item.portfolioTitle}</h4>
+                                     
                                         </div>
                                     </div>
                                 </div>
@@ -147,15 +232,32 @@ const PortfolioTabSection = () => {
                             {filterPortfolio('kebap').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
-                                    <Link href={`/portfolio-details/${item.id}`}>
-                                    <Image style={{width:"100%", height:"auto"}} src={item.portfolioImg} alt="portfolio-img"/>
-                                    </Link>
+                                  
+                                    <div style={{ 
+                                       position: 'relative', 
+                                       width: '100%', 
+                                       paddingTop: '75%', // 4:3 aspect ratio
+                                       overflow: 'hidden' 
+                                    }}>
+                                       <Image
+                                          src={item.portfolioImg}
+                                          alt="portfolio-img"
+                                          layout="fill"
+                                          objectFit="cover"
+                                          style={{
+                                             position: 'absolute',
+                                             top: 0,
+                                             left: 0,
+                                          }}
+                                       />
+                                    </div>
+                               
                                     <div className="portfolio-content">
-                                        <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
+                                        <div className="portfolio-hover-bg"></div>
                                         <div className="portfolio-inner">
                                         <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
-                                        <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
+                                        <h4 className="portfolio-title">{item.portfolioTitle}</h4>
+                                    
                                         </div>
                                     </div>
                                 </div>
@@ -168,7 +270,7 @@ const PortfolioTabSection = () => {
                </div>
             </div>
             <div className="portfolio-btn mt-40 mb-30 text-center wow fadeInUp d-none" data-wow-delay=".3s">
-               <a href="#" className="fill-btn">Load More<i className="fal fa-plus"></i></a>
+               <a href="/urunler" className="fill-btn">Daha fazla<i className="fal fa-plus"></i></a>
             </div>
          </div>
       </div>
