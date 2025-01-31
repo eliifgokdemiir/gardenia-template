@@ -18,7 +18,7 @@ const ErrorPage = () => {
                                     <p className='mb-30'>Sorry mate … Something is wrong</p>
                                 </div>
                                 <Link href="/" className="fill-btn">
-                                    <span>Go Back Home</span>
+                                    <span>Anasayfaya dönün</span>
                                 </Link>
                             </div>
                         </div>

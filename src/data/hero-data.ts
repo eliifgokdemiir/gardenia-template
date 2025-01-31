@@ -15,6 +15,8 @@ import banner6 from "../../public/assets/img/banner/banner-1.jpg";
 import banner7 from "../../public/assets/img/banner/banner-2.jpg";
 //home five hero img
 
+import imgLogo from "../../public/assets/img/logo/mazali-seffaf.png";
+
 import banner8 from "../../public/assets/img/banner/banner-5-2.png";
 
 //home one hero data
@@ -146,6 +148,7 @@ interface THeroFourSliderItem{
     sliderTitleBig:string,
     sliderbtn1:string
 }
+
 export const HeroFourSliderItem:THeroFourSliderItem[] = [
     {
         id: 1,
@@ -195,3 +198,5 @@ export const HomeFiveSliderItem:THomeFiveHero[] = [
         sliderbtn1: 'our shop',
     }
 ];
+
+/* MAZÂLİ */

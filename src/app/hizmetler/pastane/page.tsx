@@ -5,6 +5,8 @@ import ServiceDetailsArea from '@/components/service-details/ServiceDetailsArea'
 import MetaData from '@/hooks/useMetaData';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
+import PastaneProducts from '@/components/pastane/PastaneProducts';
+import { pastryProducts } from '@/data/pastane-products-data';
 
 const PastanePage = () => {
     // Pastane ile ilgili veriyi burada tanımlayabilirsiniz veya komponent içinde çekebilirsiniz.
@@ -12,9 +14,16 @@ const PastanePage = () => {
         id: 1,
         serviceTitle: 'Pastane',
         serviceDesc: 'Taze ve lezzetli unlu mamullerle dolu pastanelerimizi keşfedin.',
-        serviceImg: '/assets/img/service/pastane.jpg', // Resim yolunu güncelleyin
-        serviceBtn: 'Daha Fazla Oku'
+        serviceImg: '/assets/img/service/meyvelipasta.jpg',
+        serviceBtn: 'Daha Fazla Oku',
+        imgStyle: {
+            width: '300px',
+            height: '100px',
+            borderRadius: '20px',
+            objectFit: 'cover'
+        }
     };
+
 
     return (
         <MetaData pageTitle={service.serviceTitle}>
@@ -27,8 +36,7 @@ const PastanePage = () => {
                         breadMenu={service.serviceTitle} 
                     />
                     <ServiceDetailsArea service={service} />
-                    <ServiceChooseSection />
-                    <BlogSection />
+                    <PastaneProducts products={pastryProducts} />
                 </main>
             </Wrapper>
         </MetaData>

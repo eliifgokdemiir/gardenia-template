@@ -53,3 +53,30 @@ a {
     color: #4CAF50 !important;
   }
 } 
+/* Global CSS dosyanıza ekleyin */
+.single-service-style-4 {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.single-service-style-4:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+
+.service-title a {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* Global CSS dosyanıza ekleyin */
+.product-card:hover .product-img {
+  transform: scale(1.05);
+}
+
+.product-card:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}

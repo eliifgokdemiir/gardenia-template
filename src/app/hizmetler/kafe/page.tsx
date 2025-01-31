@@ -11,7 +11,7 @@ const KafePage = () => {
         id: 2,
         serviceTitle: 'Kafe',
         serviceDesc: 'Sıcak içecekler ve lezzetli atıştırmalıklarla dolu kafemizi deneyimleyin.',
-        serviceImg: '/assets/img/service/kafe.jpg',
+        serviceImg: '/assets/img/service/kahve.jpg',
         serviceBtn: 'Daha Fazla Oku'
     };
 

@@ -29,7 +29,7 @@ const ServiceDetailsArea: React.FC<ServiceDetailsProps> = ({ service }) => {
                                 <h2>{service.serviceTitle}</h2>
                                 <p>{service.serviceDesc}</p>
                                 {service.serviceBtn && (
-                                    <Link href={`/contact`} className="fill-btn">
+                                    <Link href={`/iletisim`} className="fill-btn">
                                         {service.serviceBtn} <i className="fal fa-long-arrow-right"></i>
                                     </Link>
                                 )}
