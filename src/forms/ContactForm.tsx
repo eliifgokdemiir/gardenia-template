@@ -14,11 +14,26 @@ const ContactForm = () => {
               name: "",
               email: "",
               massage: "",
-              
           },
-          validationSchema: contact_schema,
+          validate: (values) => {
+              const errors: any = {};
+              if (!values.name) {
+                  errors.name = "Ad soyad zorunlu alan";
+              }
+              if (!values.email) {
+                  errors.email = "E-posta zorunlu alan";
+              } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
+                  errors.email = "Geçersiz e-posta adresi";
+              }
+              if (!values.massage) {
+                  errors.massage = "Mesaj zorunlu alan";
+              } else if (values.massage.length < 20) {
+                  errors.massage = "En az 20 karakter giriniz";
+              }
+              return errors;
+          },
           onSubmit: (values, { resetForm }) => {
-            toast.success("Contact Successful")
+            toast.success("Mesajınız iletildi");
             resetForm();
           },
       });

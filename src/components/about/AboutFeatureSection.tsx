@@ -14,7 +14,7 @@ const AboutFeatureSection = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-strategy mb-30">
                                 <div className="st-hover">
-                                    <div className="st-h-content" style={{ background: "url(/assets/img/bg/st-h-bg.jpg)" }}>
+                                    <div className="st-h-content" style={{ background: "url(/assets/img/bg/mazali-logo.jpeg)" }}>
                                         <p>Lezzetli ve kaliteli ürünler sunarak, müşterilerimizin her anını özel kılmak için çalışıyoruz.</p>
                                     </div>
                                     <div className="st-h-btn">
@@ -37,7 +37,7 @@ const AboutFeatureSection = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-strategy mb-30">
                                 <div className="st-hover">
-                                    <div className="st-h-content" style={{ background: "url(/assets/img/bg/st-h-bg.jpg)" }}>
+                                    <div className="st-h-content" style={{ background: "url(/assets/img/bg/mazali-logo.jpeg)" }}>
                                         <p>Hizmet verdiğimiz alanlarda lider konuma yükselerek, müşteri memnuniyetini en üst seviyede tutmayı hedefliyoruz.</p>
                                     </div>
                                     <div className="st-h-btn">

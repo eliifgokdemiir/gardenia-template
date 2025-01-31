@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import logoImg from "../../../../public/assets/img/logo/logo-bl.png";
+import logoImg from "../../../../public/assets/img/logo/mazali-seffaf.png";
 import Image from 'next/image';
 import MenusTwo from './Menu';
 import useGlobalContext from '@/hooks/use-context';
@@ -26,36 +26,28 @@ const Sidebar = () => {
                             <MenusTwo/>
                         </nav>
                         {/* <!-- side-mobile-menu end --> */}
-                        <div className="offset-widget offset_searchbar mb-30">
-                            <form action="#" className="filter-search-input">
-                                <input type="text" placeholder="Search keyword" />
-                                <button type="submit"><i className="fal fa-search"></i></button>
-                            </form>
-                        </div>
-                        <div className="offset-widget offset-support mb-30">
-                            <div className="footer-support">
-                                <div className="irc-item support-meta">
-                                    <div className="irc-item-icon">
-                                        <i className="fas fa-phone-alt"></i>
-                                    </div>
-                                    <div className="irc-item-content">
-                                        <p>Emergency Call</p>
-                                        <div className="support-number"><a href="tel:98965963168">989 659 631 68</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      
+                    
                         <div className="offset-widget offset-social mb-30">
-                            <div className="footer-social">
-                                <span>Connect:</span>
+                            <div className="footer-social flex-column">
+                                <div className="d-flex flex-row">
+                                <span>Mazalİ Patisserie:</span>
                                 <div className="social-links">
                                     <ul>
-                                            <li><Link href="https://x.com/"  target="_blank"><i className="fab fa-twitter"></i></Link></li>
-                                            <li><Link href="https://www.behance.net/" target="_blank"><i className="fab fa-behance"></i></Link></li>
-                                            <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></Link></li>
-                                            <li><Link href="https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin"></i></Link></li>
+                                            <li><Link href="https://instagram.com/mazalipatisserie"  target="_blank"><i className="fab fa-instagram m-2"></i></Link></li>
+                                          
+                                    </ul>
+                                </div> 
+                                </div>
+                                <div className="d-flex flex-row">
+                                <span>Mazalİ Döner:</span>
+                                <div className="social-links">
+                                    <ul>
+                                            <li><Link href="https://instagram.com/mazalipatisserie"  target="_blank"><i className="fab fa-instagram m-2"></i></Link></li>
+                                          
                                     </ul>
                                 </div>
+                               </div>
                             </div>
                         </div>
                     </div>

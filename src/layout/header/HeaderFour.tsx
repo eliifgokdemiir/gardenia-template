@@ -6,7 +6,7 @@ import NavMenu from './NavMenu';
 import HeaderTopFour from './components/HeaderTopFour';
 import useGlobalContext from '@/hooks/use-context';
 import Image from 'next/image';
-import LogoImage from '../../../public/assets/img/logo/logo-w.png';
+import LogoImage from '../../../public/assets/img/logo/mazali-seffaf.png';
 import Sidebar from './components/Sidebar';
 import logoWhite from "../../../public/assets/img/logo/logo-w.png";
 
@@ -51,7 +51,7 @@ const HeaderFour = () => {
                                 <div className="header-main-content-wrapper">
                                     <div className="header-main-left header-main-left-header4">
                                         <div className="header-logo header4-logo">
-                                            <Link href="/" className="logo-w">
+                                            <Link href="/" className="mazali-seffaf">
                                                 <>
                                                     <Image
                                                        style={{

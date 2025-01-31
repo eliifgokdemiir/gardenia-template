@@ -36,7 +36,7 @@ const FooterFour = () => {
                                         <p>Adres: Kardelen Mahallesi 2075 Cadde No:2/A</p>
                                     </div>
                                     <div className="footer-btn">
-                                        <Link href="/contact" className="border-btn"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
+                                        <Link href="/iletisim" className="border-btn"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
                                     </div>
                                     <div className="footer-social">
                                         <span>TAKİP EDİN:</span>
