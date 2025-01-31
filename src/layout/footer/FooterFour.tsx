@@ -7,14 +7,14 @@ import Image from 'next/image';
 const FooterFour = () => {
     return (
         <footer className="footer4-bg">
-            <div className="footer-area footer-area4 footer-area4-bg pt-120 pb-120">
+            <div className="footer-area footer-area4 footer-area4-bg pt-10 pb-10">
                 <div className="footer-4-bg-img">
                     <Image style={{width:"100%", height:"100%"}} src={footerBg} alt="footer-bg" />
                 </div>
                 <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-12 col-sm-12">
-                                <div className="footer-widget footer4-widget footer4-widget1 mb-0">
+                                <div className="footer4-widget1 mb-0">
                                     <div className="footer-logo">
                                         <Link href="/">
                                             <Image 
@@ -22,7 +22,7 @@ const FooterFour = () => {
                                                     width: "350px",
                                                     height: "280px",
                                                     objectFit: "contain",
-                                                    margin: "5px 0"
+                                                    margin: "0"
                                                 }} 
                                                 src={footerLogo} 
                                                 alt="footer-logo" 
@@ -36,19 +36,20 @@ const FooterFour = () => {
                                         <p>Adres: Kardelen Mahallesi 2075 Cadde No:2/A</p>
                                     </div>
                                     <div className="footer-btn">
-                                        <Link href="/iletisim" className="border-btn"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
+                                        <Link href="/iletisim" className="border-btn"><i className="fal fa-farm"></i><span>Bİze Ulaşın</span></Link>
                                     </div>
                                     <div className="footer-social">
-                                        <span>TAKİP EDİN:</span>
                                         <div className="social-links">
-                                            <ul>
-                                                <li>
+                                            <ul className="d-flex gap-2">
+                                                <li className="d-flex align-items-center gap-2">
+                                                    <span>Mazalİ Patisserie:</span>
                                                     <Link href="https://www.instagram.com/mazalipatisserie" target="_blank" 
                                                           title="mazalipatisserie">
                                                         <i className="fab fa-instagram"></i>
                                                     </Link>
                                                 </li>
-                                                <li>
+                                                <li className="d-flex align-items-center gap-2">
+                                                    <span>Mazalİ Döner:</span>
                                                     <Link href="https://www.instagram.com/mazalidoner" target="_blank" 
                                                           title="mazalidoner">
                                                         <i className="fab fa-instagram"></i>
@@ -58,7 +59,7 @@ const FooterFour = () => {
                                         </div>
                                     </div>
                                     <div className="footer-credit text-center mt-30">
-                                        <p className="text-xs font-light text-white/20">Prepared by Yüksel Grup Teknolojİlerİ FlexyTR</p>
+                                        <p className="text-xs font-light text-white/10">Copyright © Yüksel Teknolojileri FlexyTR 2025 | Her Hakkı Saklıdır.</p>
                                     </div>
                                 </div>
                             </div>

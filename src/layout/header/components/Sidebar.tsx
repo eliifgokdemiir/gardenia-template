@@ -15,7 +15,7 @@ const Sidebar = () => {
                         <div className="offset-widget offset-logo mb-40">
                             <div className="row align-items-center">
                                 <div className="col-9">
-                                    <Link href="/"><Image style={{width:"auto", height:"auto"}} src={logoImg} alt="Logo" /></Link>
+                                    <Link href="/"><Image style={{width:"100%", height:"100%"}} src={logoImg} alt="Logo" /></Link>
                                 </div>
                                 <div className="col-3 text-end">
                                   <button className="side-info-close" onClick={toggleSideMenu}><i className="fal fa-times"></i></button></div>

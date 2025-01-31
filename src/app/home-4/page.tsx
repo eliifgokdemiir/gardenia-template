@@ -19,7 +19,6 @@ const HomeFourMain = () => {
                     <FoundationSectionFour />
                     <FeatureSectionFour />
                     <PortfolioSectionFour />
-                    <TestimonialSliderFour />
                     <TeamSection /> 
                  
                 </main>
