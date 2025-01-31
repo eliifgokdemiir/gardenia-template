@@ -31,7 +31,7 @@ export default function RootLayout({
           <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/logo/mazali-icon-180x180.png" />
           <link rel="manifest" href="/site.manifest" />
           <meta name="theme-color" content="#1a581d" />
-          <title>Mazali Döner & Pastane</title>
+          <title>Mazâli Patisserie & Coffee</title>
         </head>
 
         <body suppressHydrationWarning={true}>
