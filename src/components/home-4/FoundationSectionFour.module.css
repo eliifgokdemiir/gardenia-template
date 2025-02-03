@@ -1,0 +1,25 @@
+.imageCard {
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                box-shadow 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imageCard:hover {
+    transform: translateY(-8px) rotate(1deg);
+    box-shadow: 0 12px 24px rgba(26, 88, 29, 0.15);
+}
+
+.animateFloat {
+    animation: foundationFloat 4s ease-in-out infinite;
+}
+
+.delay1 { animation-delay: 0.8s; }
+.delay2 { animation-delay: 1.6s; }
+
+@keyframes foundationFloat {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    33% { transform: translateY(-15px) rotate(1.5deg); }
+    66% { transform: translateY(-7px) rotate(-1deg); }
+} 

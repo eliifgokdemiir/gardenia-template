@@ -5,6 +5,8 @@ import foundationImg from "../../../public/assets/img/about/kahve.jpg";
 import foundationImgTwo from "../../../public/assets/img/about/pasta1.jpg";
 import foundationImgThree from "../../../public/assets/img/about/doner.jpg";
 import founderImg from "../../../public/assets/img/team/founder.jpg";
+import styles from './FoundationSectionFour.module.css';
+
 
 const FoundationSectionFour = () => {
     return (
@@ -15,7 +17,7 @@ const FoundationSectionFour = () => {
                   <div className="foundation-img style-2 mb-60">
                      <div className="row align-items-center gx-3">
                         <div className="col-6">
-                           <div className="image-card animate-float">
+                           <div className={`image-card ${styles.animateFloat}`}>
                               <Image 
                                  className="img-fluid" 
                                  src={foundationImg} 
@@ -31,7 +33,7 @@ const FoundationSectionFour = () => {
                         <div className="col-6">
                            <div className="row gy-3">
                               <div className="col-12">
-                                 <div className="image-card animate-float delay-1">
+                                 <div className={`image-card ${styles.animateFloat} ${styles.delay1}`}>
                                     <Image 
                                        className="img-fluid" 
                                        src={foundationImgTwo} 
@@ -45,7 +47,7 @@ const FoundationSectionFour = () => {
                                  </div>
                               </div>
                               <div className="col-12">
-                                 <div className="image-card animate-float delay-2">
+                                 <div className={`image-card ${styles.animateFloat} ${styles.delay2}`}>
                                     <Image 
                                        className="img-fluid" 
                                        src={foundationImgThree} 

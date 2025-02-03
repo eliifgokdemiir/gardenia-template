@@ -1,0 +1,29 @@
+.serviceCard {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+.serviceCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(26, 88, 29, 0.1);
+}
+
+.serviceIcon {
+    text-align: center;
+    margin: 20px 0;
+    color: #1a581d;
+}
+
+.serviceContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
