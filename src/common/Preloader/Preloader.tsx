@@ -10,13 +10,14 @@ const Preloader = () => {
         <div id="loading">
             <div id="loading-center">
                 <div id="loading-center-absolute">
-                    <div className="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <div className="loading-icon text-center d-flex flex-column align-items-center justify-content-center" 
+                         style={{ rowGap: '8px' }}>
                         <Image 
                             src={logoText} 
                             alt="logo"
                             style={{
                                 width: '300px',
-                                height: '250px',
+                                height: '260px',
                                 marginBottom: '0'
                             }}
                         />
@@ -25,9 +26,9 @@ const Preloader = () => {
                             src={preloaderImg} 
                             alt="loading-logo"
                             style={{
-                                width: '80px',
+                                width: '60px',
                                 height: 'auto',
-                                marginTop: '0'
+                                marginTop: '-30px'
                             }}
                         />
                     </div>
