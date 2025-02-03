@@ -22,8 +22,8 @@ const TeamIntroSection = () => {
                                 <Link href="#">
                                   <Image style={{width:"100%", height:"auto"}} src={teamAwardImg} alt="team-award"/>
                                 </Link>
-                                <Link href="#"> <Image style={{width:"100%", height:"auto"}} src={teamAwardImg2} alt="team-award"/></Link>
-                                <Link href="#"> <Image style={{width:"100%", height:"auto"}} src={teamAwardImg3} alt="team-award"/></Link>
+                               <Image style={{width:"100%", height:"auto"}} src={teamAwardImg2} alt="team-award"/>
+                               <Image style={{width:"100%", height:"auto"}} src={teamAwardImg3} alt="team-award"/>
                             </div>
                         </div>
                     </div>
