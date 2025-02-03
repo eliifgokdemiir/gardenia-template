@@ -36,8 +36,9 @@ const HeroSliderFour = () => {
                                                                 <span>{item.sliderSubtitle}</span>
                                                             </div>
                                                             <div className="banner-btn" data-animation="fadeInUp" data-delay=".7s">
-                                                                <Link href="/" className="fill-btn">{item.sliderbtn} <i className="fal fa-long-arrow-right"></i></Link>
-                                                                <Link href="/iletisim" className="border-btn">{item.sliderbtn1} <i className="fal fa-long-arrow-right"></i></Link>
+                                                                <Link href="/#hizmetlerimiz" className="border-btn">
+                                                                    {item.sliderbtn1} <i className="fal fa-long-arrow-right"></i>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                     </div>

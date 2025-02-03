@@ -17,7 +17,7 @@ const ServiceSectionFour = () => {
     };
 
     return (
-        <section className="services-area style-4 pb-90">
+        <section className="services-area style-4 pb-90" id='hizmetlerimiz'>
             <div className="container">
                 <div className="services-wrapper">
                     {filteredServices.length > 0 && (
