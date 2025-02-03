@@ -22,15 +22,12 @@ const PortfolioTabSection = () => {
                         <button className="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1"
                            type="button" role="tab" aria-controls="nav-1" aria-selected="true">hepsi</button>
                         <button className="nav-link" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2"
-                           type="button" role="tab" aria-controls="nav-2" aria-selected="false">pasta</button>
+                           type="button" role="tab" aria-controls="nav-2" aria-selected="false">pastane</button>
                         <button className="nav-link" id="nav-3-tab" data-bs-toggle="tab" data-bs-target="#nav-3"
-                           type="button" role="tab" aria-controls="nav-3" aria-selected="false">tatlı</button>
-                        <button className="nav-link" id="nav-4-tab" data-bs-toggle="tab" data-bs-target="#nav-4"
-                           type="button" role="tab" aria-controls="nav-4" aria-selected="false">börek</button>
+                           type="button" role="tab" aria-controls="nav-3" aria-selected="false">kafe</button>
                         <button className="nav-link" id="nav-5-tab" data-bs-toggle="tab" data-bs-target="#nav-5"
-                           type="button" role="tab" aria-controls="nav-5" aria-selected="false">döner</button>
-                        <button className="nav-link" id="nav-6-tab" data-bs-toggle="tab" data-bs-target="#nav-6"
-                           type="button" role="tab" aria-controls="nav-6" aria-selected="false">kebap</button>
+                           type="button" role="tab" aria-controls="nav-4" aria-selected="false">döner</button>
+                    
                      </div>
                   </nav>
                </div>
@@ -77,7 +74,7 @@ const PortfolioTabSection = () => {
                      </div>
                      <div className="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                        {filterPortfolio('pasta').map((item, num) => (
+                        {filterPortfolio('pastane').map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
                                  
@@ -115,7 +112,7 @@ const PortfolioTabSection = () => {
                      </div>
                      <div className="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                            {filterPortfolio('tatlı').map((item, num) => (
+                            {filterPortfolio('kafe').map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
                                     
@@ -150,44 +147,9 @@ const PortfolioTabSection = () => {
                             </div>
                             ))}
                         </div>
-                     </div>
-                     <div className="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
-                        <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                            {filterPortfolio('börek').map((item, num) => (
-                            <div className="portfolio-single portfolio-hover-style" key={num}>
-                                <div className="portfolio-thumb">
-                                  
-                                    <div style={{ 
-                                       position: 'relative', 
-                                       width: '100%', 
-                                       paddingTop: '75%', // 4:3 aspect ratio
-                                       overflow: 'hidden' 
-                                    }}>
-                                       <Image
-                                          src={item.portfolioImg}
-                                          alt="portfolio-img"
-                                          layout="fill"
-                                          objectFit="cover"
-                                          style={{
-                                             position: 'absolute',
-                                             top: 0,
-                                             left: 0,
-                                          }}
-                                       />
-                                    </div>
-                                 
-                                    <div className="portfolio-content">
-                                        <div className="portfolio-hover-bg"></div>
-                                        <div className="portfolio-inner">
-                                        <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title">{item.portfolioTitle}</h4>
-                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            ))}
-                        </div>
+              
+                  
+                    
                      </div>
                      <div className="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
@@ -227,45 +189,9 @@ const PortfolioTabSection = () => {
                             ))}
                         </div>
                      </div>
-                     <div className="tab-pane fade" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
-                        <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                            {filterPortfolio('kebap').map((item, num) => (
-                            <div className="portfolio-single portfolio-hover-style" key={num}>
-                                <div className="portfolio-thumb">
-                                  
-                                    <div style={{ 
-                                       position: 'relative', 
-                                       width: '100%', 
-                                       paddingTop: '75%', // 4:3 aspect ratio
-                                       overflow: 'hidden' 
-                                    }}>
-                                       <Image
-                                          src={item.portfolioImg}
-                                          alt="portfolio-img"
-                                          layout="fill"
-                                          objectFit="cover"
-                                          style={{
-                                             position: 'absolute',
-                                             top: 0,
-                                             left: 0,
-                                          }}
-                                       />
-                                    </div>
-                               
-                                    <div className="portfolio-content">
-                                        <div className="portfolio-hover-bg"></div>
-                                        <div className="portfolio-inner">
-                                        <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title">{item.portfolioTitle}</h4>
-                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            ))}
-                        </div>
+                  
                      </div>
-                  </div>
+                 
                 }
                </div>
             </div>
