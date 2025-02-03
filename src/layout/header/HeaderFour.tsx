@@ -73,7 +73,7 @@ const HeaderFour = () => {
                                                 <NavMenu />
                                             </nav>
                                         </div>
-                                        <Link href="/contact" className="border-btn d-none d-xl-inline-flex"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
+                                        <Link href="/iletisim" className="border-btn d-none d-xl-inline-flex"><i className="fal fa-farm"></i><span>Bize Ulaşın</span></Link>
                                         <div className="menu-bar d-lg-none">
                                             <span className="side-toggle" onClick={() => setSideMenuOpen(true)}>
                                                 <div className="bar-icon">

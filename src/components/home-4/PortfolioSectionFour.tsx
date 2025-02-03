@@ -41,7 +41,7 @@ const PortfolioSectionFour = () => {
                             {filterPortfolio('hepsi').slice(10, 16).map((item, index) => (
                                 <div className="portfolio-single portfolio-hover-style style-4" key={index}>
                                     <div className="portfolio-thumb">
-                                        <Link href={`/shop-details/${item.id}`}>
+                                       
                                             <Image 
                                                 src={item.portfolioImg} 
                                                 alt="image not found" 
@@ -54,13 +54,13 @@ const PortfolioSectionFour = () => {
                                                     borderRadius: '8px'
                                                 }}
                                             />
-                                        </Link>
+                                    
                                         <div className="portfolio-content">
-                                            <Link href={`/shop-details/${item.id}`} className="portfolio-hover-bg"></Link>
+                                            <div  className="portfolio-hover-bg"></div>
                                             <div className="portfolio-inner">
                                                 <div className="portfolio-inner-text">
                                                     <span className="portfolio-tag">{item.portfolioTag}</span>
-                                                    <h4 className="portfolio-title"><Link href={`/shop-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
+                                                    <h4 className="portfolio-title">{item.portfolioTitle}</h4>
                                                 </div>
                                                 <span>
                                                 <PhotoView src={item.portfolioImg.src}>
