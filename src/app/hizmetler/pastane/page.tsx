@@ -18,7 +18,7 @@ const PastanePage = () => {
     };
 
     return (
-        <MetaData pageTitle={service.serviceTitle}>
+        <MetaData pageTitle='Mazali Patisserie & Coffee'>
             <Wrapper>
                 <main>
                     <Breadcrumb 

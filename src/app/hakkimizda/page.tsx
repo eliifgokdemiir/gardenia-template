@@ -11,7 +11,7 @@ import React from 'react';
 const AboutPage = () => {
     return (
         <>
-        <MetaData pageTitle="About">
+        <MetaData pageTitle="Mazali Patisserie & Coffee">
           <Wrapper>
             <main>
             <Breadcrumb breadTitle={'HAKKIMIZDA'} breadSubtitle={''} breadHome={'ANASAYFA'} breadMenu={'HAKKIMIZDA'} />

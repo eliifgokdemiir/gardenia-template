@@ -20,7 +20,7 @@ const KafePage = () => {
     };
 
     return (
-        <MetaData pageTitle={service.serviceTitle}>
+        <MetaData pageTitle='Mazali Patisserie & Coffee'>
             <Wrapper>
                 <main>
                     <Breadcrumb 

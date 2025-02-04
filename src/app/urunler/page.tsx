@@ -7,7 +7,7 @@ import React from 'react';
 const PortfolioMain = () => {
     return (
     <>
-    <MetaData pageTitle="Portfolio">
+    <MetaData pageTitle="Mazali Patisserie & Coffee">
       <Wrapper>
         <main>
         <Breadcrumb breadTitle={'ÜRÜNLER'} breadSubtitle={''} breadHome={'ANASAYFA'} breadMenu={'ÜRÜNLER'} />

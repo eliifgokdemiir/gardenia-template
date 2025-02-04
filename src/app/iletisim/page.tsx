@@ -8,7 +8,7 @@ import React from 'react';
 const ContactMain = () => {
     return (
         <>
-    <MetaData pageTitle="Checkout">
+    <MetaData pageTitle="Mazali Patisserie & Coffee">
        <Wrapper>
         <main>
         <Breadcrumb breadTitle={'İLETİŞİM'} breadSubtitle={''} breadHome={'Anasayfa'} breadMenu={'İLETİŞİM'} />

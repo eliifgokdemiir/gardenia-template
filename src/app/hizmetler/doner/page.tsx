@@ -19,7 +19,7 @@ const DonerPage = () => {
     };
 
     return (
-        <MetaData pageTitle={service.serviceTitle}>
+        <MetaData pageTitle='Mazali Patisserie & Coffee'>
             <Wrapper>
                 <main>
                     <Breadcrumb 

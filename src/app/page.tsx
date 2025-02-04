@@ -6,7 +6,7 @@ import MetaData from "@/hooks/useMetaData";
 const Home = () => {
   return (
     <>
-    <MetaData pageTitle="Home Four">
+    <MetaData pageTitle="Mazali Patisserie & Coffee">
       <Wrapper>
         <main>
          <HomeFourMain/>

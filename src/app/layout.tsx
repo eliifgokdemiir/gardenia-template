@@ -19,7 +19,7 @@ export default function RootLayout({
       <html lang="en" className="home-four-theme">
         <head>
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta name="description" content="Mazali Döner & Pastane" />
+          <meta name="description" content="Mazali Patisserie & Coffee" />
           <meta name="robots" content="noindex, follow" />
           <meta
             name="viewport"
