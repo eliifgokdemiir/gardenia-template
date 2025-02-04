@@ -14,7 +14,7 @@ const AboutPage = () => {
         <MetaData pageTitle="About">
           <Wrapper>
             <main>
-            <Breadcrumb breadTitle={'HAKKIMIZDA'} breadSubtitle={''} breadHome={'Home'} breadMenu={'HAKKIMIZDA'} />
+            <Breadcrumb breadTitle={'HAKKIMIZDA'} breadSubtitle={''} breadHome={'ANASAYFA'} breadMenu={'HAKKIMIZDA'} />
             <AboutUsSection />
                 <AboutFeatureSection />
                
