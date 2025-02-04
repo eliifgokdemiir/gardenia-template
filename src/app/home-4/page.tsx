@@ -12,7 +12,7 @@ import React from 'react';
 const HomeFourMain = () => {
     return (
         <>
-            <MetaData pageTitle="Home Four">
+            <MetaData pageTitle="Mazali Patisserie & Coffee">
                 <main>
                     <HeroSliderFour/>
                     <ServiceSectionFour />
