@@ -9,7 +9,7 @@ import React from 'react';
 const ServiceMain = () => {
     return (
         <>
-            <MetaData pageTitle="Hizmetler">
+            <MetaData pageTitle="Mazali Patisserie & Coffee">
                 <Wrapper>
                     <main className="home-four-main">
                         <Breadcrumb 
