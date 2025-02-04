@@ -25,8 +25,8 @@ const KafePage = () => {
                 <main>
                     <Breadcrumb 
                         breadTitle={service.serviceTitle} 
-                        breadSubtitle={'Hizmetlerimiz'} 
-                        breadHome={'Hizmetler'} 
+                        breadSubtitle={'HİZMETLERİMİZ'} 
+                        breadHome={'HİZMETLER'} 
                         breadMenu={service.serviceTitle} 
                     />
                                        <div className="container mt-50">
