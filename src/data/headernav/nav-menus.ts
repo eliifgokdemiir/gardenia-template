@@ -17,7 +17,7 @@ const nav_menus_list = [
   },
   {
     id:2,
-    link: '/hizmetler/pastane',
+    link: '',
     title: 'HİZMETLER',
     hasDropdown: true,
     megamenu: false,
