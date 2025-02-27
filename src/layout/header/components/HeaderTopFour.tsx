@@ -13,7 +13,7 @@ const HeaderTopFour = () => {
                                     <i className="fas fa-phone"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                <p><Link href="tel:78989700098">Pastane: 0 533 010 70 80</Link></p>
+                                <p><Link href="tel:78989700098">Pastane&Kafe: 0 533 010 70 80</Link></p>
                                 </div>
                                 <div className="meta-item-icon">
                                     <i className="fas fa-phone"></i>
@@ -22,14 +22,7 @@ const HeaderTopFour = () => {
                                 <p><Link href="tel:78989700098">Döner: 0 533 010 70 90</Link></p>
                                 </div>
                             </div>
-                            <div className="meta-item">
-                                <div className="meta-item-icon">
-                                    <i className="fas fa-envelope-open"></i>
-                                </div>
-                                <div className="meta-item-text">
-                                    <p><Link href="mailto:info@mazali.com">info@mazali.com</Link></p>
-                                </div>
-                            </div>
+                         
                         </div>
                     </div>
                     <div className="header-top-right">
@@ -53,3 +46,12 @@ const HeaderTopFour = () => {
 };
 
 export default HeaderTopFour;
+
+/*   <div className="meta-item">
+                                <div className="meta-item-icon">
+                                    <i className="fas fa-envelope-open"></i>
+                                </div>
+                                <div className="meta-item-text">
+<p><Link href="mailto:info@mazali.com">info@mazali.com</Link></p>
+</div>
+                            </div>*/

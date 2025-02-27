@@ -30,7 +30,7 @@ const FooterFour = () => {
                                         </Link>
                                     </div>
                                     <div className="footer-text">
-                                        <p> Pastane: 0 533 010 70 80<br />
+                                        <p> Pastane & Kafe: 0 533 010 70 80<br />
                                             Döner: 0 533 010 70 90<br />
                                         </p>
                                         <p>Adres: Kardelen Mahallesi 2075 Cadde No:2/A</p>
@@ -42,7 +42,7 @@ const FooterFour = () => {
                                         <div className="social-links">
                                             <ul className="d-flex gap-2">
                                                 <li className="d-flex align-items-center gap-2">
-                                                    <span>Mazalİ Patisserie:</span>
+                                                    <span>Mazalİ Pastane & Kafe:</span>
                                                     <Link href="https://www.instagram.com/mazalipatisserie" target="_blank" 
                                                           title="mazalipatisserie">
                                                         <i className="fab fa-instagram"></i>

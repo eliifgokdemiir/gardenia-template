@@ -9,30 +9,30 @@ export type KafeProduct = {
 export const kafeProducts: KafeProduct[] = [
     {
         id: 1,
-        title: "Sütlü Kahve",
+        title: "KAHVALTI TABAĞI",
         img: "/assets/img/product/kahve1.jpg",
-        desc: "Geleneksel Türk usulü köpüklü kahve",
+        desc: "Protein Breakfast, Fit Kahvaltı, Sıcak Kahvaltı Tabağı, Hellim Avokado Bowl, Simit Kahvaltı, Artisan Breakfast, Continental Breakfast.",
         price: "₺29,90"
     },
     {
         id: 2,
-        title: "Serpme Kahvaltı",
+        title: "Sahanlar",
         img: "/assets/img/product/kahvaltı.jpg",
-        desc: "Geleneksel kahvaltı",
+        desc: "Mıhlama, Sucuklu Yumurta, Kavurmalı Yumurta, Sucuklu Poşe Yumurta, Menemen ve daha fazlası...",
         price: "₺39,90"
     },
     {
         id: 3,
-        title: "Serpme Kahvaltı",
+        title: "Omletler",
         img: "/assets/img/product/kahvaltı.jpg",
-        desc: "Geleneksel kahvaltı",
+        desc: "California Omlet, Karışık Omlet, Füme Etli Avokadolu Omlet, İtalyan Omlet, Fit Omlet.",
         price: "₺39,90"
     },
     {
         id: 4,
-        title: "Sütlü Kahve",
+        title: "Sandviçler",
         img: "/assets/img/product/kahve1.jpg",
-        desc: "Geleneksel Türk usulü köpüklü kahve",
+        desc: "Zeytin Ezmeli, Peynirli, Soğuk, Beyaz Etli Füme, Kavurmalı, Şarküteri Sandviçler ve daha fazlası...",
         price: "₺29,90"
     },
   
