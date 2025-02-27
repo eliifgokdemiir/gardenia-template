@@ -27,27 +27,27 @@ const FeatureSectionFour = () => {
                      <div className="single-feature style-4 mb-30">
                         <div className="single-feature-inner">
                            <div className="features-thumb">
-                              <Link href="/hizmetler/pastane">
+                              <Link href="/hizmetler/pastane-kafe">
                                  <Image style={{width:"100%", height:"100%"}} src={feturesImg} alt="Pastane Hizmetleri" />
                              </Link>
                            </div>
                            <div className="features-content">
                               <div className="features-text">
                                  <h4 className="feature-title">
-                                    <Link href="/hizmetler/pastane">Pastane</Link>
+                                    <Link href="/hizmetler/pastane-kafe">Pastane & Kafe</Link>
                                  </h4>
                                  <div className="feature-offers">
                                     <ul>
+                                       <li>Dünya Lezzetleri</li>
                                        <li>Özel Gün Pastaları</li>
-                                       <li>Taze Ev Yapımı Tatlılar</li>
-                                       <li>Düğün & Nişan Kurabiyeleri</li>
-                                       <li>Günlük Taze Börekler</li>
-                                       <li>Kişiye Özel Süslemeler</li>
+                                       <li>Ana Yemekler</li>
+                                       <li>Atıştırmalıklar</li>
+                                       <li>Tatlılar</li>
                                     </ul>
                                  </div>
                               </div>
                               <div className="feature-btn">
-                                 <Link href="/hizmetler/pastane" className="fill-btn">Detaylar<i className="fal fa-long-arrow-right"></i></Link>
+                                 <Link href="/hizmetler/pastane-kafe" className="fill-btn">Detaylar<i className="fal fa-long-arrow-right"></i></Link>
                               </div>
                            </div>
                         </div>
@@ -68,9 +68,9 @@ const FeatureSectionFour = () => {
                                  </h4>
                                  <div className="feature-offers">
                                     <ul>
-                                       <li>Özel Baharatlı Dana Döner</li>
-                                       <li>Tavuk Şiş ve Tavuk Döner</li>
-                                       <li>Ev Usulü Köfte Çeşitleri</li>
+                                       <li>Özel Baharatlı Et Döner</li>
+                                       <li>Özel Baharatlı Tavuk Döner</li>
+                                       <li>Özel Soslu Döner</li>
                                        <li>Lavaş ve Taze Pide Eşliğinde</li>
                                        <li>Günlük Taze Hazırlanan Mezeler</li>
                                     </ul>
