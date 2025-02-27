@@ -8,6 +8,7 @@ import Image from 'next/image';
 import styles from './hizmet.module.css';
 import { pastryProducts } from '@/data/pastane-products-data';
 import { donerProducts } from '@/data/doner-products-data';
+import Link from 'next/link';
 
 const HizmetDetay = ({ params }: { params: { slug: string } }) => {
     const service = ServicesList.find(item => item.slug === params.slug);
@@ -66,7 +67,7 @@ const HizmetDetay = ({ params }: { params: { slug: string } }) => {
                             <div className="col-lg-6 mb-4">
                                 <div className={styles.imageContainer}>
                                     <Image
-                                        src={service?.serviceImg?.src || '/assets/img/service/default.jpg'}
+                                        src={service?.serviceImg?.src || '/assets/img/product/meyvelipasta.jpg'}
                                         alt={service?.serviceTitle || "Hizmet"}
                                         fill
                                         className={styles.roundedOval}
@@ -90,6 +91,7 @@ const HizmetDetay = ({ params }: { params: { slug: string } }) => {
                                         </ul>
                                     )}
                                 </div>
+                                
                             </div>
                         </div>
                     </div>

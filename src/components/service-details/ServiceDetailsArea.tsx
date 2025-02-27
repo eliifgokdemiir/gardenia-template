@@ -28,13 +28,13 @@ const ServiceDetailsArea: React.FC<ServiceDetailsProps> = ({ service }) => {
             : 'Ürünlerimiz';
 
     return (
-        <section className="service-details-area pt-120 pb-90">
+        <section className="service-details-area pt-50 pb-50">
             <div className="container">
                 {/* Hizmet Başlığı ve Açıklaması */}
                 
 
                 {/* Ürünler Bölümü */}
-                <section className="container pt-50 pb-50">
+                <section className="container pt-0 pb-30">
                     <h3 className="section-title mb-30 text-center">{sectionTitle}</h3>
                     <div className="row">
                         {products.map((product) => (
@@ -76,6 +76,11 @@ const ServiceDetailsArea: React.FC<ServiceDetailsProps> = ({ service }) => {
                                 </div>
                             </div>
                         ))}
+                        <div className="text-center mt-20">
+                            <Link href="https://qrmenu.flexytr.app/" className="btn btn-primary">
+                                Menüyü İnceleyin <i className="fas fa-arrow-right ms-2"></i>
+                            </Link>
+                        </div>
                     </div>
                 </section>
             </div>
