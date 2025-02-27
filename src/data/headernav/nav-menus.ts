@@ -22,7 +22,7 @@ const nav_menus_list = [
     hasDropdown: true,
     megamenu: false,
     dropdownItems: [
-      { link: '/hizmetler/pastane', title: 'Pastane & Kafe' },
+      { link: '/hizmetler/pastane-kafe', title: 'Pastane & Kafe' },
   { link: '/hizmetler/doner', title: 'Döner' },
     ]
   },
