@@ -11,7 +11,18 @@ interface DonerProductsProps {
 const DonerProducts: React.FC<DonerProductsProps> = ({ products }) => {
     return (
         <section className="container pt-80 pb-80">
-            <h3 className="section-title mb-50 text-center">Döner Çeşitlerimiz</h3>
+            <h3 className="section-title mb-3 text-center">Döner Çeşitlerimiz</h3>
+            
+            <div className="row justify-content-center mb-4">
+                <div className="col-lg-8">
+                    <p className="text-center lead">
+                        Geleneksel Türk mutfağının vazgeçilmez lezzeti döner, usta ellerden sofranıza geliyor. 
+                        Özel baharatlarla marine edilmiş etlerimiz, odun ateşinde yavaşça pişirilerek eşsiz bir tat sunuyor. 
+                        Kaliteli malzemeler ve özenli hazırlık süreciyle fark yaratan döner çeşitlerimizi keşfedin.
+                    </p>
+                </div>
+            </div>
+            
             <div className="row">
                 {products.map((product) => (
                     <div className="col-lg-3 col-md-6 mb-30" key={product.id}>

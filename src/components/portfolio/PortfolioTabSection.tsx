@@ -13,10 +13,19 @@ const PortfolioTabSection = () => {
     };
 
     return (
-        <div className="portfolio-area pt-120 pb-120">
+        <div className="portfolio-area pt-100 pb-100">
+               <div className="row justify-content-center mb-40">
+                  <div className="col-lg-8">
+                     <p className="text-center lead">
+                        Dünya lezzetlerinden ilham alan özel tariflerimiz ve geleneksel tatlarımız, 
+                        modern sunumlarla buluşuyor. Mazali'nin eşsiz lezzet dünyasından seçkin örnekleri 
+                        keşfedin ve damak tadınıza hitap eden çeşitlerimizi görün.
+                     </p>
+                  </div>
+               </div>
          <div className="container">
             <div className="portfolio-tab-wrapper wow fadeInUp" data-wow-delay=".3s">
-               <div className="portfolio-tab-nav mb-50">
+               <div className="portfolio-tab-nav mb-30">
                   <nav>
                      <div className="nav nav-tabs" id="nav-tab" role="tablist">
                         <button className="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1"
@@ -27,10 +36,12 @@ const PortfolioTabSection = () => {
                            type="button" role="tab" aria-controls="nav-3" aria-selected="false">kafe</button>
                         <button className="nav-link" id="nav-5-tab" data-bs-toggle="tab" data-bs-target="#nav-5"
                            type="button" role="tab" aria-controls="nav-4" aria-selected="false">döner</button>
-                    
                      </div>
                   </nav>
                </div>
+               
+         
+               
                <div className="portfolio-tab-content">
                {portfolioList &&
                   <div className="tab-content" id="nav-tabContent">
