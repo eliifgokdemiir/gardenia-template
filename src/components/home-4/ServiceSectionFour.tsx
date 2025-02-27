@@ -5,15 +5,12 @@ import styles from './ServiceSectionFour.module.css';
 
 const ServiceSectionFour = () => {
    
-    const targetedSlugs = ['pastane', 'kafe', 'doner'];
+    const targetedSlugs = ['pastane-kafe', 'doner'];
 
- 
     const filteredServices = ServicesList.filter(service => targetedSlugs.includes(service.slug || ''));
 
-  
     const iconMapping: { [key: string]: string } = {
-        'pastane': 'fas fa-birthday-cake fa-3x', 
-        'kafe': 'fas fa-coffee fa-3x',          
+        'pastane-kafe': 'fas fa-birthday-cake fa-3x', 
         'doner': 'fas fa-drumstick-bite fa-3x', 
     };
 
@@ -22,9 +19,9 @@ const ServiceSectionFour = () => {
             <div className="container">
                 <div className="services-wrapper">
                     {filteredServices.length > 0 && (
-                        <div className="row">
+                        <div className="row justify-content-center">
                             {filteredServices.map((item) => (
-                                <div className="col-lg-4 col-md-6" key={item.id}>
+                                <div className="col-lg-5 col-md-6 mx-lg-4" key={item.id}>
                                     <div className="single-service single-service-style-4 mb-30" style={{ 
                                         minHeight: '400px',
                                         display: 'flex',

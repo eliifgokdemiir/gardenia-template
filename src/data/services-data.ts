@@ -143,23 +143,14 @@ const ServicesList: TServiceData[] = [
     {
         id: 14,
         serviceIconImg: iconImg4,
-        serviceTitle: 'Pastane',
+        serviceTitle: 'Pastane & Kafe',
         serviceBadge: '',
-        serviceDesc: 'Taze ekmekler, kekler, poğaçalar ve daha fazlasıyla pastanemizde lezzet şöleni yaşayın.',
+        serviceDesc: 'Taze ekmekler, kekler, poğaçalar ve daha fazlasıyla pastanemizde lezzet şöleni yaşayın. Aynı zamanda keyifli kafe ortamımızda kahve ve atıştırmalıkların tadını çıkarın.',
         serviceBtn: '',
-        slug: 'pastane',
+        slug: 'pastane-kafe',
     },
     {
         id: 15,
-        serviceIconImg: iconImg5,
-        serviceTitle: 'Kafe',
-        serviceBadge: '',
-        serviceDesc: 'Kahvenizi yudumlayıp tatlılarınızı keyifle yiyebileceğiniz sıcak ve samimi bir ortam.',
-        serviceBtn: '',
-        slug: 'kafe',
-    },
-    {
-        id: 16,
         serviceIconImg: iconImg6,
         serviceTitle: 'Döner',
         serviceBadge: '',
@@ -167,6 +158,7 @@ const ServicesList: TServiceData[] = [
         serviceBtn: '',
         slug: 'doner',
     },
+ 
     
     {
         id:17,
