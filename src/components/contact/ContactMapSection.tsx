@@ -34,7 +34,7 @@ const ContactMapSection = () => {
                                          <div className="contact-icon">
                                              <i className="fas fa-phone"></i>
                                          </div>
-                                         <p className="mb-0"><Link href="tel:0-533-010-70-90">Pastane: 0 533 010 70 80</Link></p>
+                                         <p className="mb-0"><Link href="tel:0-533-010-70-90">Pastane & Kafe: 0 533 010 70 80</Link></p>
                                      </div>
                                      <div className="d-flex align-items-center">
                                           <div className="contact-icon">
@@ -58,7 +58,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-map-marked-alt"></i>
                                  </div>
-                                 <p><Link href="#">KARDELEN MAHALLESİ 2075 Cadde No:2/A</Link></p>
+                                 <p><Link href="#">KARDELEN MAHALLESİ 2075 Cadde No:2/A Yenimahalle/ANKARA</Link></p>
                               </div>
                            </li>
                         </ul>

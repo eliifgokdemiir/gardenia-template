@@ -33,7 +33,7 @@ const FooterFour = () => {
                                         <p> Pastane & Kafe: 0 533 010 70 80<br />
                                             Döner: 0 533 010 70 90<br />
                                         </p>
-                                        <p>Adres: Kardelen Mahallesi 2075 Cadde No:2/A</p>
+                                        <p>Adres: Kardelen Mahallesi 2075 Cadde No:2/A Yenimahalle/ANKARA</p>
                                     </div>
                                     <div className="footer-btn">
                                         <Link href="/iletisim" className="border-btn"><i className="fal fa-farm"></i><span>Bİze Ulaşın</span></Link>
