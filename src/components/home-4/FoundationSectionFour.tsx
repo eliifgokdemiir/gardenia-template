@@ -68,7 +68,7 @@ const FoundationSectionFour = () => {
                <div className="col-lg-6">
                   <div className="foundation-content style-2 mb-60">
                      <div className="section-title">
-                        <span className="section-subtitle">HER GÜN DAHA İYİ HİZMETİ SUNMAYI AMAÇLIYORUZ.</span>
+                        <span className="section-subtitle p-1">Lezzetlİ ve KALİTELİ ürünler sunarak, müşterİlerİmİzİn her anını özel kılmak İçİn çalışıyoruz.</span>
                         <h2 className="section-main-title mb-20">Pastane, Kafe, Döner HİZMETLERİMİZLE karşınızdayız!</h2>
                      </div>
                      <p> Lezzet dolu anlar için buradayız!
