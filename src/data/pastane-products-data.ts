@@ -91,33 +91,6 @@ export const pastryProducts: PastaneProduct[] = [
         desc: "Kahvenizin yanında veya gün içi atıştırmalık olarak tercih edebileceğiniz lezzetler: Kurabiyeler, brownie'ler, muffin'ler, kruvasan ve daha fazlası...",
         price: ""
     },
-    {
-        id: 13,
-        title: "KURABİYELER",
-        img: "/assets/img/product/meyvelipasta.jpg",
-        desc: "Günün her saati keyifle tüketebileceğiniz lezzetli kurabiyelerimiz!",
-        price: ""
-    },
-    {
-        id: 14,
-        title: "LİMONATALAR",
-        img: "/assets/img/product/meyvelipasta.jpg",
-        desc: "Taze sıkılmış limon suyu ile hazırlanan limonatalar, günün her saati keyifle tüketebileceğiniz lezzetli limonatalarımız!",
-        price: ""
-    },
-    {
-        id: 15,
-        title: "SOĞUK İÇECEKLER",
-        img: "/assets/img/product/meyvelipasta.jpg",
-        desc: "Günün her saati keyifle tüketebileceğiniz lezzetli soğuk içeceklerimiz!",
-        price: ""
-    },
-    {
-        id: 16,
-        title: "SICAK İÇECEKLER",
-        img: "/assets/img/product/meyvelipasta.jpg",
-        desc: "Günün her saati keyifle tüketebileceğiniz lezzetli sıcak içeceklerimiz!",
-        price: ""
-    },
+   
  
 ]; 
