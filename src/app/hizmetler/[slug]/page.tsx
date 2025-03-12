@@ -22,14 +22,14 @@ const HizmetDetay = ({ params }: { params: { slug: string } }) => {
     
     // Başlık belirleme
     const sectionTitle = service?.slug === 'pastane-kafe' 
-        ? 'Özel Pastane & Kafe Lezzetlerimiz' 
+        ? 'Pastane & Kafe' 
         : service?.slug === 'doner' 
             ? 'Özel Döner Lezzetlerimiz' 
             : 'Hizmetlerimiz';
     
     // Açıklama belirleme
     const description = service?.slug === 'pastane-kafe' 
-        ? 'Taze ve lezzetli pastane ürünlerimiz, özenle seçilmiş malzemeler ve uzman pastacılarımızın ellerinde hazırlanmaktadır.' 
+        ? 'Mazali`de tatlıdan tuzluya, gelenekselden moderne, dünya mutfağından yerel tatlara kadar her çeşit lezzeti bir arada bulabilirsiniz. Taze malzemeler ve özenli hazırlama süreciyle, her lokmanın tadını çıkaracağınız özel bir mekan sunuyoruz.' 
         : service?.slug === 'doner' 
             ? 'Geleneksel ustalıkla hazırlanan döner çeşitlerimiz, özenle seçilmiş malzemeler ve nesilden nesile aktarılan tariflerle sunulmaktadır.' 
             : service?.serviceDesc || '';
@@ -37,10 +37,12 @@ const HizmetDetay = ({ params }: { params: { slug: string } }) => {
     // Özellikler listesi
     const features = service?.slug === 'pastane-kafe' 
         ? [
-            'Günlük taze ürünler',
-            'Özel tarifler',
-            'Kaliteli malzemeler',
-            'Hijyenik ortam'
+            'Dünya mutfağından seçkin lezzetler',
+            'Özel gün pastaları ve tatlılar',
+            'Taze ve kaliteli malzemeler',
+            'Sıcak ve samimi ortam',
+            'Zengin kahvaltı menüsü',
+            'Özel kahve çeşitleri'
         ] 
         : service?.slug === 'doner' 
             ? [
@@ -65,14 +67,22 @@ const HizmetDetay = ({ params }: { params: { slug: string } }) => {
                     <div className="container mt-50">
                         <div className="row align-items-center">
                             <div className="col-lg-6 mb-4">
-                                <div className={styles.imageContainer}>
+                                <div style={{ 
+                                    width: '100%',
+                                    display: 'flex',
+                                    justifyContent: 'center',
+                                    alignItems: 'center'
+                                }}>
                                     <Image
-                                        src={service?.serviceImg?.src || '/assets/img/product/meyvelipasta.jpg'}
+                                        src={service?.serviceImg?.src || '/assets/img/product/mazali5.jpg'}
                                         alt={service?.serviceTitle || "Hizmet"}
-                                        fill
-                                        className={styles.roundedOval}
+                                        width={400}
+                                        height={250}
                                         style={{
-                                            objectFit: 'cover'
+                                            maxWidth: '100%',
+                                            height: 'auto',
+                                            objectFit: 'contain',
+                                            borderRadius: '10px',
                                         }}
                                     />
                                 </div>

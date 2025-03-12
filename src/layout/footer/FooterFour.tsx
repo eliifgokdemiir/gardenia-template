@@ -31,9 +31,9 @@ const FooterFour = () => {
                                     </div>
                                     <div className="footer-text">
                                         <p> Pastane & Kafe: 0 533 010 70 80<br />
-                                            Döner: 0 533 010 70 90<br />
+                                            
                                         </p>
-                                        <p>Adres: Kardelen Mahallesi 2075 Cadde No:2/A Yenimahalle/ANKARA</p>
+                                        <p>Adres: Kardelen Mahallesi 2084 Cadde No:2/A Yenimahalle/ANKARA</p>
                                     </div>
                                     <div className="footer-btn">
                                         <Link href="/iletisim" className="border-btn"><i className="fal fa-farm"></i><span>Bİze Ulaşın</span></Link>
@@ -48,13 +48,7 @@ const FooterFour = () => {
                                                         <i className="fab fa-instagram"></i>
                                                     </Link>
                                                 </li>
-                                                <li className="d-flex align-items-center gap-2">
-                                                    <span>Mazalİ Döner:</span>
-                                                    <Link href="https://www.instagram.com/mazalidoner" target="_blank" 
-                                                          title="mazalidoner">
-                                                        <i className="fab fa-instagram"></i>
-                                                    </Link>
-                                                </li>
+                                               
                                             </ul>
                                         </div>
                                     </div>
@@ -72,3 +66,11 @@ const FooterFour = () => {
 };
 
 export default FooterFour;
+
+/*  <li className="d-flex align-items-center gap-2">
+                                                    <span>Mazalİ Döner:</span>
+                                                    <Link href="https://www.instagram.com/mazalidoner" target="_blank" 
+                                                          title="mazalidoner">
+                                                        <i className="fab fa-instagram"></i>
+                                                    </Link>
+                                                </li> */

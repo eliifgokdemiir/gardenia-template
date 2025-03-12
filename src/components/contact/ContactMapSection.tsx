@@ -19,7 +19,15 @@ const ContactMapSection = () => {
             <div className="row wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-4">
                   <div className="contact-map">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d66440.99430109383!2d-74.280594133827!3d40.7544305056857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1652616547670!5m2!1sen!2sbd"></iframe>
+                     <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.1756737069287!2d32.7428149!3d39.9465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34e9b3c4c1c63%3A0x97a5e4e109142a69!2sKardelen%2C%202084%20Cd.%20No%3A2%2FA%2C%2006370%20Yenimahalle%2FAnkara!5e0!3m2!1str!2str!4v1652616547670!5m2!1str!2str" 
+                        width="100%" 
+                        height="450" 
+                        style={{border:0}} 
+                        allowFullScreen={true} 
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade">
+                     </iframe>
                   </div>
                </div>
                <div className="col-lg-4">
@@ -36,12 +44,7 @@ const ContactMapSection = () => {
                                          </div>
                                          <p className="mb-0"><Link href="tel:0-533-010-70-90">Pastane & Kafe: 0 533 010 70 80</Link></p>
                                      </div>
-                                     <div className="d-flex align-items-center">
-                                          <div className="contact-icon">
-                                              <i className="fas fa-phone"></i>
-                                          </div>
-                                          <p className="mb-0"><Link href="tel:0-533-010-70-80">Döner: 0 533 010 70 90</Link></p>
-                                     </div>
+                                   
                                  </div>
                               </div>
                            </li>
@@ -58,7 +61,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-map-marked-alt"></i>
                                  </div>
-                                 <p><Link href="#">KARDELEN MAHALLESİ 2075 Cadde No:2/A Yenimahalle/ANKARA</Link></p>
+                                 <p><Link href="#">KARDELEN MAHALLESİ 2084 Cadde No:2/A Yenimahalle/ANKARA</Link></p>
                               </div>
                            </li>
                         </ul>
@@ -109,3 +112,11 @@ const ContactMapSection = () => {
 };
 
 export default ContactMapSection;
+
+
+/*   <div className="d-flex align-items-center">
+                                          <div className="contact-icon">
+                                              <i className="fas fa-phone"></i>
+                                          </div>
+                                          <p className="mb-0"><Link href="tel:0-533-010-70-80">Döner: 0 533 010 70 90</Link></p>
+                                     </div> */

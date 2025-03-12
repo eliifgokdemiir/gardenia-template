@@ -7,13 +7,12 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const PortfolioSectionFour = () => {
 
-    // Kategorilere göre filtreleme fonksiyonları
-    const filterPortfolio = (tag: string) => {
-        if(tag === 'hepsi') {
-            return portfolioList;
-        }
-        return portfolioList.filter(item => item.portfolioTag === tag);
-    };
+    // Sadece pastane ve ürün kategorilerini filtrele
+    const filteredPortfolio = portfolioList.filter(item => 
+        item.portfolioTag === 'pastane' || 
+        item.portfolioTag === 'urun' || 
+        item.portfolioTag === 'ürün'
+    );
 
     return (
         <>
@@ -26,7 +25,7 @@ const PortfolioSectionFour = () => {
                             </div>
                         </div>
                     </div>
-                    {portfolioList &&
+                    {filteredPortfolio.length > 0 &&
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper style-4 wow fadeInUp" data-wow-delay=".3s">
                             <span className="portfolio-shape-1"></span>
                             <i className="flaticon-gardening-1 portfolio-shape-2"></i>
@@ -38,7 +37,7 @@ const PortfolioSectionFour = () => {
                                     : "cubic-bezier(0.34, 1.56, 0.64, 1)"
                             }
                         >
-                            {filterPortfolio('hepsi').slice(10, 16).map((item, index) => (
+                            {filteredPortfolio.slice(0, 6).map((item, index) => (
                                 <div className="portfolio-single portfolio-hover-style style-4" key={index}>
                                     <div className="portfolio-thumb">
                                        

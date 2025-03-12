@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
-import feturesImg from "../../../public/assets/img/features/pastane.jpg";
-import feturesImg2 from "../../../public/assets/img/features/features-2.jpg";
-import feturesImg3 from "../../../public/assets/img/features/doner1.jpg";
+import feturesImg from "../../../public/assets/img/features/mazali4.jpg";
+import feturesImg2 from "../../../public/assets/img/features/mazali5.jpg";
+import feturesImg3 from "../../../public/assets/img/features/etdoner.jpg";
 import Image from 'next/image';
 import BrandSliderTwo from '@/elements/sliders/brand/BrandSliderTwo';
 
@@ -68,6 +68,24 @@ const FeatureSectionFour = () => {
                                  </h4>
                                  <div className="feature-offers">
                                    <p>Çok Yakında Hizmetinizde!</p>
+                                   <br></br>
+                                   <br></br>
+                                   <ul>
+                                       <li></li>
+                                       <li></li>
+                                       <li></li>
+                                       <li></li>
+                                       <li></li>
+                                       <li></li>
+                                       <li></li>
+                                       <li></li>
+                                       <li></li>
+                                       <li></li>
+                                    
+                                      
+                                      
+                                    
+                                    </ul>
                                  </div>
                               </div>
                               <div className="feature-btn">

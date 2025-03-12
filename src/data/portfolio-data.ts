@@ -9,24 +9,24 @@ import img7 from "../../public/assets/img/portfolio/portfolio-16.jpg";
 import img8 from "../../public/assets/img/portfolio/portfolio-17.jpg";
 import img9 from "../../public/assets/img/portfolio/portfolio-18.jpg";
 //home four portfolio image 
-import img10 from "../../public/assets/img/portfolio/pasta.jpg";
+import img10 from "../../public/assets/img/portfolio/dunyalezzetleri.jpg";
 import img11 from "../../public/assets/img/portfolio/pasta1.jpg";
 import img12 from "../../public/assets/img/portfolio/pastane.jpg";
 import img13 from "../../public/assets/img/portfolio/suboregi.webp";
 import img14 from "../../public/assets/img/portfolio/doner1.jpg";
-import img15 from "../../public/assets/img/portfolio/doner.jpg";
+import img15 from "../../public/assets/img/portfolio/kahvecesitleri.webp";
 //home five portfolio image
-import img16 from "../../public/assets/img/portfolio/portfolio-1.jpg";
-import img17 from "../../public/assets/img/portfolio/portfolio-2.jpg";
-import img18 from "../../public/assets/img/portfolio/portfolio-3.jpg";
-import img19 from "../../public/assets/img/portfolio/portfolio-4.jpg";
-import img20 from "../../public/assets/img/portfolio/portfolio-5.jpg";
+import img16 from "../../public/assets/img/portfolio/pastacesitleri.webp";
+import img17 from "../../public/assets/img/portfolio/tatlilar.jpg";
+import img18 from "../../public/assets/img/portfolio/sutlutatlilar.jpg";
+import img19 from "../../public/assets/img/portfolio/serbetlitatlilar.webp";
+import img20 from "../../public/assets/img/portfolio/unlumamul.jpg";
 import img21 from "../../public/assets/img/portfolio/portfolio-6.jpg";
-import img22 from "../../public/assets/img/portfolio/portfolio-7.jpg";
-import img23 from "../../public/assets/img/portfolio/portfolio-8.jpg";
-import img24 from "../../public/assets/img/portfolio/portfolio-9.jpg";
-import img25 from "../../public/assets/img/portfolio/portfolio-10.jpg";
-import img26 from "../../public/assets/img/portfolio/portfolio-11.jpg";
+import img22 from "../../public/assets/img/portfolio/ekler.jpg";
+import img23 from "../../public/assets/img/portfolio/anayemek.webp";
+import img24 from "../../public/assets/img/portfolio/burger.jpg";
+import img25 from "../../public/assets/img/portfolio/wrap.jpg";
+import img26 from "../../public/assets/img/portfolio/adettatli.jpg";
 import img27 from "../../public/assets/img/portfolio/portfolio-12.jpg";
 import { StaticImageData } from "next/image";
 
@@ -74,7 +74,7 @@ const portfolioList:TPortfolio[] = [
     {
         id:9,
         portfolioImg:img18,
-        portfolioTag:'pastane',
+        portfolioTag:'kafe',
         portfolioIcon:'fal fa-long-arrow-right',
         portfolioTitle:'SÜTLÜ TATLILAR',
     },
@@ -92,13 +92,7 @@ const portfolioList:TPortfolio[] = [
         portfolioIcon:'fal fa-long-arrow-right',
         portfolioTitle:'UNLU MAMÜLLER',
     },
-    {
-        id:12,
-        portfolioImg:img21,
-        portfolioTag:'pastane',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'PETİFÜRLER',
-    },
+
     {
         id:13,
         portfolioImg:img22,
@@ -106,140 +100,39 @@ const portfolioList:TPortfolio[] = [
         portfolioIcon:'fal fa-long-arrow-right',
         portfolioTitle:'EKLER ÇEŞİTLERİ',
     },
-    {
-        id:14,
-        portfolioImg:img23,
-        portfolioTag:'pastane',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'ADET TATLILAR',
-    },
-    {
-        id:15,
-        portfolioImg:img24,
-        portfolioTag:'pastane',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'TARTOLET',
-    },
+
    
     {
         id:27,
-        portfolioImg:img27,
+        portfolioImg:img23,
         portfolioTag:'kafe',
         portfolioIcon:'fal fa-long-arrow-right',
         portfolioTitle:'ANA YEMEKLER',
     },
     {
         id:28,
-        portfolioImg:img27,
+        portfolioImg:img24,
         portfolioTag:'kafe',
         portfolioIcon:'fal fa-long-arrow-right',
         portfolioTitle:'BURGERLER',
     },
     {
         id:29,
-        portfolioImg:img27,
+        portfolioImg:img25,
         portfolioTag:'kafe',
         portfolioIcon:'fal fa-long-arrow-right',
         portfolioTitle:'WRAPLAR',
     },
     {
         id:30,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'MAKARNALAR',
-    },
-    {
-        id:31,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'MANTILAR',
-    },
-    {
-        id:32,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'SALATALAR',
-    },
-    {
-        id:33,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'BOWLLAR',
-    },
-    {
-        id:34,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'PİZZALAR',
-    },
-    {
-        id:35,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'ATIŞTIRMALIKLAR',
-    },
-    {
-        id:36,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'BUN LEZZETLER',
-    },
-    {
-        id:37,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'KREMLİ BUN',
-    },  
-    {
-        id:38,
-        portfolioImg:img27,
-        portfolioTag:'kafe',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'TATLILAR',
-    },  
-    {
-        id:39,
-        portfolioImg:img27,
+        portfolioImg:img26,
         portfolioTag:'pastane',
         portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'KURU PASTALAR',
-    },  
-    {
-        id:40,
-        portfolioImg:img27,
-        portfolioTag:'pastane',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'EKLER ÇEŞİTLERİ',
-    }, 
-    {
-        id:41,
-        portfolioImg:img27,
-        portfolioTag:'döner',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'ET DÖNER',
-    }, 
-    {
-        id:42,
-        portfolioImg:img27,
-        portfolioTag:'döner',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'TAVUK DÖNER',
-    }, 
-    {
-        id:43,
-        portfolioImg:img27,
-        portfolioTag:'döner',
-        portfolioIcon:'fal fa-long-arrow-right',
-        portfolioTitle:'SERVİS DÖNER',
-    }, 
+        portfolioTitle:'ADET TATLILAR',
+    },
+
+
+
     //home five portfolio start
   ]
   
