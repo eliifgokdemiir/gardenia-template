@@ -1,14 +1,27 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
-import foundationImg from "../../../public/assets/img/about/kahve.jpg";
-import foundationImgTwo from "../../../public/assets/img/about/pasta1.jpg";
-import foundationImgThree from "../../../public/assets/img/about/doner.jpg";
+import React, { useEffect } from 'react';
+import foundationImg from "../../../public/assets/img/about/mazali2.jpg";
+import foundationImgTwo from "../../../public/assets/img/about/mazali1.jpg";
+import foundationImgThree from "../../../public/assets/img/about/mazali3.jpg";
 import founderImg from "../../../public/assets/img/team/founder.jpg";
 import styles from './FoundationSectionFour.module.css';
 
 
 const FoundationSectionFour = () => {
+    useEffect(() => {
+        // DOM manipülasyonu
+        const element = document.getElementById('myElement');
+        // element üzerinde işlemler...
+        
+        return () => {
+            // Temizleme işlemleri
+            // Component unmount edildiğinde çalışır
+        };
+    }, []);
+
     return (
         <section className="foundation-area style-2 pt-0 pb-60">
          <div className="container">
@@ -17,7 +30,7 @@ const FoundationSectionFour = () => {
                   <div className="foundation-img style-2 mb-60">
                      <div className="row align-items-center gx-3">
                         <div className="col-6">
-                           <div className={`image-card ${styles.animateFloat}`}>
+                           <div className={styles.imageCard}>
                               <Image 
                                  className="img-fluid" 
                                  src={foundationImg} 
@@ -33,7 +46,7 @@ const FoundationSectionFour = () => {
                         <div className="col-6">
                            <div className="row gy-3">
                               <div className="col-12">
-                                 <div className={`image-card ${styles.animateFloat} ${styles.delay1}`}>
+                                 <div className={styles.imageCard}>
                                     <Image 
                                        className="img-fluid" 
                                        src={foundationImgTwo} 
@@ -47,7 +60,7 @@ const FoundationSectionFour = () => {
                                  </div>
                               </div>
                               <div className="col-12">
-                                 <div className={`image-card ${styles.animateFloat} ${styles.delay2}`}>
+                                 <div className={styles.imageCard}>
                                     <Image 
                                        className="img-fluid" 
                                        src={foundationImgThree} 
@@ -69,7 +82,7 @@ const FoundationSectionFour = () => {
                   <div className="foundation-content style-2 mb-60">
                      <div className="section-title">
                         <span className="section-subtitle p-1">Lezzetlİ ve KALİTELİ ürünler sunarak, müşterİlerİmİzİn her anını özel kılmak İçİn çalışıyoruz.</span>
-                        <h2 className="section-main-title mb-20">Pastane, Kafe, Döner HİZMETLERİMİZLE karşınızdayız!</h2>
+                        <h2 className="section-main-title mb-20">Pastane, Kafe HİZMETLERİMİZLE karşınızdayız!</h2>
                      </div>
                      <p> Lezzet dolu anlar için buradayız!
                          En taze ve en kaliteli malzemelerle hazırlanan pastalar, 

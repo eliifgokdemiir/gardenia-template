@@ -11,8 +11,18 @@ interface DonerProductsProps {
 const DonerProducts: React.FC<DonerProductsProps> = ({ products }) => {
     return (
         <section className="container pt-80 pb-80">
-            <h3 className="section-title mb-3 text-center">Döner Çeşitlerimiz</h3>
+           
+       
             
+         
+        </section>
+    );
+};
+
+export default DonerProducts; 
+
+/*  
+      <h3 className="section-title mb-3 text-center">Çok Yakında Hizmetinizde!</h3>
             <div className="row justify-content-center mb-4">
                 <div className="col-lg-8">
                     <p className="text-center lead">
@@ -59,9 +69,4 @@ const DonerProducts: React.FC<DonerProductsProps> = ({ products }) => {
                         </div>
                     </div>
                 ))}
-            </div>
-        </section>
-    );
-};
-
-export default DonerProducts; 
+            </div>*/

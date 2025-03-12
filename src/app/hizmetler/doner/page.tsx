@@ -45,17 +45,8 @@ const DonerPage = () => {
                             </div>
                             <div className="col-lg-6 mt-5">
                                 <div className="ps-lg-4">
-                                    <h2 className="text-black mb-3">Özel Döner Lezzetlerimiz</h2>
-                                    <p className="lead mb-4">
-                                        Geleneksel ustalıkla hazırlanan döner çeşitlerimiz, özenle seçilmiş malzemeler ve 
-                                        nesilden nesile aktarılan tariflerle sunulmaktadır.
-                                    </p>
-                                    <ul className="list-unstyled">
-                                        <li className="mb-3">✔ Günlük kesim taze et</li>
-                                        <li className="mb-3">✔ Özel baharat karışımı</li>
-                                        <li className="mb-3">✔ Odun ateşinde pişirme</li>
-                                        <li className="mb-3">✔ Usta ellerde hazırlanış</li>
-                                    </ul>
+                                    <h2 className="text-black mb-3">Çok Yakında Hizmetinizde!</h2>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -69,3 +60,15 @@ const DonerPage = () => {
 };
 
 export default DonerPage;
+
+/*
+  <p className="lead mb-4">
+                                        Geleneksel ustalıkla hazırlanan döner çeşitlerimiz, özenle seçilmiş malzemeler ve 
+                                        nesilden nesile aktarılan tariflerle sunulmaktadır.
+                                    </p>
+                                    <ul className="list-unstyled">
+                                        <li className="mb-3">✔ Günlük kesim taze et</li>
+                                        <li className="mb-3">✔ Özel baharat karışımı</li>
+                                        <li className="mb-3">✔ Odun ateşinde pişirme</li>
+                                        <li className="mb-3">✔ Usta ellerde hazırlanış</li>
+                                    </ul> */

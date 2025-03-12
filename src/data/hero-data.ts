@@ -153,7 +153,7 @@ export const HeroFourSliderItem:THeroFourSliderItem[] = [
     {
         id: 1,
         sliderBg: banner6,
-        sliderSubtitle: 'ŞEHRİN EN İYİSİ!',
+        sliderSubtitle: 'BATIKENT`İN GÖZDESİ!',
         sliderTitle: 'HOŞGELDİNİZ',
         sliderTitleBig: 'MAZÂLİ',
         sliderbtn: 'Keşfet',
@@ -162,7 +162,7 @@ export const HeroFourSliderItem:THeroFourSliderItem[] = [
     {
         id: 2,
         sliderBg: banner7,
-        sliderSubtitle: 'ŞEHRİN EN İYİSİ!',
+        sliderSubtitle: 'BATIKENT`İN GÖZDESİ!',
         sliderTitle: 'EN İYİ HİZMET',
         sliderTitleBig: 'MAZÂLİ',
         sliderbtn: 'Keşfet',

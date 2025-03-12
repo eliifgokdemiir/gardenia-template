@@ -154,7 +154,7 @@ const ServicesList: TServiceData[] = [
         serviceIconImg: iconImg6,
         serviceTitle: 'Döner',
         serviceBadge: '',
-        serviceDesc: 'Lezzetli et ve tavuk döner çeşitlerimizle doyurucu ve enfes bir yemek deneyimi yaşayın.',
+        serviceDesc: 'Lezzetli et ve tavuk döner çeşitlerimiz çok yakında hizmetinizde!',
         serviceBtn: '',
         slug: 'doner',
     },

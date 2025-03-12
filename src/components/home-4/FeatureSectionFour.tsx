@@ -67,13 +67,7 @@ const FeatureSectionFour = () => {
                                     <Link href="/hizmetler/doner">Döner</Link>
                                  </h4>
                                  <div className="feature-offers">
-                                    <ul>
-                                       <li>Özel Baharatlı Et Döner</li>
-                                       <li>Özel Baharatlı Tavuk Döner</li>
-                                       <li>Özel Soslu Döner</li>
-                                       <li>Lavaş ve Taze Pide Eşliğinde</li>
-                                       <li>Günlük Taze Hazırlanan Mezeler</li>
-                                    </ul>
+                                   <p>Çok Yakında Hizmetinizde!</p>
                                  </div>
                               </div>
                               <div className="feature-btn">
@@ -92,3 +86,11 @@ const FeatureSectionFour = () => {
 };
 
 export default FeatureSectionFour;
+
+/*  <ul>
+                                       <li>Özel Baharatlı Et Döner</li>
+                                       <li>Özel Baharatlı Tavuk Döner</li>
+                                       <li>Özel Soslu Döner</li>
+                                       <li>Lavaş ve Taze Pide Eşliğinde</li>
+                                       <li>Günlük Taze Hazırlanan Mezeler</li>
+                                    </ul> */
