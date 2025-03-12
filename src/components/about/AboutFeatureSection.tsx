@@ -4,10 +4,12 @@ import missionIcon from "../../../public/assets/img/icon/mission-icon.png";
 import visionIcon from "../../../public/assets/img/icon/vision-icon.png";
 import approachIcon from "../../../public/assets/img/icon/approach-icon.png";
 import Image from 'next/image';
+import AboutVideoSection from './AboutVideoSection';
 
 const AboutFeatureSection = () => {
     return (
         <div className="section strategy-area pb-90">
+            <AboutVideoSection/>
             <div className="container mt-50">
                 <div className="strategy-wrapper">
                     <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">

@@ -23,7 +23,7 @@ const nav_menus_list = [
     megamenu: false,
     dropdownItems: [
       { link: '/hizmetler/pastane-kafe', title: 'Pastane & Kafe' },
-  { link: '/hizmetler/doner', title: 'Döner' },
+  //{ link: '/hizmetler/doner', title: 'Döner' },
     ]
   },
   {
@@ -78,6 +78,11 @@ const nav_menus_list = [
     id:6,
     link: '/iletisim',
     title: 'İLETİŞİM',
+  },
+  {
+    id:8,
+    link: 'https://qrmenu.flexytr.app/',
+    title: 'Menü',
   },
 ]
 
