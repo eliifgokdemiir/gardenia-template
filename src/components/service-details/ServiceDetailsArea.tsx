@@ -4,33 +4,46 @@ import Link from 'next/link';
 import { TServiceData } from '@/data/services-data';
 import { pastryProducts } from '@/data/pastane-products-data';
 import styles from './ServiceDetailsArea.module.css';
+import ServicesList from '@/data/services-data';
 
 // Doner ürünleri için import
 import { donerProducts } from '@/data/doner-products-data';
 
-interface ServiceDetailsProps {
-    service: TServiceData;
+interface ServiceDetailsAreaProps {
+    service?: TServiceData;
+    id?: number;
 }
 
-const ServiceDetailsArea: React.FC<ServiceDetailsProps> = ({ service }) => {
+const ServiceDetailsArea: React.FC<ServiceDetailsAreaProps> = ({ service, id }) => {
+    // Eğer service yoksa ve id varsa, id'ye göre servisi bulun
+    const serviceData = service || (id ? ServicesList.find(s => s.id === id) : undefined);
+    
+    // serviceData undefined ise erken dönüş yapın
+    if (!serviceData) {
+        return <div className="container py-5">
+            <h1>Hizmet Bulunamadı</h1>
+            <p>Aradığınız hizmet mevcut değil.</p>
+        </div>;
+    }
+
     // Hizmet türüne göre ürünleri belirle
-    const products = service?.slug === 'pastane-kafe' 
+    const products = serviceData?.slug === 'pastane-kafe' 
         ? pastryProducts 
-        : service?.slug === 'doner' 
+        : serviceData?.slug === 'doner' 
             ? donerProducts 
             : [];
 
     // Başlık belirleme
-    const sectionTitle = service?.slug === 'pastane-kafe' 
+    const sectionTitle = serviceData?.slug === 'pastane-kafe' 
         ? 'Pastane & Kafe Ürünlerimiz' 
-        : service?.slug === 'doner' 
+        : serviceData?.slug === 'doner' 
             ? 'Döner Çeşitlerimiz' 
             : 'Ürünlerimiz';
             
     // Tanıtım metni belirleme
-    const introText = service?.slug === 'pastane-kafe' 
+    const introText = serviceData?.slug === 'pastane-kafe' 
         ? 'Dünya lezzetlerinden ilham alan özel tariflerimiz, taze ve kaliteli malzemelerle hazırlanıyor. Her bir ürünümüzde geleneksel tatları modern dokunuşlarla buluşturuyoruz.' 
-        : service?.slug === 'doner' 
+        : serviceData?.slug === 'doner' 
             ? 'Geleneksel Türk mutfağının vazgeçilmez lezzeti döner, usta ellerden sofranıza geliyor. Özel baharatlarla marine edilmiş etlerimiz, odun ateşinde yavaşça pişirilerek eşsiz bir tat sunuyor.' 
             : 'Özenle seçilmiş malzemelerle hazırlanan ürünlerimiz, damak tadınıza hitap edecek çeşitlilikte sunuluyor.';
 

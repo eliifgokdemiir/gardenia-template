@@ -1,21 +1,8 @@
-import PortfolioDetailsArea from '@/components/portfolio-details/PortfolioDetailsArea';
-import MetaData from '@/hooks/useMetaData';
-import Wrapper from '@/layout/DefaultWrapper';
-import React from 'react';
-
-const page = ({ params }: { params: { id: number } }) => {
-    const id = params.id;
-    return (
-        <>
-        <MetaData pageTitle="Portfolio Details">
-          <Wrapper>
-            <main>
-          <PortfolioDetailsArea id={id}/>
-            </main>
-          </Wrapper>
-        </MetaData>
-            </>
-    );
-};
-
-export default page;
+export default function PortfolioDetailsPage() {
+  return (
+    <div className="container py-5">
+      <h1>Bu sayfa artık kullanılmıyor</h1>
+      <p>Lütfen <a href="/urunler">ürünler</a> sayfasını ziyaret edin.</p>
+    </div>
+  );
+}

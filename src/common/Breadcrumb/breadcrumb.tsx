@@ -4,13 +4,18 @@ import breadcrumbBg from "../../../public/assets/img/bg/yeni-iletisim-bg.jpg";
 import Image from 'next/image';
 
 interface BreadcrumbProps {
-    breadTitle: string;
+    breadTitle?: string;
     breadSubtitle: string;
     breadHome: string;
     breadMenu: string;
 }
 
-const Breadcrumb = ({ breadTitle, breadSubtitle, breadHome, breadMenu }: BreadcrumbProps) => {
+const Breadcrumb: React.FC<BreadcrumbProps> = ({ 
+    breadTitle = 'Ürün Detayı',
+    breadSubtitle, 
+    breadHome, 
+    breadMenu 
+}) => {
     return (
         <section className="breadcrumb-area theme-bg">
             <div className="container">

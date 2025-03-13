@@ -4,12 +4,11 @@ import missionIcon from "../../../public/assets/img/icon/mission-icon.png";
 import visionIcon from "../../../public/assets/img/icon/vision-icon.png";
 import approachIcon from "../../../public/assets/img/icon/approach-icon.png";
 import Image from 'next/image';
-import AboutVideoSection from './AboutVideoSection';
 
 const AboutFeatureSection = () => {
     return (
         <div className="section strategy-area pb-90">
-            <AboutVideoSection/>
+           
             <div className="container mt-50">
                 <div className="strategy-wrapper">
                     <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
@@ -39,7 +38,7 @@ const AboutFeatureSection = () => {
                                         <h3 className="card-title mb-0 fw-bold fs-4">MİSYON</h3>
                                     </div>
                                     <div className="card-text">
-                                        <p className="fs-6">Mazali olarak, "Lezzetin Sanata Dönüştüğü Yer" mottosuyla yola çıktık. Amacımız, misafirlerimize her ziyaretlerinde benzersiz bir deneyim sunmak; sıcak, samimi ve şık bir ortamda en iyi hizmeti vererek unutulmaz anlar yaşatmak. Geleneksel tatları modern dokunuşlarla yeniden yorumluyor, dünya mutfağının en sevilen lezzetlerini özgün tariflerle bir araya getiriyoruz.</p>
+                                        <p className="fs-6">Mazali olarak, &ldquo;Lezzetin Sanata Dönüştüğü Yer&rdquo; mottosuyla yola çıktık. Amacımız, misafirlerimize her ziyaretlerinde benzersiz bir deneyim sunmak; sıcak, samimi ve şık bir ortamda en iyi hizmeti vererek unutulmaz anlar yaşatmak. Geleneksel tatları modern dokunuşlarla yeniden yorumluyor, dünya mutfağının en sevilen lezzetlerini özgün tariflerle bir araya getiriyoruz.</p>
                                         
                                         <p className="fs-6">Müşteri memnuniyetini en üst düzeyde tutarak, her misafirimizin kendini özel hissetmesini sağlamak en büyük önceliğimiz. Taze, doğal ve kaliteli ürünler kullanarak sağlık ve hijyen standartlarından ödün vermeden hizmet sunuyor, şeffaf, güvenilir ve yenilikçi bir yaklaşımla sürekli gelişmeyi hedefliyoruz.</p>
                                         

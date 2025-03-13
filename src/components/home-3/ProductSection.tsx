@@ -1,6 +1,8 @@
-import ProductSlider from '@/elements/sliders/product/ProductSlider';
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
+
+// ProductSlider import'unu kaldırın veya yorum satırına alın
+// import ProductSlider from '@/elements/sliders/product/ProductSlider';
 
 const ProductSection = () => {
     return (
@@ -20,7 +22,15 @@ const ProductSection = () => {
                     </div>
                 </div>
                 <div className="procuct-wrapper product-slide-wrapper mb-0 wow fadeInUp" data-wow-delay=".3s">
-                    <ProductSlider />
+                    {/* ProductSlider yerine basit bir içerik gösterin */}
+                    <div className="row">
+                        <div className="col-12 text-center">
+                            <p>Ürün slider bileşeni geçici olarak kullanılamıyor.</p>
+                            <Link href="/urunler" className="btn btn-primary">
+                                Tüm Ürünleri Görüntüle
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

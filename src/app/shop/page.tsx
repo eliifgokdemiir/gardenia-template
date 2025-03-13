@@ -1,22 +1,11 @@
-import Breadcrumb from '@/common/Breadcrumb/breadcrumb';
-import ShopMainArea from '@/components/shop/ShopMainArea';
-import MetaData from '@/hooks/useMetaData';
-import Wrapper from '@/layout/DefaultWrapper';
+
 import React from 'react';
 
-const ShopMain = () => {
-    return (
-        <>
-    <MetaData pageTitle="Shop">
-      <Wrapper>
-        <main>
-        <Breadcrumb breadTitle={'our products'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'shop'} />
-        <ShopMainArea />
-        </main>
-      </Wrapper>
-    </MetaData>
-        </>
-    );
-};
-
-export default ShopMain;
+export default function ShopPage() {
+  return (
+    <div className="container py-5">
+      <h1>Bu sayfa artık kullanılmıyor</h1>
+      <p>Lütfen <a href="/urunler">ürünler</a> sayfasını ziyaret edin.</p>
+    </div>
+  );
+}

@@ -1,8 +1,9 @@
 "use client"
-import productList from '@/data/products';
+import React from 'react';
+// products import'unu kaldırın veya yorum satırına alın
+// import { products } from '@/data/products';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 import { Scrollbar, A11y, Autoplay, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -12,6 +13,10 @@ const ProductBanner = () => {
             <div className="container">
                 <div className="category-wrapper wow fadeInUp" data-wow-delay=".3s">
                     <div className="category-basic-slider">
+                        <p>Product banner is temporarily disabled</p>
+                        
+                        {/* Orijinal içeriği yorum satırına alın */}
+                        {/* 
                             <Swiper
                                 modules={[Scrollbar, A11y, Autoplay]}
                                 spaceBetween={30}
@@ -54,6 +59,7 @@ const ProductBanner = () => {
                                     )
                                 })}
                             </Swiper>
+                        */}
                     </div>
                 </div>
             </div>

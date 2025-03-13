@@ -9,6 +9,7 @@ import styles from './hizmet.module.css';
 import { pastryProducts } from '@/data/pastane-products-data';
 import { donerProducts } from '@/data/doner-products-data';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 
 const HizmetDetay = ({ params }: { params: { slug: string } }) => {
     const service = ServicesList.find(item => item.slug === params.slug);
@@ -52,6 +53,11 @@ const HizmetDetay = ({ params }: { params: { slug: string } }) => {
                 'Usta ellerde hazırlanış'
             ] 
             : [];
+
+    // service bulunamazsa 404 sayfasına yönlendir
+    if (!service) {
+        notFound();
+    }
 
     return (
         <MetaData pageTitle={service?.serviceTitle || "Hizmet"}>
