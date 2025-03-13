@@ -1,6 +1,12 @@
-
 import Link from 'next/link';
 import React from 'react';
+
+export function generateStaticParams() {
+  return [
+    { not_found: ['404'] },
+    { not_found: ['not-found'] }
+  ];
+}
 
 const ErrorPage = () => {
     return (

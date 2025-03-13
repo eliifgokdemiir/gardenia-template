@@ -81,7 +81,8 @@ const nav_menus_list = [
   },
   {
     id:8,
-    link: 'https://qrmenu.flexytr.app/',
+    link: 'https://qrmenu.flexytr.app/11178b2e-6075-4713-8cbc-4063d453a8d3',
+    target: '_blank',
     title: 'Menü',
   },
 ]

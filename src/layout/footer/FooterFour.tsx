@@ -30,7 +30,7 @@ const FooterFour = () => {
                                         </Link>
                                     </div>
                                     <div className="footer-text">
-                                        <p> Pastane & Kafe: 0 533 010 70 80<br />
+                                        <p> Pastane & Kafe: <Link href="tel:+905330107080" style={{ color: 'inherit', textDecoration: 'none' }}>0 533 010 70 80</Link><br />
                                             
                                         </p>
                                         <p>Adres: Kardelen Mahallesi 2084 Cadde No:2/A Yenimahalle/ANKARA</p>

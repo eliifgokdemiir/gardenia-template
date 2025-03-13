@@ -11,6 +11,14 @@ import { donerProducts } from '@/data/doner-products-data';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+// Bu fonksiyonu ekleyin - build sırasında hangi sayfaların oluşturulacağını belirtir
+export function generateStaticParams() {
+  // Tüm hizmetlerin slug'larını otomatik olarak oluşturun
+  return ServicesList.map(service => ({
+    slug: service.slug
+  }));
+}
+
 const HizmetDetay = ({ params }: { params: { slug: string } }) => {
     const service = ServicesList.find(item => item.slug === params.slug);
     

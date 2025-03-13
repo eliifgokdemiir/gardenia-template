@@ -13,24 +13,20 @@ const HeaderTopFour = () => {
                                     <i className="fas fa-phone"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                <p><Link href="tel:78989700098">Pastane&Kafe: 0 533 010 70 80</Link></p>
+                                    <p> Pastane&Kafe: 
+                                        
+                                        <Link href="tel:+905330107080">
+                                             0 533 010 70 80
+                                        </Link>
+                                    </p>
                                 </div>
-                               
                             </div>
-                         
                         </div>
                     </div>
                     <div className="header-top-right">
                         <div className="meta-items">
                             <div className="meta-item">
-                                <div className="meta-item-icon">
-                                    <i className="fas fa-clock"></i>
-                                </div>
-                                <div className="meta-item-text">
-                                    <p>Pazartesi - Pazar: 9:00 - 21:00<span className="d-none d-xl-inline-block">
-                                        </span>
-                                    </p>
-                                </div>
+                             
                             </div>
                         </div>
                     </div>

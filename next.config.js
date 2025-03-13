@@ -14,6 +14,11 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
+    // Base path ekleyin (eğer alt dizine yükleyecekseniz)
+    // basePath: '/site-klasoru',
+    // Trailing slashes ekleyin (isteğe bağlı)
+    trailingSlash: true,
+    output: 'export'
 }
 
 module.exports = nextConfig

@@ -10,7 +10,17 @@ const NavMenu = () => {
                     return (
                         <li key={index} className={`${item.hasDropdown && !item.megamenu ? 'active menu-item-has-children'
                             : item.megamenu && 'mega-menu menu-item-has-children'}`}>
-                            <Link href={`${item.link}`}>{`${item.title}`}</Link>
+                            {item.target === '_blank' ? (
+                                <a 
+                                    href={item.link} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    {item.title}
+                                </a>
+                            ) : (
+                                <Link href={`${item.link}`}>{`${item.title}`}</Link>
+                            )}
 
                             {item?.hasDropdown && !item.megamenu && <ul className="sub-menu">
                                 {item?.dropdownItems?.map((menu, index) => (

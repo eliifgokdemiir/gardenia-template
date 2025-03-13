@@ -6,7 +6,7 @@ import { pastryProducts } from '@/data/pastane-products-data';
 import styles from './ServiceDetailsArea.module.css';
 import ServicesList from '@/data/services-data';
 
-// Doner ürünleri için import
+// Döner ürünleri import'unu tutuyoruz ama kullanmayacağız
 import { donerProducts } from '@/data/doner-products-data';
 
 interface ServiceDetailsAreaProps {
@@ -29,9 +29,7 @@ const ServiceDetailsArea: React.FC<ServiceDetailsAreaProps> = ({ service, id }) 
     // Hizmet türüne göre ürünleri belirle
     const products = serviceData?.slug === 'pastane-kafe' 
         ? pastryProducts 
-        : serviceData?.slug === 'doner' 
-            ? donerProducts 
-            : [];
+        : [];
 
     // Başlık belirleme
     const sectionTitle = serviceData?.slug === 'pastane-kafe' 
@@ -44,20 +42,39 @@ const ServiceDetailsArea: React.FC<ServiceDetailsAreaProps> = ({ service, id }) 
     const introText = serviceData?.slug === 'pastane-kafe' 
         ? 'Dünya lezzetlerinden ilham alan özel tariflerimiz, taze ve kaliteli malzemelerle hazırlanıyor. Her bir ürünümüzde geleneksel tatları modern dokunuşlarla buluşturuyoruz.' 
         : serviceData?.slug === 'doner' 
-            ? 'Geleneksel Türk mutfağının vazgeçilmez lezzeti döner, usta ellerden sofranıza geliyor. Özel baharatlarla marine edilmiş etlerimiz, odun ateşinde yavaşça pişirilerek eşsiz bir tat sunuyor.' 
+            ? 'Çok Yakında Hizmetinizde' 
             : 'Özenle seçilmiş malzemelerle hazırlanan ürünlerimiz, damak tadınıza hitap edecek çeşitlilikte sunuluyor.';
+
+    // Döner sayfası için özel içerik
+    if (serviceData?.slug === 'doner') {
+        return (
+            <section className="service-details-area pt-50 pb-50">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-lg-8 text-center">
+                            <h2 className="section-title mb-4">Döner Çeşitlerimiz</h2>
+                            <div className="alert alert-info p-4 mb-5" style={{ fontSize: '1.2rem' }}>
+                                <strong>Çok Yakında Hizmetinizde</strong>
+                                <p className="mt-3 mb-0">Geleneksel lezzetlerimizle çok yakında sizlerle olacağız.</p>
+                            </div>
+                            <Link href="/" className="btn btn-primary">
+                                Ana Sayfaya Dön <i className="fas fa-home ms-2"></i>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        );
+    }
 
     return (
         <section className="service-details-area pt-50 pb-50">
             <div className="container">
-                {/* Hizmet Başlığı ve Açıklaması */}
-                
-
                 {/* Ürünler Bölümü */}
                 <section className="container pt-0 pb-30">
                     <h3 className="section-title mb-3 text-center">{sectionTitle}</h3>
                     
-                    {/* Yeni eklenen tanıtım paragrafı */}
+                    {/* Tanıtım paragrafı */}
                     <div className="row justify-content-center mb-4">
                         <div className="col-lg-8">
                             <p className="text-center lead">{introText}</p>
@@ -82,9 +99,7 @@ const ServiceDetailsArea: React.FC<ServiceDetailsAreaProps> = ({ service, id }) 
                                                 objectFit: 'cover',
                                             }}
                                         />
-                                        <div className={styles.imageOverlay}>
-                                           
-                                        </div>
+                                        <div className={styles.imageOverlay}></div>
                                     </div>
                                     <div className="p-3 flex-grow-1">
                                         <h4 className="mb-2" style={{ minHeight: '3rem' }}>{product.title}</h4>
@@ -95,17 +110,12 @@ const ServiceDetailsArea: React.FC<ServiceDetailsAreaProps> = ({ service, id }) 
                                             WebkitBoxOrient: 'vertical',
                                             overflow: 'hidden'
                                         }}>{product.desc}</p>
-                                        {product.price && (
-                                            <div className="d-flex justify-content-between align-items-center">
-                                                <span className="fw-bold text-primary">{product.price}</span>
-                                            </div>
-                                        )}
                                     </div>
                                 </div>
                             </div>
                         ))}
                         <div className="text-center mt-20">
-                            <Link href="https://qrmenu.flexytr.app/" className="btn btn-primary">
+                            <Link href="https://qrmenu.flexytr.app/11178b2e-6075-4713-8cbc-4063d453a8d3" target="_blank" className="btn btn-primary">
                                 Menüyü İnceleyin <i className="fas fa-arrow-right ms-2"></i>
                             </Link>
                         </div>
