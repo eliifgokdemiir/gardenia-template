@@ -6,10 +6,10 @@ import React from 'react';
 import { Scrollbar, A11y, Autoplay, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 interface BrandSliderProps {
-    brand_classA?: string; 
-    brand_class?:string;
+    brand_classA?: string;
+    brand_class?: string;
 }
-const BrandSliderTwo:React.FC<BrandSliderProps> = ({brand_class , brand_classA}) => {
+const BrandSliderTwo: React.FC<BrandSliderProps> = ({ brand_class, brand_classA }) => {
     return (
         <div className={`clients-area ${brand_classA ? 'brand_classA' : ''}`}>
             <div className="container">
@@ -18,7 +18,7 @@ const BrandSliderTwo:React.FC<BrandSliderProps> = ({brand_class , brand_classA})
                         <div className={`clients-wrapper ${brand_class ? 'style-4' : 'clients-container-wrapped style-2'}`}>
                             <div className="client-active">
                                 <Swiper
-                                    modules={[ Scrollbar, A11y, Autoplay]}
+                                    modules={[Scrollbar, A11y, Autoplay]}
                                     spaceBetween={30}
                                     loop={true}
                                     autoplay={{
@@ -47,14 +47,14 @@ const BrandSliderTwo:React.FC<BrandSliderProps> = ({brand_class , brand_classA})
                                     }}
                                 >
                                     {
-                                        homeTwobrandData.map((item, index)=>(
+                                        homeTwobrandData.map((item, index) => (
                                             <SwiperSlide key={index}>
                                                 <div className="client-single">
                                                     <Link href="#">
-                                                    <Image style={{ width: "auto", height: "auto" }} src={item.brandImg} alt="brand-img"/>
+                                                        <Image style={{ width: "auto", height: "auto" }} src={item.brandImg} alt="brand-img" />
                                                     </Link>
                                                 </div>
-                                        </SwiperSlide>
+                                            </SwiperSlide>
                                         ))
                                     }
                                 </Swiper>
