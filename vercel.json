@@ -1,13 +1,22 @@
 {
   "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "framework": "nextjs",
+  "nodeVersion": "22.x",
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/next",
+      "use": "@vercel/static-build",
       "config": {
-        "nodeVersion": "22.x",
-        "maxLambdaSize": "50mb"
+        "distDir": "out"
       }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ],
   "build": {
