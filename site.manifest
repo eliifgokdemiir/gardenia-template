@@ -1,0 +1,15 @@
+{
+  "name": "Mazali Patisserie & Coffee",
+  "short_name": "Mazali",
+  "icons": [
+    {
+      "src": "/assets/img/logo/mazali-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1a581d",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}

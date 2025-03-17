@@ -16,20 +16,19 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <html lang="en" className="home-four-theme">
+      <html lang="tr" className="home-four-theme">
         <head>
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta name="description" content="Mazali Patisserie & Coffee" />
+          <meta name="description" content="Mazali Patisserie & Coffee - Taze ve lezzetli pastane ürünleri, Dünya lezzetleri, ana yemekler, atıştırmalıklar, özel kahve çeşitleri ve sıcak bir atmosfer sunan mekanımızda geleneksel tatları modern dokunuşlarla keşfedin. Özel gün pastaları, tatlılar ve dünya mutfağından seçkin lezzetler için bizi ziyaret edin." />
           <meta name="robots" content="noindex, follow" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <link rel="icon" href="/assets/img/logo/mazali-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/logo/mazali-icon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/logo/mazali-icon-16x16.png" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/logo/mazali-icon-180x180.png" />
-          <link rel="manifest" href="/site.manifest" />
+          <link rel="icon" href="/assets/img/logo/mazali-seffaf.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/logo/mazali-seffaf-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/logo/mazali-seffaf-16x16.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/logo/mazali-seffaf-180x180.png" />
           <meta name="theme-color" content="#1a581d" />
           <title>Mazâli Patisserie & Coffee</title>
         </head>
